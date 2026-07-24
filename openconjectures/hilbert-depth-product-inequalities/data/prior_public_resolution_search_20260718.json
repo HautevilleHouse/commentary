@@ -1,0 +1,21 @@
+{
+  "claim_boundary": "This is a dated public-source search receipt.",
+  "decision": "no_prior_public_resolution_located",
+  "newer_related_source_checked": {
+    "finding": "The paper does not cite arXiv:2602.09607, the complete-bipartite paper, or this conjecture.",
+    "source": "https://arxiv.org/html/2607.11691v1",
+    "title": "On the Hilbert depth of a special class of squarefree monomial ideals"
+  },
+  "observed_utc": "2026-07-18T11:26:00Z",
+  "queries": [
+    "exact source title",
+    "2s+0.5 Hilbert depth",
+    "Bordianu Cimpoeas complete bipartite graph Hilbert depth",
+    "Conjecture 4.1 complete bipartite graph Hilbert depth"
+  ],
+  "source_domains": [
+    "arxiv.org"
+  ],
+  "source_version_history": "Only v1 is listed on the arXiv abstract page at the observation time.",
+  "target": "arXiv:2602.09607v1, Conjecture 4.1(a)-(d)"
+}

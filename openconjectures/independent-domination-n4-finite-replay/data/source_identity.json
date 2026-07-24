@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2107.00295v1",
+  "formal_conjectures_path": "FormalConjectures/Arxiv/2107.00295/IndependentDomination.lean",
+  "observed_date": "2026-07-22",
+  "scope": "finite n=4 replay only; unrestricted conjecture remains open",
+  "source": "https://arxiv.org/abs/2107.00295v1",
+  "source_commit": "c252a41054125b5fd9c8356e2137cd9b55337657",
+  "source_statement_sha256": "b9b97f7e459fbdc9dc00b6a16b588a2f6afb41d3af2398db9e5e592da513be85",
+  "target": "independent domination inequalities, all isolate-free graphs on 4 vertices",
+  "title": "Independent domination inequalities: all isolate-free graphs on four vertices",
+  "versioned_source": {
+    "identifier": "google-deepmind/formal-conjectures@c252a41054125b5fd9c8356e2137cd9b55337657#FormalConjectures/Arxiv/2107.00295/IndependentDomination.lean",
+    "kind": "public_repository",
+    "url": "https://github.com/google-deepmind/formal-conjectures/blob/c252a41054125b5fd9c8356e2137cd9b55337657/FormalConjectures/Arxiv/2107.00295/IndependentDomination.lean"
+  }
+}

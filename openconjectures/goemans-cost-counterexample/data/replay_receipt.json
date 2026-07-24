@@ -1,0 +1,40 @@
+{
+  "schema_version": "2026-07-23.lean_replay_seal.v1",
+  "checked_at_utc": "2026-07-24T01:34:16Z",
+  "source_object": {
+    "packet": "goemans-cost-counterexample"
+  },
+  "commands": {
+    "lean": "cd lean && lake build"
+  },
+  "environment": {
+    "lean_toolchain": "leanprover/lean4:v4.28.0"
+  },
+  "lean_replay": {
+    "all_pass": true,
+    "status": "pass",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "olean_count": 1,
+    "checked_at_utc": "2026-07-24T01:34:16Z"
+  },
+  "files": {
+    "README.md": "fe406a10134dae9e472881708b29b16c13cbca0836e56f6d6d849093079b4c4f",
+    "receipts/replay_receipt.json": "a41ca20880d7cd9b79c4d77cc0eb566dd61cd543e3d069a963a8e002e49afb7b",
+    "receipts/public_resolution_search_audit.json": "9e4b14009948c01ea5cdd84c8c51c94588d835d6bcba110800ac95db5e1002f2",
+    "receipts/delegation_review.json": "876484b85ed4211d8490f2b5227d591d601bd88ba3ecc015d9cb37f21b434a33",
+    "lean/MathlibProof.lean": "10726a1e81ac3e92f57269cffa279eb3741b9748e665c6c60c6a11cd6afdb027",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "862ab45572927ee3e7d0947e464108b92ef2a96a32b424ef697d117fb437c86a",
+    "lean/lakefile.toml": "f8caf9d241a8d47256448759f93379e12d2260dadd9e2ff6b073c02c6de34e9f",
+    "checkers/dgg_goemans_counterexample_replay.py": "fa380dd9a1151c673dce462bdc7a5f995844d525070eb1d724c81f9b3f1bf30f",
+    "checkers/dgg_goemans_counterexample_replay.rb": "647573363702f3f7d704ecc24128b62c8cfa459a0794f23c0ba0c7f04a66ed0a",
+    "formal/README.md": "01262eed03038cef9e5c6164e966d6daf140d0876cae2b0ea58a236285bde6bf",
+    "formal/Goemans.lean": "210fe1bbf350f8c14dd952058948bc8f6f5827b155e6df3aac908b903245f405",
+    "source/instance.json": "1dadbeba30faff13259e302ed8e1e72a75e165b8ae4c043a7593b99cb71ae1ee",
+    "data/lean_build_replay.log": "5acd1832626a72f4a68c3f02b65c9e726b485f0dc0846edd4440b4a54521f4e7",
+    "formal/mathlib/GoemansMathlib.lean": "1799771b420fa5dfe8190c39a7de34ae892f848ad616bdf254f4ce76ee1d84aa",
+    "formal/mathlib/README.md": "5ff84e35f82dc600b422ec47472a0619b13449649e8e09417b215c5a7bb1e03a",
+    "data/replay_receipt.json": "9e131d1479bf264bd96b98f7e86a568db103d3b2150a4cbec743c4ad955f575d"
+  }
+}

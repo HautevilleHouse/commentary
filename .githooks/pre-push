@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+root="$(git rev-parse --show-toplevel)"
+"$root/scripts/forbid-conflict-markers.sh"
+"$root/scripts/forbid-malformed-sha256.sh"

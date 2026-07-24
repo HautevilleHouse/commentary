@@ -1,0 +1,16 @@
+{
+  "observed_date": "2026-07-19",
+  "surfaces": [
+    "arXiv version records",
+    "MathOverflow",
+    "authors' public papers/pages",
+    "public mathematical web search"
+  ],
+  "queries": [
+    "2607.04050 60 Bergeron conjecture Gaussian",
+    "Bergeron's Conjecture Gaussian coefficientwise finite computation",
+    "ad=bc Gaussian polynomial coefficientwise counterexample"
+  ],
+  "result": "No prior public report of this exact exhaustive bound <=60 was located.",
+  "qualification": "Dated search evidence only; ."
+}

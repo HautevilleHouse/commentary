@@ -1,0 +1,52 @@
+{
+  "observed_utc": "2026-07-18T19:44:34Z",
+  "result": {
+    "admitted": true,
+    "configuration": [
+      1,
+      0,
+      1
+    ],
+    "cpp": {
+      "beta0": "1",
+      "beta1": "1",
+      "components": "1",
+      "edges": "3",
+      "orbit_masks": "5,3,6",
+      "predicted_components": "2",
+      "predicted_dimension": "0",
+      "triangles": "0",
+      "vertices": "3"
+    },
+    "firing_sets_one_based": [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "observed_betti_f2": [
+      1,
+      1,
+      0
+    ],
+    "predicted_sphere": "S^0",
+    "source_hypotheses": {
+      "binary": true,
+      "i": 2,
+      "k": 2,
+      "n": 3,
+      "total_grains_gt_one": true,
+      "zero_positions": [
+        2
+      ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "2026-07-23.lean_replay_seal.v1",
+  "checked_at_utc": "2026-07-24T04:17:14Z",
+  "source_object": {
+    "packet": "almost-golomb-prefix-conjecture"
+  },
+  "commands": {
+    "lean": "cd lean && lake exe cache get && lake build"
+  },
+  "environment": {
+    "lean_toolchain": "leanprover/lean4:v4.28.0"
+  },
+  "lean_replay": {
+    "all_pass": true,
+    "status": "pass",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake exe cache get && lake build",
+    "olean_count": 1,
+    "checked_at_utc": "2026-07-24T04:17:14Z",
+    "clean_verify": {
+      "method": "lake_clean",
+      "lake_clean_clone": true,
+      "note": "Clean lake exe cache get && lake build succeeded from empty .lake."
+    }
+  },
+  "files": {
+    "PROOF.md": "f43575d45d362f955d1c5fe7602292b78553aaa4907d85c930ac30a4543d25d6",
+    "README.md": "15b31cd07479df896155222226c8d7b07244961ec45a01a025338c11c129cd72",
+    "lean/MathlibProof.lean": "647ac5c5de94c92843b26c98e85b3c28aa8852b671bb7f119ac37c7d34dedbb1",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "afb8ca3f8c2edd9fe10215390066ad3910b3bc23625f6d880161b52486bc454f",
+    "lean/AlmostGolombPrefix.lean": "cf35c2b1c5781b5e58a22ca6408a87129a1c622a3a6d92b1a833c64aa59945a5",
+    "lean/lakefile.lean": "0713bce358cb6086beb738f32a60db36978fe44996f13f6b1140db867951db09",
+    "checkers/requirements.txt": "74c1b9d7e6103576c1f8c7bf2bf255e088ee5ab2c8f5d7f70dc757c0ae596011",
+    "checkers/crosscheck.py": "ff7d0932351196d408b9baf7c4d4bf08e9887d305651581a19f16c9502a937ec",
+    "checkers/verify.py": "ea2ab2241b926ce739687bdd437cf6c74f957d5030398011afbcb27a2d70ca34",
+    "formal/mathlib/README.md": "0d2619ba150b026d7a5b295d31a66c7398f8f9d9abced48cdc69601b00c54268",
+    "formal/mathlib/AlmostGolombPrefixMathlib.lean": "6729604f8a484a66cd692874e0da30c5575f3e5983b792d8a7f24855074bf375",
+    "data/source_identity.json": "6a6dd36a05c8883d55f07ffd1cc4795a6dd58f621aeaa3e5e398e41b288eef9d",
+    "data/verification_result_20260719.json": "d91271b23ec5c89ce8ff597bf666455f46bb255587cac87bac2c74ddb231749c",
+    "data/lean_build_clean_verify.log": "6844ed02dd4c0362924d12ce822b32619880c08a052c3a5b6420ef56c61934cd",
+    "data/build_receipt_20260719.json": "0052341c77176aeaaa7a8d498e8f115b24679794f70a9ac764a922c7c9872dcc",
+    "data/crosscheck_result_20260719.json": "127a0c1607fae18a06303953cae2cf9af3883f7b922fb14b6f1d00d5b5a44ac3",
+    "data/prior_public_resolution_search_20260719.json": "1d55ae5dd859f38b55938faadb9f575c80b79064faf6a8613be67d6f50d6786f",
+    "data/replay_receipt.json": "09129235dd3ef0606f7cc4ae612803865881b44f2dbf84fdc72810a869b17b56"
+  }
+}

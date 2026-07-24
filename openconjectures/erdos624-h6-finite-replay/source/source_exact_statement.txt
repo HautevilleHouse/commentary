@@ -1,0 +1,8 @@
+Exact bounded target from Formal Conjectures, ErdosProblems/624.lean at commit
+c252a41054125b5fd9c8356e2137cd9b55337657.
+
+For X={0,1,2,3,4,5}, determine the least m for which there exists a function
+f:P(X)->X such that for every Y subseteq X with |Y|>=m, the image
+{f(A): A subseteq Y} equals X. Preserve the full powerset domain and all
+quantifiers. This is only the finite H(6) slice and does not settle the
+asymptotic Erdős-624 conjecture.

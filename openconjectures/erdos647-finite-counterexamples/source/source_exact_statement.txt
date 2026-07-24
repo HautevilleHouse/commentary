@@ -1,0 +1,7 @@
+Exact bounded target from Formal Conjectures, ErdosProblems/647.lean at commit
+c252a41054125b5fd9c8356e2137cd9b55337657.
+
+For each finite n in {25,26,30}, decide whether every m < n satisfies
+m + tau(m) <= n+2. Explicit witnesses m=24,24,28 violate the inequality for
+n=25,26,30 respectively. These finite counterexamples do not settle the
+source existential or asymptotic statements.

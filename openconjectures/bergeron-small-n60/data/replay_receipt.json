@@ -1,0 +1,31 @@
+{
+  "packet": "bergeron-small-n60",
+  "observed_date": "2026-07-19",
+  "python": "quadruples=1173; coefficients_checked=613167; negative_coefficients=0; RESULT: PASS",
+  "cpp": "quadruples=1173; coefficients_checked=613167; negative_coefficients=0; RESULT: PASS",
+  "source_statement_sha256": "c10184adb5784f9dd7394bb297054c97ce170a48de4798318fbc071878b702a4",
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "files": {
+    "README.md": "4038447cd49ccbb2dc5dd28e40e1b8d8158aedf1eea69b39cf74be195010895a",
+    "lean/MathlibProof.lean": "c6b9d3803a0ec4224f3b1ba9a138cf0be3376e7710ee1db96e4a4b5f1867743e",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "fb7dcfcf0d3ea683446d911106682e9ceffe16a9c9fec49b096d01153aca3623",
+    "lean/lakefile.toml": "e22a4a7af9c755e87614234f67d716b63c326ceb43adde799d7c88d321f9d186",
+    "checkers/crosscheck.cpp": "3ea83e18e67b1fbe84b977f95953fb6440e1d3cf8b995ca499374018430e0a1d",
+    "checkers/verify.py": "3aca9d91ef48563d0554fcdce2403438646588943e42477220748aa720c104bc",
+    "data/source_identity.json": "60ecd928acabb0d3f600cf29d04a5ad15384a69f807f90363a1ccebb22b22a4d",
+    "data/verification_result_20260719.json": "48ad4bb622cda5b0797b52a0a26b9b0d0083a30fee9e77e0baacd6d610acc47b",
+    "data/lean_build_replay.log": "e20b9acc51687707540486e64f5f0b0ef255518a3670c32f97ba5cdd2abc3a0e",
+    "data/prior_public_resolution_search_20260719.json": "d978f248a34daefd0c16524d2b0dfb20f29347a51759807efb41b51acd24f742",
+    "data/replay_receipt.json": "abc3a2907af0c154ed8a81c96573abf43a328e1318cdf9af300edc0bd4239a3e"
+  }
+}

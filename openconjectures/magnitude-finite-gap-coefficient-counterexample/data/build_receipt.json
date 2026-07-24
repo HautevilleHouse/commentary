@@ -1,0 +1,45 @@
+{
+  "lean_toolchain": "leanprover/lean4:v4.28.0",
+  "mathlib_rev": "v4.28.0",
+  "public_target": "MagnitudeGeneralizationBoundary",
+  "main_theorem": "finiteGapZeroSkeletonDet_normalized_not_tendsto_source_coefficient_of_skew_nonempty",
+  "source_hashes": {
+    "MagnitudeDisproof.lean": "a67e0a7f9dc2778df58ba4a9e312ada78341606e86d1de9c9349f3b78ed468dc",
+    "MagnitudeGeneralizationBoundary.lean": "1d2939eb00bfa0cca69970c8b98cf94816a9e61486dcc87d210bf08e3231686a"
+  },
+  "originating_endpoint_checks": [
+    {
+      "command": "lake lean MagnitudeGeneralizationBoundary.lean",
+      "result": "exit 0, no diagnostics"
+    },
+    {
+      "command": "lake build",
+      "result": "Build completed successfully (8038 jobs)"
+    }
+  ],
+  "originating_package_build_log_sha256": "8485fcf8d3ec5a8fe1bf20740ba7b292d8f2fa33529a8c6636b838ce1c61d66b",
+  "public_packet_endpoint_check": {
+    "command": "cd openconjectures/magnitude-finite-gap-coefficient-counterexample/lean && lake build MagnitudeGeneralizationBoundary",
+    "result": "Build completed successfully (8028 jobs).",
+    "log_path": "data/public_packet_build_20260708.log",
+    "log_sha256": "f59c88ba8bd08aabd4c3822cd858582757464416c0075bf5b719939a568a1e15"
+  },
+  "manifest": {
+    "path": "lean/lake-manifest.json",
+    "sha256": "0b04fbd0860ec8e6ba1162f9633fc27143b35b342e22225753e74310c171fb4d"
+  },
+  "admission_scan": {
+    "tokens": [
+      "sorry",
+      "admit",
+      "axiom",
+      "opaque",
+      "proof_wanted"
+    ],
+    "result": "no hits in the published Lean files before publication"
+  },
+  "boundary": {
+    "closed": "ordered finite-gap ell_1^1 counterfamily to the universal coefficient statement",
+    "carried": "arbitrary higher-dimensional ell_1^N replacement or classification theorem"
+  }
+}

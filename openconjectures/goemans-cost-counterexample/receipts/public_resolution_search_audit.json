@@ -1,0 +1,18 @@
+{
+  "target": "Displayed seven-vertex Goemans cost-conjecture witness",
+  "observed_date": "2026-07-22",
+  "queries": [
+    "Dinitz Garg Goemans conjecture unsplittable flow cost counterexample",
+    "Goemans conjecture fractional cost 58"
+  ],
+  "sources_checked": [
+    "https://arxiv.org/abs/2308.02651",
+    "https://research.dial.uclouvain.be/entities/publication/6ee460f5-8423-48bf-b514-18029db29bd1",
+    "https://arxiv.org/abs/2412.05182",
+    "https://arxiv.org/abs/2510.21287",
+    "https://www.reddit.com/r/mathematics/comments/1v3j8go/dinitzgarggoemans_conjecture_is_false/"
+  ],
+  "finding": "The exact supplied seven-vertex witness and packet identifiers were not found in the searched public sources. The general cost conjecture is described as open in arXiv:2308.02651; series-parallel special cases are known. Social posts report the same claim but are not primary validation.",
+  "status": "DATED_SEARCH_NO_EXACT_PUBLIC_MATCH",
+  "limitations": "The search is a dated public-source receipt; private or unindexed material may exist."
+}

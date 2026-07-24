@@ -1,0 +1,64 @@
+{
+  "source": "s",
+  "terminals": {
+    "t1": 15,
+    "t2": 10,
+    "t3": 15
+  },
+  "arcs": [
+    {
+      "tail": "s",
+      "head": "t1",
+      "x": 10,
+      "cost": 2
+    },
+    {
+      "tail": "s",
+      "head": "t2",
+      "x": 6,
+      "cost": 3
+    },
+    {
+      "tail": "s",
+      "head": "u",
+      "x": 24,
+      "cost": 0
+    },
+    {
+      "tail": "u",
+      "head": "t3",
+      "x": 10,
+      "cost": 2
+    },
+    {
+      "tail": "u",
+      "head": "v",
+      "x": 14,
+      "cost": 0
+    },
+    {
+      "tail": "v",
+      "head": "t1",
+      "x": 5,
+      "cost": 0
+    },
+    {
+      "tail": "v",
+      "head": "w",
+      "x": 9,
+      "cost": 0
+    },
+    {
+      "tail": "w",
+      "head": "t2",
+      "x": 4,
+      "cost": 0
+    },
+    {
+      "tail": "w",
+      "head": "t3",
+      "x": 5,
+      "cost": 0
+    }
+  ]
+}

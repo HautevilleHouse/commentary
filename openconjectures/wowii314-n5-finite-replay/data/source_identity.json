@@ -1,0 +1,14 @@
+{
+  "observed_date": "2026-07-22",
+  "scope": "finite n<=5 evidence only; Conjecture 314 for arbitrary graphs remains open",
+  "source": "https://github.com/google-deepmind/formal-conjectures/blob/c252a41054125b5fd9c8356e2137cd9b55337657/FormalConjectures/WrittenOnTheWallII/GraphConjecture314.lean",
+  "source_commit": "c252a41054125b5fd9c8356e2137cd9b55337657",
+  "source_statement_sha256": "7f6471fdde92ac2c2e9ffce6cd69a247b07be96c8631edda11af4a91a683b465",
+  "target": "WOWII Conjecture 314 bounded n<=5 replay",
+  "title": "WOWII Conjecture 314: bounded `n\u22645` replay",
+  "versioned_source": {
+    "identifier": "google-deepmind/formal-conjectures@c252a41054125b5fd9c8356e2137cd9b55337657#FormalConjectures/WrittenOnTheWallII/GraphConjecture314.lean",
+    "kind": "public_repository",
+    "url": "https://github.com/google-deepmind/formal-conjectures/blob/c252a41054125b5fd9c8356e2137cd9b55337657/FormalConjectures/WrittenOnTheWallII/GraphConjecture314.lean"
+  }
+}

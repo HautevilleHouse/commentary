@@ -1,0 +1,17 @@
+{
+  "openconjecture_id": 756,
+  "arxiv_id": "2603.04271v1",
+  "title": "Continuity of Magnitude at Skew Finite Subsets of ell_1^N",
+  "source_file": "main_magnitude_continuity.tex",
+  "source_lines": "1105-1109",
+  "source_content_sha256": "5356e3830ee9c6ae53341dbc80103725b1716061a54556a3ac5f9ec26e7ed03e",
+  "source_payload_sha256": "e5e100f1c2638628e618fe12496314e2c0743578f1344d5757d2ac26f346a8d7",
+  "source_tex_sha256": "e933daa56a41c8db99ffd2cd53e451a3868b04530dc9b60840096ef01fd28fe1",
+  "publication_text_policy": "publish_text",
+  "encoded_specialization": {
+    "dimension": "N = 1",
+    "source_family": "ordered finite positive adjacent gaps",
+    "predicted_coefficient": "4^(m+1)",
+    "actual_coefficient": "4^(m+1) * product_i (1 - exp(-2 * gaps_i))"
+  }
+}

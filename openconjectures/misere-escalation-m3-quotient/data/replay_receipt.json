@@ -1,0 +1,43 @@
+{
+  "schema": "public-proof-packet-replay.v1",
+  "status": "passed",
+  "observed_utc": "2026-07-19T08:56:00Z",
+  "commands": [
+    "python3 openconjectures/misere-escalation-m3-quotient/checkers/verify.py",
+    "clang++ -std=c++17 -O2 -Wall -Wextra -pedantic openconjectures/misere-escalation-m3-quotient/checkers/crosscheck.cpp -o /tmp/misere_escalation_m3_verify && /tmp/misere_escalation_m3_verify"
+  ],
+  "routes": [
+    "Separate Python source-recursion and quotient-map enumeration",
+    "Separate C++ source-recursion and quotient-map enumeration",
+    "Both routes check associativity, 1,947,792 positions, and five-class separation"
+  ],
+  "result": "Both routes report associativity=PASS, positions_checked=1947792, classes=5, separation=PASS, RESULT: PASS.",
+  "files": {
+    "PROOF.md": "35b4dbf6ae2790a625ebda38cceca3a0372686436b74adb5238a03cab8c9a721",
+    "README.md": "c74135936d5ed108b2577a1ac5270630e68b4fa2f5bed48132067e28553a93c4",
+    "lean/MathlibProof.lean": "7bba5fc4c8b8db764eb3ab627d4260be46949b54945ec71ac1ed24eeebf8608d",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "d9c7ac6b5b6828f6f6aab646010371e55ca3280f1e25140de3203f012c68249a",
+    "lean/lakefile.toml": "7771e26963651778cdc8dfde77d9ca20e9797ed5e19c40af0bbad9fceefe0653",
+    "checkers/crosscheck.cpp": "acebd4c3b7fa415275fc87be655fa683b3ac7175625d0782fa85abedae6ca0d4",
+    "checkers/verify.py": "0617ed1f8886a8f887d2134834d1ed51786d998c0c966a6179bae6c45183ff80",
+    "data/source_identity.json": "66ed03e702d906c333e45ce2936c64e248f6a39a0857b82ddcf998ea92768d9c",
+    "data/verification_result_20260719.json": "6944ae6077c10373c31b0a18c2edd4dab88b82aec57544e4bfa377dd40a86d2e",
+    "data/lean_build_replay.log": "061cb3420eeb7ff422d41cd6891ac884386b6745461cba8bd948ffa6eaad73d6",
+    "data/prior_public_resolution_search_20260719.json": "bcfba085a3d20fd2421ef48bef89c27e6b2682c84c5aeba7f9631fe4bb68b3c6",
+    "data/replay_receipt.json": "0dd15376061ecb83ce42256afea075a3384f50c9d11096395f18c2fe0b762b71"
+  },
+  "claim_boundary": "Only the exact m=3 contiguous source game is settled; all-m finiteness remains open.",
+  "external_review": "not_reviewed",
+  "communicated_to_authors": false,
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "checked_at_utc": "2026-07-24T01:58:47Z"
+}

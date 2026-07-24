@@ -1,0 +1,14 @@
+{
+  "observed_date": "2026-07-20",
+  "scope": "finite replay only; general Kotzig conjecture remains open",
+  "source": "https://github.com/google-deepmind/formal-conjectures/blob/6f57f58effb32da91a5761c1a5491904a85921ab/FormalConjectures/Paper/KotzigConjecture.lean",
+  "source_commit": "6f57f58effb32da91a5761c1a5491904a85921ab",
+  "source_statement_sha256": "543677861be3ebe323a32f938a8e1851a34f327e90af36741c7c4ee9496a6a2c",
+  "target": "finite Kotzig replay kotzig-t8-k17-finite-replay",
+  "title": "Kotzig finite slice: an 8-edge tree in (K_{17})",
+  "versioned_source": {
+    "identifier": "google-deepmind/formal-conjectures@6f57f58effb32da91a5761c1a5491904a85921ab#FormalConjectures/Paper/KotzigConjecture.lean",
+    "kind": "public_repository",
+    "url": "https://github.com/google-deepmind/formal-conjectures/blob/6f57f58effb32da91a5761c1a5491904a85921ab/FormalConjectures/Paper/KotzigConjecture.lean"
+  }
+}

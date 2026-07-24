@@ -1,0 +1,42 @@
+{
+  "source": {
+    "locator": "synthetic://crim-cp01-full-exact-20260720",
+    "observed_date": "2026-07-20",
+    "sha256": "c8daeac2b5ac66b0f3d670645c68fb43ea88ffbd76e9422068e1be5e760f9ce1"
+  },
+  "target": "CRIM Conway pair for partition [2,2]",
+  "status": "INTERNALLY_VERIFIED_FINITE_RESULT",
+  "delegation_receipt": "/Users/hautevillehouse/Library/Application Support/CanonicalLaneRuntime/deepseek-public-delegate/reports/universal_delegate/dispatch/069dece3ff10156376b9868f21b676b6caf4f5e5b29ee197a9dc5e397b971a4a.json",
+  "result": {
+    "G": 0,
+    "H": 1
+  },
+  "replays": [
+    "python3 math_research/checkers/crim_cp01_22_checker.py",
+    "ruby math_research/checkers/crim_cp01_22_checker.rb"
+  ],
+  "scope_boundary": "Only partition [2,2]; no hook classification or general CRIM result.",
+  "publication": "not_yet_published",
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "files": {
+    "README.md": "982e8c852649c56461257f9160d6dae0108e8536a4dfec937ec8575a11b7729a",
+    "lean/MathlibProof.lean": "5379291c066821202510779a1af50b0c51560e3001b474179699f8bc37a9a8d1",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "89c1fa282499dc783b159e653c6015efa291e70fcedd35a2f187eb13f58f4a89",
+    "lean/lakefile.toml": "de926abc87e6ab16c95426f46820c99b3dfd08030e60b86f6e43f4f5c3800699",
+    "checkers/verify_python.py": "ffbb9b0bc09111a8f4fc9b953d0331947e863bfc22817c95e9de0c02042bf4c2",
+    "checkers/verify_ruby.rb": "b3490a7b4b30a7cbfbdac26e336a99d32575b5e80de3cdea074154b8e421e60f",
+    "data/source_identity.json": "ba60b42906b19788b3d8b57e5f302cd1c4ebb267fd23abb99a94d6ef259f2976",
+    "data/lean_build_replay.log": "ba4d43da6de30e61c256eb446023070608693cd086f41fe28f47fefda1a31ebb",
+    "data/replay_receipt.json": "673fc54f5aa4e2a7dd294d96e7d4cd0cea4495ffe85afc48efc5e3b714460356"
+  }
+}

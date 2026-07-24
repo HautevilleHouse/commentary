@@ -1,0 +1,23 @@
+{
+  "arxiv_abs_url": "https://arxiv.org/abs/2606.16828v1",
+  "arxiv_id": "2606.16828v1",
+  "arxiv_pdf_url": "https://arxiv.org/pdf/2606.16828v1",
+  "arxiv_source_archive_sha256": "f15723c0266f01a4fedf5fb6d961ac7cdddba6f4ff2007b9a5eb30f060daa7f9",
+  "arxiv_source_tex_sha256": "1fa0be511d0a7dbfe19849a84d439a86cb00983816012e4a8f31796f729de4fd",
+  "arxiv_source_url": "https://arxiv.org/e-print/2606.16828v1",
+  "authors": [
+    "Ina Bašić",
+    "Eric Gottlieb",
+    "Matjaž Krnc"
+  ],
+  "license_family": "cc_by_4_0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "openconjecture_id": 3659,
+  "openconjecture_row_sha256": "569e66870eeb4e1b6c0fbb1c136f4684eca0540bc18f024767a6f86568de0cc7",
+  "published_at": "2026-06-15T15:09:22Z",
+  "source_claim_body_sha256": "c6d863ece2e788f09c3107fbb175c2ba8818a4bee7c7d66b9d1bcfda6f99f3d9",
+  "source_file": "arXiv.tex",
+  "source_lines": "1021-1030",
+  "source_object": "First rectair Sprague-Grundy conjecture",
+  "title": "CRIM: A Natural Game on Integer Partitions"
+}

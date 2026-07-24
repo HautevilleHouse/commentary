@@ -1,0 +1,52 @@
+{
+  "checked_at_utc": "2026-07-18T06:44:11Z",
+  "conclusion": "The bounded searches returned the current source paper and its cyclic and elementary-2 formalizations, but no separate public resolution of the seven-element all-finite-abelian-group case.",
+  "limits": [
+    "Unpublished work lies outside the search scope.",
+    "Public work absent from the queried indexes or using unrelated terminology lies outside the search scope.",
+    "An empty result records only the dated search scope."
+  ],
+  "searches": [
+    {
+      "queries": [
+        "\"Minimum modulus for the unique multiset-sum problem\" seven elements finite abelian groups",
+        "\"minimum possible group order\" \"seven elements\" multiset abelian",
+        "\"2^(n-1)\" \"unique multiset-sum\"",
+        "2607.08366 n=7 finite abelian group"
+      ],
+      "result": "The source paper and unrelated sum and finite-group material appeared; no separate n=7 all-group resolution appeared.",
+      "surface": "indexed web"
+    },
+    {
+      "query": "minimum_order_for_seven_elements_is_64",
+      "result": "Zero GitHub code results.",
+      "surface": "GitHub code search"
+    },
+    {
+      "query": "2607.08366",
+      "result": "One unrelated numeric-text hit and no relevant resolution.",
+      "surface": "GitHub code search"
+    },
+    {
+      "query": "\"unique multiset sums\" \"finite abelian\"",
+      "result": "Zero GitHub issue results.",
+      "surface": "GitHub issue search"
+    },
+    {
+      "result": "The repository contained the source's cyclic theorem formalization and Proposition 2 for elementary abelian 2-groups; it contained no all-group n=7 resolution and had no issues.",
+      "surface": "author code repository",
+      "url": "https://github.com/jarfo/min-modulus"
+    },
+    {
+      "result": "The official record was current at v2, revised 2026-07-14, and Section 8 still stated the all-group question as open beyond the recorded n<=6 search.",
+      "surface": "official arXiv record",
+      "url": "https://arxiv.org/abs/2607.08366v2"
+    }
+  ],
+  "source_object": {
+    "arxiv_id": "2607.08366v2",
+    "open_problem": "Section 8, item 4",
+    "target_case": "n=7 over all finite abelian groups",
+    "title": "Minimum modulus for the unique multiset-sum problem"
+  }
+}

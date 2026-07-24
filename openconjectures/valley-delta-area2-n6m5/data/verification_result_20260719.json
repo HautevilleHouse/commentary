@@ -1,0 +1,19 @@
+{
+  "schema_version": "2026-07-19.valley-delta-area2-n6m5-verification.v1",
+  "status": "BOUNDED_VERIFIED",
+  "target": {
+    "n": 6,
+    "M": 5,
+    "area_multiset": "0^(n-2)1^2"
+  },
+  "diag_blind": {
+    "refined_classes": 143649,
+    "asymmetric_classes": 0
+  },
+  "per_diagonal": {
+    "refined_classes": 149388,
+    "asymmetric_classes": 0
+  },
+  "claim": "Every source-defined refined class polynomial in this finite target range is symmetric under u<->v.",
+  "limitation": "Conjecture 8.2 for arbitrary n and M remains unresolved; no general settlement is claimed."
+}

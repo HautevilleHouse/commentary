@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2602.04140v1",
+  "authors": [
+    "Xinxing Tang",
+    "Shing-Tung Yau"
+  ],
+  "conjecture_lines": "circulantarXiv.tex:1230-1235",
+  "definition_lines": [
+    "circulantarXiv.tex:246-280",
+    "circulantarXiv.tex:561-565"
+  ],
+  "downloaded_source_sha256": "e848e9b8c89021056de8da04cff63d9b10fab12068d601e7c5cd8423491d319e",
+  "public_url": "https://arxiv.org/abs/2602.04140v1",
+  "source_file_sha256": "885d69ecc453d07ba7f3c8e815f5d17889458725d86b34f3ed4b90259df811d1",
+  "source_title": "Path Homology of Circulant Digraphs"
+}

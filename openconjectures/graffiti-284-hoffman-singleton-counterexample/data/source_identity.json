@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "Siemion Fajtlowicz (Graffiti / Written on the Wall)"
+  ],
+  "external_gates": [
+    {
+      "kind": "fajtlowicz_wow_master_list",
+      "reason": "request-only; no public primary page for numeral 284"
+    }
+  ],
+  "pin_material_sha256": "fbd78a1151f31d652324d861c2fb24fb2f6e903b6ed9e3b73ebc0b7069b07478",
+  "schema_version": "2026-07-23.source_identity.v1",
+  "source_id": "graffiti-wow-284",
+  "source_urls": [
+    "https://www.cs.auckland.ac.nz/~mjd/graffiti/info.html",
+    "https://gerad.ca/fr/papers/G-2009-18",
+    "https://www.lamsade.dauphine.fr/~cazenave/papers/ConjectureRefutationECAI2025.pdf",
+    "https://www.math.mun.ca/distanceregular/graphs/hoffmansingleton.html",
+    "https://doi.org/10.2298/AADM0702438R"
+  ],
+  "statement_content_sha256": "c5e9adcbe9e97d902b75b145bcf04a810bd8fc6048e3c07ee53038641d5f2703",
+  "target": "min_dual <= -lambda_min(Distance) for connected simple graphs of girth at least 5",
+  "title": "Graffiti conjecture 284 (Written on the Wall reading)",
+  "version_check": {
+    "note": "Public statement proxies are sealed under data/source_seals/manifest.json. The Fajtlowicz Written-on-the-Wall master list remains an external gate (request-only; no public primary page for numeral 284).",
+    "observed_utc": "2026-07-23T23:40:00Z",
+    "sealed_proxy_manifest": "data/source_seals/manifest.json"
+  },
+  "versioned_source": {
+    "identifier": "RoucairolMilo/refutationGBR@66b9180cdb2e39f8cb988f09f94270f2b7f49fe5#CONJECTURE==284",
+    "kind": "public_repository",
+    "url": "https://github.com/RoucairolMilo/refutationGBR/blob/66b9180cdb2e39f8cb988f09f94270f2b7f49fe5/src/models/conjectures/GenerateGraph.rs"
+  },
+  "witness": {
+    "adjacency_spectrum": "7^1, 2^28, (-3)^21",
+    "distance_spectrum_derived": "91^1, 1^21, (-4)^28",
+    "name": "Hoffman-Singleton graph",
+    "parameters": "srg(50,7,0,1)"
+  }
+}

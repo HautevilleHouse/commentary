@@ -1,0 +1,11 @@
+{
+  "openconjecture_id": 4732,
+  "arxiv_id": "2607.00988v1",
+  "arxiv_abs_url": "https://arxiv.org/abs/2607.00988v1",
+  "source_file": "paper1_final_v1.tex",
+  "definition_lines": "1474-1485",
+  "conjecture_lines": "1494-1502",
+  "source_tex_sha256": "f8f616f37179f9289b1d69fb74cc5bed444be17e263753083e2f6012b5ec93bf",
+  "source_archive_sha256": "c819e1f4796198e8b0e2925e584a9ef32e035e0fe6cd5868ca8babfcba6adcbd",
+  "license": "CC BY 4.0"
+}

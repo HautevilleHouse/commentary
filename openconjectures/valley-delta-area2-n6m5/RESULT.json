@@ -1,0 +1,78 @@
+{
+  "schema_version": "2026-07-19.valley_delta_area2_n6m5_result.v1",
+  "target": "arXiv:2606.14877v1 Conjecture 8.2, bounded area-two target (n=6,M=5)",
+  "observed_utc": "2026-07-19",
+  "source": {
+    "title": "Exchange identities and symmetric slices of the valley Delta conjecture",
+    "version": "v1",
+    "arxiv_abs": "https://arxiv.org/abs/2606.14877",
+    "arxiv_html": "https://arxiv.org/html/2606.14877",
+    "arxiv_pdf": "https://arxiv.org/pdf/2606.14877",
+    "arxiv_eprint": "https://arxiv.org/e-print/2606.14877",
+    "eprint_sha256": "e4ef98b2c7d45d8878782ffd3ed9728d01557f2e196c878b3e19dbc8319f468e",
+    "html_sha256": "45ad7b62a394ea4b7bf8ce6231e908c0bbc5a5ca8d05a88108b17b81d6d28c2b",
+    "pdf_sha256": "21840cc9235a53d2193f8352cd1f1ca325727d44bb02d8e8d153ab7fb72ba24b",
+    "relevant_scope": "Definition 3.1, Definition 8.1, Conjecture 8.2, Section 8.2"
+  },
+  "synthetic_statement": {
+    "locator": "synthetic://valley-delta-area2-n6m5/source-exact-statement-v1",
+    "path": "sources/synthetic/valley_delta_area2_n6m5_statement_20260719.txt",
+    "sha256": "dbe25aaac379853a16713bd8859f8f56ff4960a32586e54f64f38e43e640f686"
+  },
+  "claim_boundary": {
+    "proved": "For the unique realizable area-two multiset m=0^(n-2)1^2 at n=6 and label alphabet bound M=5, every enumerated source-defined refined class has a generating polynomial symmetric under u<->v, at both the diagonal-blind and per-diagonal refinements.",
+    "not_proved": "The all-n, all-label-alphabet Conjecture 8.2; any unenumerated parameter range; the valley Delta conjecture itself."
+  },
+  "result": {
+    "n": 6,
+    "M": 5,
+    "area_multiset": "0^(n-2)1^2",
+    "diag_blind": {
+      "refined_classes": 143649,
+      "asymmetric_classes": 0
+    },
+    "per_diagonal": {
+      "refined_classes": 149388,
+      "asymmetric_classes": 0
+    },
+    "status": "BOUNDED_VERIFIED"
+  },
+  "fresh_independent_replay_2026-07-19": {
+    "command": "clang++ -std=c++17 -O2 -Wall -Wextra -pedantic math_research/valley_delta_area2_n6m5_verify.cpp -o /tmp/valley_delta_area2_n6m5_verify && /tmp/valley_delta_area2_n6m5_verify",
+    "output": "n=6 M=5 [diag-blind]: refined classes=143649, asymmetric=0; n=6 M=5 [per-diagonal]: refined classes=149388, asymmetric=0; RESULT: PASS",
+    "status": "PASS"
+  },
+  "fresh_source_ancillary_replay_2026-07-19": {
+    "source_archive_sha256": "e4ef98b2c7d45d8878782ffd3ed9728d01557f2e196c878b3e19dbc8319f468e",
+    "ancillary_file": "anc/verification/area2.py",
+    "ancillary_sha256": "459ed0fdeebe2add2283d3e079ee53d002e5b4cd77d67b7cb7d298c6f0e006cb",
+    "parameters": {
+      "n": 6,
+      "M": 5
+    },
+    "output_summary": "diag-blind 143649/0; per-diagonal 149388/0",
+    "status": "PASS"
+  },
+  "verification_routes": [
+    {
+      "name": "arXiv ancillary Python replay",
+      "source_file": "anc/verification/area2.py",
+      "source_sha256": "459ed0fdeebe2add2283d3e079ee53d002e5b4cd77d67b7cb7d298c6f0e006cb",
+      "command": "python3 -c 'import sys; sys.path.insert(0, \"anc/verification\"); import area2; print(area2.run(6,5))'",
+      "observed_output": "diag-blind 143649/0; per-diagonal 149388/0"
+    },
+    {
+      "name": "separate C++ replay",
+      "file": "valley_delta_area2_n6m5_verify.cpp",
+      "sha256": "7602c28f72b74c09803531a484b441a53eece2c4c55ae4a0eb9afa3368bbd672",
+      "command": "clang++ -std=c++17 -O2 -Wall -Wextra -pedantic valley_delta_area2_n6m5_verify.cpp -o valley_delta_area2_n6m5_verify && ./valley_delta_area2_n6m5_verify",
+      "observed_output": "diag-blind 143649/0; per-diagonal 149388/0; RESULT: PASS"
+    }
+  ],
+  "public_source_search_note": "A dated search found no prior public settlement of this exact n=6,M=5 finite extension. The source itself reports only the four smaller/previous ranges.",
+  "limitations": [
+    "The positive result is exhaustive only for the exact bounded target.",
+    "The first DeepSeek handoff for this target was source-mismatched and was rejected; no provider reasoning was imported.",
+    "No public publication is authorized until the packet and clean-clone replay are assembled and the repository indexes are synchronized."
+  ]
+}

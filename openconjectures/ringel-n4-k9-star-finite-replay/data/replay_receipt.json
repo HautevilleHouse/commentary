@@ -1,0 +1,45 @@
+{
+  "source": {
+    "locator": "synthetic://ringel-n4-k9-star-exact-20260720",
+    "observed_date": "2026-07-20",
+    "sha256": "47342eac8d35fea9b4e65ee1102f72f8d9ea6981107aeb6708e4872772471c9a"
+  },
+  "target": "Ringel star slice n=4, K1,4 decomposing K9",
+  "status": "INTERNALLY_VERIFIED_FINITE_RESULT",
+  "delegation_receipt": "/Users/hautevillehouse/Library/Application Support/CanonicalLaneRuntime/deepseek-public-delegate/reports/universal_delegate/dispatch/41df91b8ec0e7ad86258ea7989c9fa5dd7de651cde268c793f10b144527eed29.json",
+  "construction": "For each center i in Z/9Z, use leaves i+1,i+2,i+3,i+4 modulo 9.",
+  "independent_replays": [
+    "python3 math_research/checkers/ringel_n4_k9_star_checker.py",
+    "ruby math_research/checkers/ringel_n4_k9_star_checker.rb"
+  ],
+  "scope_boundary": "This settles only the K1,4 slice at n=4; Ringel's general conjecture remains open.",
+  "publication": "not_yet_published",
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "files": {
+    "lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+    "README.md": "228752f1435bce4fb76c2b6f1fc597bfd56b171756e9720d322d942da19a9f00",
+    "lakefile.toml": "f704ded20bb38ef4e1da055890f3044b8d97d7cda05aa5a7257cf3889b7ab320",
+    "lean/MathlibProof.lean": "c8738e0df8026b7b322f09bc203c6ce8f0f594c3e3762dce45777792fa36b6e9",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "8245e4bb082d1b2e53a8f618534ba1c1ead332a04fafd05b501cd91012b4c31d",
+    "lean/lakefile.toml": "ef00e1c7fc3d0d66f44c4cefd5bfc486afcc68c01196e066625b7f9862aa9bb6",
+    "checkers/verify_python.py": "434c6e9efd4635a2de4502870317533f7310675cd5e6ade48ddbbc4806904831",
+    "checkers/verify_ruby.rb": "39e3e4721db27178890daf0d4f972f4d1b69e293705894ec0fc0c9dc67d309d5",
+    "formal/RingelN4K9Star.lean": "cd96fad9784c077900af46e1233595a5a3b22646e87bf8156b1ce2e8dd2fa30f",
+    "formal/README.md": "8964f732d19400f687ec5463c6828e918fd7f6a6b4b94da30cc0b526bdbdc100",
+    "formal/mathlib/RingelN4K9StarMathlib.lean": "7a7868d549d1d92137402bba2e5606dd5a0825283eb6dac24c2b49076b88acad",
+    "formal/mathlib/README.md": "e58c5bb1f1ba971a7f9916d17836b6a6394b735605429d6948762c293ed70cfb",
+    "data/source_identity.json": "c32d1481bb1e75451f1507c73bef0b4ed026de4fd0cc1218ff2f899d86a8111c",
+    "data/lean_build_replay.log": "de9b0b32258683b0babd4004feba87ffd851bc09f57a02421572e4337f1959a5",
+    "data/replay_receipt.json": "6f5dd095b3a5d8e6168c0dde1ec4644dea07310999f13e9edc310423646c58cf"
+  }
+}

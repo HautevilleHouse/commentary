@@ -1,0 +1,14 @@
+{
+  "observed_date": "2026-07-20",
+  "scope": "finite cyclic slice only; general Kotzig conjecture remains open",
+  "source": "https://github.com/google-deepmind/formal-conjectures/blob/6f57f58effb32da91a5761c1a5491904a85921ab/FormalConjectures/Paper/KotzigConjecture.lean",
+  "source_commit": "6f57f58effb32da91a5761c1a5491904a85921ab",
+  "source_statement_sha256": "94e8af430adecf3991e831c3a7cf1dc9c347555594e557ec10268670112d7cbe",
+  "target": "finite Kotzig cyclic slice kotzig-t4-cyclic-k9",
+  "title": "Kotzig T-Tree Cyclic Decomposition in K9",
+  "versioned_source": {
+    "identifier": "google-deepmind/formal-conjectures@6f57f58effb32da91a5761c1a5491904a85921ab#FormalConjectures/Paper/KotzigConjecture.lean",
+    "kind": "public_repository",
+    "url": "https://github.com/google-deepmind/formal-conjectures/blob/6f57f58effb32da91a5761c1a5491904a85921ab/FormalConjectures/Paper/KotzigConjecture.lean"
+  }
+}

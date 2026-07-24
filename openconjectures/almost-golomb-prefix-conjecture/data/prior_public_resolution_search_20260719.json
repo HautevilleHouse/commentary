@@ -1,0 +1,12 @@
+{
+  "observed_utc": "2026-07-19T00:56:00Z",
+  "queries": [
+    "\"Prefix Conjecture\" \"a_r(r)\" Golomb",
+    "\"a_r(r) = G(r-1)\"",
+    "\"Almost Golomb Sequences\" \"Prefix Conjecture\" proof",
+    "arXiv 2604.02404 citations Prefix Conjecture"
+  ],
+  "source_revision_checked": "arXiv:2604.02404v1",
+  "result": "No earlier public proof located in the dated search. The arXiv record still exposed only v1, which states the Prefix Conjecture as open.",
+  "limitation": "This is a dated public-source search receipt."
+}

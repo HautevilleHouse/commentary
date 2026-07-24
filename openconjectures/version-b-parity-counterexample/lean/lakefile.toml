@@ -1,0 +1,10 @@
+name = "VersionBParityCounterexample"
+version = "0.1.0"
+defaultTargets = ["VersionBParityCounterexample"]
+
+[leanOptions]
+relaxedAutoImplicit = false
+
+[[lean_lib]]
+name = "VersionBParityCounterexample"
+

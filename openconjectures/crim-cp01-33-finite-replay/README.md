@@ -1,0 +1,19 @@
+# CRIM Conway pair `[3,3]` finite replay
+
+This packet settles one finite instance of the CRIM move definition from the
+pinned synthetic source: deleting one row from `[3,3]` leaves `[3]`, and then
+`[]`. With normal empty value 0 and misère empty value 1, the Conway pair of
+`[3,3]` is `(0,1)`.
+
+Scope: this is only the explicit partition `[3,3]`; it is not a classification
+of CRIM positions or a proof of any general conjecture.
+
+Replay:
+
+```sh
+python3 math_research/checkers/crim_cp01_33_checker.py
+ruby math_research/checkers/crim_cp01_33_checker.rb
+```
+
+Both checkers compute the mex recursion and must print the same
+pair. Source identity is pinned in the result receipt.

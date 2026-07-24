@@ -1,0 +1,18 @@
+{
+  "authors": [
+    "Anthony J. Guttmann",
+    "Rasmus M. Nilsson"
+  ],
+  "eprint": {
+    "sha256": "ae3ffb627bc5c280192c0b46eb628ab9ed0970d7fede8bb9f6ba0695928b9fea",
+    "url": "https://arxiv.org/e-print/2605.07380v1"
+  },
+  "identifier": "arXiv:2605.07380v1",
+  "pdf": {
+    "sha256": "02a5963a55c5ea5204ae08afa85b25e0d562108280ae2e9fdd44d6de0356d6e7",
+    "url": "https://arxiv.org/pdf/2605.07380v1"
+  },
+  "source_object": "Conjecture 1",
+  "title": "Counting LEGO configurations",
+  "versioned_abstract_url": "https://arxiv.org/abs/2605.07380v1"
+}

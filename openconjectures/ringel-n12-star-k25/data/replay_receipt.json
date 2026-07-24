@@ -1,0 +1,31 @@
+{
+  "schema_version": "2026-07-23.lean_replay_seal.v1",
+  "checked_at_utc": "2026-07-24T01:34:16Z",
+  "source_object": {
+    "packet": "ringel-n12-star-k25"
+  },
+  "commands": {
+    "lean": "cd lean && lake build"
+  },
+  "environment": {
+    "lean_toolchain": "leanprover/lean4:v4.28.0"
+  },
+  "lean_replay": {
+    "all_pass": true,
+    "status": "pass",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "olean_count": 1,
+    "checked_at_utc": "2026-07-24T01:34:16Z"
+  },
+  "files": {
+    "README.md": "96a858dd6657dd51a1f426bd15938f6f03ce4a1d2178923ec8953dc100b60cf8",
+    "verify.py": "d5166105fd4fe5f05c4f984feeff4ac7b716100920d7b8b17e0b6a7fb2ff66ff",
+    "lean/MathlibProof.lean": "71921410c9411600af60ed48cc6d04318a4c5a7eed7775a4afecd4b7691e0f34",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "67d7ae5bd325ebffda9fa0224f526170248d026372b59f66f2ad8fe46243a0ba",
+    "lean/lakefile.toml": "e7978f33b799ad758139c4e15d0ea4b679940a18a5452bc1a52865e1fc4581b9",
+    "data/lean_build_replay.log": "85ed1cb9534bda83dad1b2bc35153a6356dcdbb8efabf57de9b4b839bcad3bc3",
+    "data/replay_receipt.json": "4d750b442b8758ec1e2f90f4beb5d5be45028c66a70d37a5ea53b98daf872d38"
+  }
+}

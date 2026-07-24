@@ -1,0 +1,20 @@
+{
+  "authors": [
+    "Fokam Souop Rigobert",
+    "Bitjoka Laurent"
+  ],
+  "arxiv_id": "2607.07939v1",
+  "openconjecture_id": 4448,
+  "title": "Dimension and Order Bounds for Isometric Embeddings of Graphs into Abelian Cayley Graphs, and the Abelian Dividend",
+  "source_url": "https://arxiv.org/abs/2607.07939v1",
+  "source_file": "paper2_revision_1.tex",
+  "source_lines": {
+    "cyclic_interval_lemma": "374-379",
+    "odd_cycle_reduction": "390-404",
+    "conjecture": "407-410"
+  },
+  "source_archive_sha256": "f9486321830dfdf8ae01e51b785926110cd6f87183c59eb7320e370232c217d1",
+  "source_tex_sha256": "1526d1dbc867601437c9b45836565ef0813fdfd3febaf2cb08c37e53f2b7d229",
+  "source_version_locked": true,
+  "source_license": "arXiv nonexclusive distribution license"
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": "2026-07-19.mesh-class69-verification.v1",
+  "status": "FINITE_COUNTEREXAMPLE_VERIFIED",
+  "domain": [
+    "123",
+    "132",
+    "213",
+    "321"
+  ],
+  "rows": [
+    {
+      "permutation": "123",
+      "P1": 1,
+      "P2": 1,
+      "P3": 2,
+      "P4": 2
+    },
+    {
+      "permutation": "132",
+      "P1": 0,
+      "P2": 2,
+      "P3": 1,
+      "P4": 1
+    },
+    {
+      "permutation": "213",
+      "P1": 2,
+      "P2": 0,
+      "P3": 1,
+      "P4": 1
+    },
+    {
+      "permutation": "321",
+      "P1": 0,
+      "P2": 0,
+      "P3": 0,
+      "P4": 0
+    }
+  ],
+  "histograms": {
+    "P1": {
+      "0": 2,
+      "1": 1,
+      "2": 1
+    },
+    "P2": {
+      "0": 2,
+      "1": 1,
+      "2": 1
+    },
+    "P3": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "P4": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    }
+  },
+  "claim": "P1 and P3 are not equidistributed on involutions in S_3; hence the source's involution-restricted conjecture is false.",
+  "limitation": "The unrestricted Class-69 equidistribution question remains unresolved."
+}

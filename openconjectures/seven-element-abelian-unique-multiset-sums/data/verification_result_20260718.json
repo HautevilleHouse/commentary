@@ -1,0 +1,36 @@
+{
+  "claim": "minimum_order_for_seven_elements_is_64",
+  "crosscheck_source_sha256": "2bb4323920f8a6d45fbc6e68fa90e44a834caf2655b1060dbb2cf1ce0e3272ed",
+  "lower_bound": {
+    "abelian_group_type_count": 49,
+    "all_types_exhausted": true,
+    "independent_implementation_crosscheck": {
+      "all_types_exhausted": true,
+      "directly_checked_seven_sets": 10985184,
+      "exact_count_match_with_unpruned_primary": true,
+      "total_search_nodes": 48167516,
+      "valid_sets_found": 0
+    },
+    "orders_below_35": "excluded_by_35_distinct_three_subset_sums",
+    "orders_exhaustively_checked": [
+      35,
+      63
+    ],
+    "prefix_unique_seven_sets": 0,
+    "total_search_nodes": 2032455,
+    "unpruned_primary_search": {
+      "all_types_exhausted": true,
+      "directly_checked_seven_sets": 10985184,
+      "total_search_nodes": 48167516,
+      "valid_sets_found": 0
+    }
+  },
+  "search_source_sha256": "fc3946ad36033737b6348bd60cde7442259116318f5466cbafc445b1fecdd55a",
+  "upper_bound": {
+    "multiplicity_vectors_checked": 1716,
+    "order": 64,
+    "target_preimages": 1,
+    "verified": true
+  },
+  "verified": true
+}

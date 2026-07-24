@@ -1,0 +1,14 @@
+{
+  "observed_date": "2026-07-20",
+  "scope": "finite slice only; general Ringel conjecture remains open",
+  "source": "https://github.com/google-deepmind/formal-conjectures/blob/6f57f58effb32da91a5761c1a5491904a85921ab/FormalConjectures/Paper/RingelConjecture.lean",
+  "source_commit": "6f57f58effb32da91a5761c1a5491904a85921ab",
+  "source_statement_sha256": "f5d8455a150bc9944e40fad109d41f9501d6712758b8119d507ddf0b0720c809",
+  "target": "finite Ringel slice ringel-n12-star-k25",
+  "title": "Ringel conjecture: bounded `n=12`, star `K1,12` slice",
+  "versioned_source": {
+    "identifier": "google-deepmind/formal-conjectures@6f57f58effb32da91a5761c1a5491904a85921ab#FormalConjectures/Paper/RingelConjecture.lean",
+    "kind": "public_repository",
+    "url": "https://github.com/google-deepmind/formal-conjectures/blob/6f57f58effb32da91a5761c1a5491904a85921ab/FormalConjectures/Paper/RingelConjecture.lean"
+  }
+}

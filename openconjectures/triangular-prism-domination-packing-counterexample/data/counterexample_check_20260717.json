@@ -1,0 +1,166 @@
+{
+  "bounds": {
+    "conjectured": "gamma <= (5/4)*rho",
+    "conjectured_rhs": "5/4",
+    "proved_in_source": "gamma <= (7/4)*rho + 5/6",
+    "proved_rhs": "31/12"
+  },
+  "checks": {
+    "bridgeless": true,
+    "claw_free": true,
+    "conjectured_bound_is_violated": true,
+    "connected": true,
+    "cubic": true,
+    "diameter_is_two": true,
+    "domination_number_is_two": true,
+    "packing_number_is_one": true,
+    "simple_graph": true,
+    "source_proved_bound_is_preserved": true
+  },
+  "environment": {
+    "python": "3.14.6",
+    "script_sha256": "8f7d088cc2de173e8ff2476ff0ff54763565e51279ef78a8407e39603d86d8b9"
+  },
+  "graph": {
+    "connected_after_edge_deletion": {
+      "0-1": true,
+      "0-2": true,
+      "0-3": true,
+      "1-2": true,
+      "1-4": true,
+      "2-5": true,
+      "3-4": true,
+      "3-5": true,
+      "4-5": true
+    },
+    "degrees": {
+      "0": 3,
+      "1": 3,
+      "2": 3,
+      "3": 3,
+      "4": 3,
+      "5": 3
+    },
+    "diameter": 2,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "induced_claws": [],
+    "name": "triangular prism",
+    "vertices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "invariants": {
+    "domination_number": 2,
+    "maximum_packings": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ]
+    ],
+    "minimum_dominating_sets": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    "packing_number": 1
+  },
+  "payload_sha256_without_self": "a7713937fac491e8656538ddfe272ae5a3fcbe8d43733d072b6f024ac84ca39f",
+  "source": {
+    "arxiv_id": "2606.29199v1",
+    "conjecture_lines": "76-81",
+    "definition_lines": "7",
+    "openconjecture_id": 4867,
+    "source_conjecture_sha256": "7d91c1c83d344bcdfaa2a7dfab8b170fc5367b6f3f8c82e86339d64c0954d731",
+    "source_definition_sha256": "338f3d58cb3d45438aed0c0b0d3408f085ed460a82ea77cc53385579717b8b33",
+    "source_file": "intro.tex"
+  }
+}

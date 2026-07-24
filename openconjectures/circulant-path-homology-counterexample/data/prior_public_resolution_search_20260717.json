@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-17",
+  "queries": [
+    "\"Path homology of circulant digraphs\" \"1,4,6\"",
+    "\"C_13\" \"1,4,6\" \"path homology\"",
+    "\"H_m^{path}\" \"circulant\" \"1,4,6\"",
+    "\"C_13^{1,4,6}\"",
+    "\"C_13\" \"1,4,6\" \"GLMY\"",
+    "GitHub code: \"C_13\" \"path homology\" \"1,4,6\"",
+    "GitHub code: \"H_3\" \"1,4,6\" \"circulant\""
+  ],
+  "result": "The searches returned the source paper, its indexed mirrors, irrelevant results, or no GitHub code matches; none identified a separate public proof or counterexample for C_13^{1,4,6}.",
+  "scope_limit": "This is a bounded indexed-web and GitHub-code search. It does not exclude unpublished, unindexed, private, or differently described work.",
+  "source_revision_seen": "v1"
+}

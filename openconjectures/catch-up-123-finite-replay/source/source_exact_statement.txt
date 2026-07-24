@@ -1,0 +1,1 @@
+Exact bounded Catch-Up target from FormalConjectures/Paper/CatchUpConjecture.lean at commit b8b5208aa5d01f5f91c49ca516bf09cae8d93693. Move set S={1,2,3}; evaluate the initial position. All-N conjecture remains open.

@@ -1,0 +1,41 @@
+{
+  "schema_version": "2026-07-23.lean_replay_seal.v1",
+  "checked_at_utc": "2026-07-24T04:10:11Z",
+  "source_object": {
+    "packet": "book-graph-n5-finite-replay"
+  },
+  "commands": {
+    "lean": "cd lean && lake exe cache get && lake build"
+  },
+  "environment": {
+    "lean_toolchain": "leanprover/lean4:v4.28.0"
+  },
+  "lean_replay": {
+    "all_pass": true,
+    "status": "pass",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake exe cache get && lake build",
+    "olean_count": 1,
+    "checked_at_utc": "2026-07-24T04:10:11Z",
+    "clean_verify": {
+      "method": "lake_clean",
+      "lake_clean_clone": true,
+      "note": "Clean lake exe cache get && lake build succeeded from empty .lake."
+    }
+  },
+  "files": {
+    "result.json": "0976f7fe40ba7480d5b3785c046e856f9015bd9d5c05a1072fd5c3652b9102ff",
+    "README.md": "87c43944f61bd886ecde98897dd9ee281ee4f7b5ccf28ac1c26fc010a86aa92a",
+    "lean/MathlibProof.lean": "24a2377da3788d75f09e00ead1baefa30c3729d1b1cc27337b1d99617440ffd4",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "3c2a97f1cf5d463c9c8617020bc233c7c566f1252a7cb98622e4063ecf9e979d",
+    "lean/lakefile.toml": "803776123d90ba72517cf1f0c1103047a0cf0121e75e2880427197ee81dec67e",
+    "lean/BookGraphN5Certificate.lean": "205f4bfb5ecdef10b0a386b362ce9e5afd070f3e2ed534d2dda455e4e70ba381",
+    "checkers/verify.rb": "62d2f07798c62cf1c4fb69cd5815d2370f3d36b3fccafdb79b7144542ea2bc2c",
+    "checkers/verify.py": "c7d78d391c2a7cc1e7f291bdab1eca7b3a97f09e01dcc19bda35c54ae954b637",
+    "source/source_exact_statement.txt": "70a436b8f54181d3cff70844a254a3ef0ea7ba543072f39e4e564158caa12463",
+    "data/source_identity.json": "265c086d7bd357696eeda2c745cd7d753860ceedfc2f49128cd47edd8cd6024d",
+    "data/replay_receipt.json": "dcc6adcc6a7c9b4af25d5ed7e237bce7cb25a855e0631e92e71a46aebc2ae8f7",
+    "data/lean_build_clean_verify.log": "a9776f1d8b3bd699030fb2176796c735a2eb45c68fe17029abeef579a0afd2aa"
+  }
+}

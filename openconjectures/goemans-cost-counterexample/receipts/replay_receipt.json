@@ -1,0 +1,46 @@
+{
+  "target": "Goemans single-source unsplittable-flow cost conjecture",
+  "source_locator": "user-supplied Raw.pdf attachment; shortlink https://t.co/Oi2PQoab2h",
+  "source_version": "PDF created 2026-07-21",
+  "observed_date": "2026-07-22",
+  "source_pdf_sha256": "b025cdcfae7519353b2f716b76d31b8901a488a471e2df06e0601a944b10e702",
+  "source_machine_readable": "sources/synthetic/dgg_goemans_instance_20260722.json",
+  "source_machine_readable_sha256": "1dadbeba30faff13259e302ed8e1e72a75e165b8ae4c043a7593b99cb71ae1ee",
+  "claim_boundary": "This settles only the displayed finite three-terminal instance; it does not assert a general theorem beyond the conjecture's universal quantifier.",
+  "witness": {
+    "vertices": [
+      "s",
+      "u",
+      "v",
+      "w",
+      "t1",
+      "t2",
+      "t3"
+    ],
+    "demands": {
+      "t1": 15,
+      "t2": 10,
+      "t3": 15
+    },
+    "dmax": 15,
+    "fractional_cost": 58,
+    "capacity_good_minimum_unsplittable_cost": 60,
+    "routing_count": 8
+  },
+  "verification_routes": [
+    "checkers/dgg_goemans_counterexample_replay.py",
+    "checkers/dgg_goemans_counterexample_replay.rb"
+  ],
+  "delegation_review": {
+    "task_id": "dgg_goemans_counterexample_review_20260722_synthetic_instance_compact_retry",
+    "admission": "admit",
+    "provider_decision": "candidate_ready",
+    "issue": "empty_untrusted_handoff_no_candidate",
+    "receipt_digest": "60da21a486ee73518db8aae502e94ad1328ca26c5671f6d5b7847d930d8ecb64",
+    "transmitted": true,
+    "source_identity_verified": true
+  },
+  "status": "INTERNALLY_VERIFIED_PENDING_REQUIRED_DELEGATION",
+  "publication_status": "HELD",
+  "remainder": "The transformed retry removed transport truncation but returned an empty untrusted handoff with no candidate, citations, or verification steps. External public-source audit and clean-clone publication verification remain unresolved; no public packet made."
+}

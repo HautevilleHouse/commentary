@@ -1,0 +1,5 @@
+Source: [Formal Conjectures `RingelConjecture.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6f57f58effb32da91a5761c1a5491904a85921ab/FormalConjectures/Paper/RingelConjecture.lean), commit `6f57f58effb32da91a5761c1a5491904a85921ab`, observed 2026-07-20.
+
+This packet settles only `n=10` for the 10-edge star `K1,10` in `K21`. For each center `c` from 0 through 20, take leaves `c+1,c+2,...,c+10 (mod 21)`. These 21 stars have 210 pairwise distinct edges and cover every edge of `K21`. The general Ringel conjecture remains open.
+
+## Replay

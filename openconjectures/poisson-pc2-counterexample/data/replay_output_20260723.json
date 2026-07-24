@@ -1,0 +1,104 @@
+{
+  "R_equals_x_times_2_minus_3xq": true,
+  "all_distinct_inputs": true,
+  "collision_images": [
+    [
+      "0",
+      "1/8",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1/8",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1/8",
+      "0",
+      "0"
+    ]
+  ],
+  "collision_inputs": [
+    [
+      "0",
+      "0",
+      "1/24",
+      "-1/8"
+    ],
+    [
+      "1",
+      "2/3",
+      "247/96",
+      "-89/64"
+    ],
+    [
+      "-1",
+      "-2/3",
+      "247/96",
+      "-89/64"
+    ]
+  ],
+  "collision_target": [
+    "0",
+    "1/8",
+    "0",
+    "0"
+  ],
+  "endpoint_check": true,
+  "generator_order": [
+    "x",
+    "q",
+    "p",
+    "z"
+  ],
+  "jacobian_determinant": "1",
+  "output_order": [
+    "R",
+    "T",
+    "D",
+    "S"
+  ],
+  "packet": "poisson-pc2-counterexample",
+  "poisson_brackets": {
+    "{D,R}": "1",
+    "{D,S}": "0",
+    "{D,T}": "0",
+    "{R,S}": "0",
+    "{R,T}": "0",
+    "{S,T}": "1"
+  },
+  "size_table": {
+    "D": {
+      "term_count": 139,
+      "total_degree": 23
+    },
+    "H": {
+      "term_count": 137,
+      "total_degree": 23
+    },
+    "R": {
+      "term_count": 2,
+      "total_degree": 3
+    },
+    "S": {
+      "term_count": 22,
+      "total_degree": 11
+    },
+    "T": {
+      "term_count": 47,
+      "total_degree": 15
+    },
+    "beta": {
+      "term_count": 4,
+      "total_degree": 3
+    },
+    "y": {
+      "term_count": 5,
+      "total_degree": 4
+    }
+  },
+  "sympy_version": "1.14.0"
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "2026-07-23.lean_replay_seal.v1",
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "source_object": {
+    "packet": "symmetry-efficiency-subgroup-restriction-proof"
+  },
+  "commands": {
+    "lean": "cd lean && lake build"
+  },
+  "environment": {
+    "lean_toolchain": "leanprover/lean4:v4.28.0"
+  },
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "files": {
+    "replay.sh": "a6d4ab0d79cd136c547fdb008f25066ecc47e74af5f10c222cbb1eef9a01d160",
+    "PROOF.md": "01cc8de7b4189a4cef39e84e4eba959139859c11556c292385a9c25bfd81616e",
+    "README.md": "99f880e7227ab8f151c462df484cfe60a6a3d47cb6030ff365b36de6c92dce55",
+    "lean/MathlibProof.lean": "426b137b8fb69ca529d88fcee69f4a2fc4d306988a8708e35ba31f01d474bc14",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "357056a1fef8dbef3162ca636789db7dbb0d8478da5635b34102b29dea5e38e4",
+    "lean/lakefile.toml": "fc7cfdd291e228dc371cb1736712926f7ee571d5b58e5639fbfb635e0586193b",
+    "data/prior_public_resolution_search_20260717.json": "e5e6ab2372790b27dc9b7c877f85787d59da17c54457035ee5549ce26e89d4ee",
+    "data/source_identity.json": "1cc71ba1b028bfc519526cbc77a41c11a51d28d27f66e371dcc4daa4f6091ffc",
+    "data/lean_build_replay.log": "1face927d5c7bb45632419ee24ecc283bcb8f4bc9ed37df1bcd2150f4f6c2d13",
+    "data/verification_note.json": "7cbddadd88d8a722796aa73e0d624aba23208a7362b79f45bb640f917aea3b50",
+    "data/replay_receipt.json": "2d24a3d23658e11ccab53ea0808b2a7bee5ed404f5b3211d8c3afc5b24c3be3e"
+  }
+}

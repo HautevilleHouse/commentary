@@ -1,0 +1,54 @@
+{
+  "carried_boundary": [
+    "The packet disproves the displayed formula on its stated finite-subset domain.",
+    "The exact witness is A=empty set and n=1, with left cardinality 0 and right side 1.",
+    "Adding the nonempty condition removes this witness; the intended nonempty-set conjecture remains open here."
+  ],
+  "checker_sha256": "1fd028eb072b32f77e3e067597d2506bcd384bca15b97e8f76d4cdc439fa9724",
+  "closed_claims": [
+    "Counterexample to OpenConjecture 4736 exactly as displayed.",
+    "Exact symmetric-difference calculation for A=empty set and n=1.",
+    "Source-internal confirmation that nonempty is the intended omitted condition."
+  ],
+  "command": "python3 openconjectures/extended-123-empty-set-counterexample/checkers/replay_counterexample.py",
+  "endpoint_result": "Local replay completed and wrote data/counterexample_check_20260717.json.",
+  "output_sha256": "d8ae7e94270759153516c867257b25d4a4db8748a5d0c4e2ff8720c797a46028",
+  "prior_public_resolution_search_sha256": "1c8c38eea847f70c45c3ac84bf072d4ae98b45b377d0373c1fb16e33bc1555d5",
+  "python_version": "Python 3.14.6",
+  "readme_sha256": "cd81823532522f30a5f2f912a0e0975ce40629756dc279e29bf38986f7d97592",
+  "requirements_sha256": "d195d93d1dbb2461b703d41642ba0796d275e4cd0438897c2f11f824f578a3e9",
+  "source_identity_sha256": "a7258f91237b55d8a22d72fd80c6853e83f2685a41edc8a516e5bdaca8b734b7",
+  "source_object": {
+    "arxiv_id": "2607.00934v1",
+    "openconjecture_id": 4736,
+    "source_file": "final_version.tex",
+    "source_lines": "333-336"
+  },
+  "lean_replay": {
+    "all_pass": true,
+    "status": "pass",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "olean_count": 1,
+    "checked_at_utc": "2026-07-24T01:34:16Z"
+  },
+  "checked_at_utc": "2026-07-24T01:34:16Z",
+  "files": {
+    "README.md": "cd81823532522f30a5f2f912a0e0975ce40629756dc279e29bf38986f7d97592",
+    "lean/MathlibProof.lean": "bc4f6e6851c0801c1bc7adc7be6c66fa000cc1d960c449efeda0fd07070a6a03",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "e5d49ae2d01968daeeed573aa98e4ba642e6f40f0081201805e2eb8fcebb4b76",
+    "lean/lakefile.toml": "cf52bbe08166cbad856ebfd75aceb63c6ed4034168816bf20d44f1611ddf7b12",
+    "checkers/requirements.txt": "d195d93d1dbb2461b703d41642ba0796d275e4cd0438897c2f11f824f578a3e9",
+    "checkers/replay_counterexample.py": "1fd028eb072b32f77e3e067597d2506bcd384bca15b97e8f76d4cdc439fa9724",
+    "formal/Extended123.lean": "2bcf73b8494e58fc43e9c20fdb799943b89f096b2b9e64c0564dfc5d994c7ed3",
+    "formal/README.md": "0e56ee6776b7628ef835787b1e0bc2e769c1fd02dbc0ab81b24a1d677e7a022c",
+    "data/prior_public_resolution_search_20260717.json": "1c8c38eea847f70c45c3ac84bf072d4ae98b45b377d0373c1fb16e33bc1555d5",
+    "data/source_identity.json": "a7258f91237b55d8a22d72fd80c6853e83f2685a41edc8a516e5bdaca8b734b7",
+    "data/counterexample_check_20260717.json": "d8ae7e94270759153516c867257b25d4a4db8748a5d0c4e2ff8720c797a46028",
+    "data/lean_build_replay.log": "918c12283b295c95692651406d18cd35b2828d5b8c2050f7122aac658bcd7465",
+    "formal/mathlib/README.md": "6ccf86ca2ebf8c0b8a149e8ef86c90937045dd0d206f3878b884984b677e198d",
+    "formal/mathlib/Extended123Mathlib.lean": "bbc65555ad8e6363cde8eae49db497989f4aa603e620efa31240ff8241aedd7d",
+    "data/replay_receipt.json": "1115946170730fc8b918e3b776fe85cec3a907ba194e9f8550109d7e281b2807"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "receipt_id": "general_sgd_moment_disproof_public_packet_20260709",
+  "openconjecture_id": 367,
+  "target": "GeneralSGDMomentDisproof",
+  "command": "cd openconjectures/general-sgd-moment-disproof/lean && lake build GeneralSGDMomentDisproof",
+  "result": "passed",
+  "warning_count": 0,
+  "checked_at_utc": "2026-07-09T02:04:00Z",
+  "lean_toolchain": "leanprover/lean4:v4.28.0",
+  "source": {
+    "arxiv_id": "2602.13960v1",
+    "source_file": "Arxiv_Version.tex",
+    "source_lines": "792-794",
+    "source_content_sha256": "be1cee092961964276619d9696224da5e1692068d9798e474e535936f43fef58",
+    "source_text_publication": "withheld"
+  },
+  "hashes": {
+    "lean/GeneralSGDMomentDisproof.lean": "e5a0419ec695d182d907609cd6e1e2a1160b7cfb9039a3fa3bebe78f4dd8f6a8",
+    "data/lean_build_20260709.log": "24b1fcf5bc2850c97c0e3ff5ddbc3b76b643979f20b32fcfa325426bb9051225",
+    "lean/lakefile.toml": "a01f900111027ae75799fced495f4d12fafe1b3542f2f7c4e6a0298058b5015e",
+    "lean/lake-manifest.json": "e65a498f09dc3baf279e85b3bf6aca1389451c7f6fd453481fa6c8b40fb66439",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028"
+  },
+  "closed_claim": "Lean/Lake target build closure for the encoded OpenConjecture 367 bounded packet",
+  "carried": [
+    "broader repaired SGD variants",
+    "source body text publication",
+    "unrestricted source-level generalization"
+  ]
+}

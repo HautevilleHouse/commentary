@@ -1,0 +1,28 @@
+{
+  "checked_utc": "2026-07-18T22:09:25Z",
+  "conclusion": "No prior public proof or disproof of the nine exact source statements was located in the checked surfaces.",
+  "limits": "This is a dated public-source search receipt.",
+  "queries": [
+    "\"Lower bounds on expressions depending on\" \"Conjecture 9\" phi psi sigma",
+    "\"2606.12484\" proof conjectures",
+    "\"n(psi(n)-phi(n))\" sigma(n)",
+    "GitHub code: \"2606.12484\" \"Conjecture9\"",
+    "GitHub code: \"n(psi(n)-phi(n))\" \"sigma(n)\""
+  ],
+  "results": {
+    "arxiv_current_version": "v1",
+    "github_exact_code_hits": 0,
+    "located_items": [
+      "the source preprint",
+      "a source-author upload of the same preprint",
+      "background literature cited by the source"
+    ],
+    "located_resolution": false
+  },
+  "surfaces": [
+    "arXiv API and abstract record",
+    "public web search",
+    "GitHub public code search",
+    "the source bibliography and cited journal pages"
+  ]
+}

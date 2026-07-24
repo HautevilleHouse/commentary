@@ -1,0 +1,52 @@
+{
+  "carried_boundary": [
+    "The displayed weak chain is proved under the source definition with nested initial restricted sets.",
+    "Universal strictness is false; graph-specific strictness is governed by the stated gap criterion.",
+    "Other formulas and conjectures in arXiv:2602.02046v1 are outside this packet.",
+    "The included standard-library checker is the verification surface for this packet."
+  ],
+  "checker_sha256": "f7741316f927b551bffa87cd524ef532113c07ee78784a0cf361d51447a53107",
+  "closed_claims": [
+    "Proof of the displayed weak monotonicity chain for OpenConjecture 746.",
+    "Exact adjacent-gap and strictness criterion.",
+    "Positive-count k<n counterexample to the source's universal strict-decrease gloss."
+  ],
+  "command": "python3 openconjectures/graphical-r-stirling-monotonicity/checkers/replay_monotonicity_resolution.py",
+  "endpoint_result": "Local replay completed and wrote data/monotonicity_resolution_check_20260717.json.",
+  "output_sha256": "fd8069cdd30ba7b1353ca5a37c508794fd343c0f4065893f87dfd84c88c014d5",
+  "prior_public_resolution_search_sha256": "3a1d50c813a685ee05a20ee7e3644f33c2421537dfee72f77e6473507a8eb9c6",
+  "python_version": "Python 3.14.6",
+  "readme_sha256": "fa53d231410256c5ee08c8e56d7eab42d8d9eaa2be5d9f93c89258f7c08e3beb",
+  "requirements_sha256": "d195d93d1dbb2461b703d41642ba0796d275e4cd0438897c2f11f824f578a3e9",
+  "source_identity_sha256": "cc74b2dd6657323b05631ed412f03931890da041f8bb15798098621c2d5048a9",
+  "source_object": {
+    "arxiv_id": "2602.02046v1",
+    "openconjecture_id": 746,
+    "source_file": "YaqMirV1__1___2_.tex",
+    "source_lines": "1811-1818"
+  },
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "files": {
+    "README.md": "fa53d231410256c5ee08c8e56d7eab42d8d9eaa2be5d9f93c89258f7c08e3beb",
+    "lean/MathlibProof.lean": "5d342fe07d20e0397e1c283f4a106adea17825c4db8f3ba03d25604c781ee6c1",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "7b59f9e98baafd0ac77f77d3548d7ad5360680e75a634d19127175e9ebab1774",
+    "lean/lakefile.toml": "c56c83845f26076b7b601ea31f0ecd6bf42bdeee54bec2eeacdf81077e8b2d5e",
+    "checkers/replay_monotonicity_resolution.py": "f7741316f927b551bffa87cd524ef532113c07ee78784a0cf361d51447a53107",
+    "checkers/requirements.txt": "d195d93d1dbb2461b703d41642ba0796d275e4cd0438897c2f11f824f578a3e9",
+    "data/prior_public_resolution_search_20260717.json": "3a1d50c813a685ee05a20ee7e3644f33c2421537dfee72f77e6473507a8eb9c6",
+    "data/source_identity.json": "cc74b2dd6657323b05631ed412f03931890da041f8bb15798098621c2d5048a9",
+    "data/monotonicity_resolution_check_20260717.json": "fd8069cdd30ba7b1353ca5a37c508794fd343c0f4065893f87dfd84c88c014d5",
+    "data/lean_build_replay.log": "41ae1b01327c2492e2d43575b71a2fc7cddf43046894e6792bc22b8184dec15c",
+    "data/replay_receipt.json": "567709eeffacf7a58389c149631fdf2fa93a61a8181301d5b0a9b9416051b6f9"
+  }
+}

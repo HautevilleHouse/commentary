@@ -1,0 +1,29 @@
+{
+  "arxiv_abs_url": "https://arxiv.org/abs/2607.03186v1",
+  "arxiv_id": "2607.03186v1",
+  "arxiv_pdf_url": "https://arxiv.org/pdf/2607.03186v1",
+  "arxiv_source_archive_sha256": "1843cf3b1a41e87d25bafeeaaab32bbf7c6a367b7ad055014cedb452d636c2ba",
+  "arxiv_source_tex_sha256": "82d0f4aa1febb5a5b7eb3a4faf8cfdcc7c1cb6ca08492a1ec433d410bd5912de",
+  "arxiv_source_url": "https://arxiv.org/e-print/2607.03186v1",
+  "authors": [
+    "Joseph D. Bailey",
+    "Jessica Claridge"
+  ],
+  "license_family": "cc_by_4_0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "openconjecture_id": 4648,
+  "openconjecture_row_sha256": "b4d6732f01125bfbbb7381568aad2ba781a748e6dfea167dace9c3b01194f180",
+  "source_conjecture_1_sha256": "52d62228253c2a0721b6eac8374976fd12ccd5139845a328e958a09220759fae",
+  "source_conjecture_2_sha256": "9d96216204ea4cafd664615edd1e34c00ff979e14a91b08d96aab7d5e3ebfc04",
+  "source_file": "main.tex",
+  "source_lines": {
+    "conjecture_1": "613-615",
+    "conjecture_2": "617-619",
+    "theorem_1": "125-134",
+    "turning_angle_derivation": "165-195"
+  },
+  "source_object": "Conjectures 1 and 2, fixed-step r=2 case",
+  "source_theorem_sha256": "13f1a2243fcd15566e0dce1d489d161d21662350ea977a5e2201c6d3b5655bc5",
+  "submitted_at": "2026-07-03T10:46:23Z",
+  "title": "Effect of sampling on the descriptive distributions of correlated random walks"
+}

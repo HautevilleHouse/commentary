@@ -1,0 +1,16 @@
+{
+  "observed_utc": "2026-07-19T08:40:00Z",
+  "surfaces": [
+    "arXiv version record and exact HTML/e-print source",
+    "OpenConjecture and formal-conjectures catalogs",
+    "public author repositories",
+    "public mathematical literature and exact-title searches"
+  ],
+  "queries": [
+    "2606.14877 Conjecture 8.2 refined scaffold exchange",
+    "valley Delta area two per-diagonal refined exchange n=6 M=5",
+    "symmetric slices valley Delta refined scaffold exchange"
+  ],
+  "result": "No earlier public settlement of the exact finite (n,M)=(6,5) extension was located; the source reports only the prior finite ranges.",
+  "qualification": "Dated search evidence only; ."
+}

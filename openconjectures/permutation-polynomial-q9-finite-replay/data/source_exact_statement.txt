@@ -1,0 +1,16 @@
+SOURCE-EXACT FINITE TARGET (synthetic wrapper, observed 2026-07-21)
+
+Primary source: https://arxiv.org/abs/2606.14529v1
+Source title: A Weil Sum Approach to Permutation Polynomials over Quadratic Extensions of Finite Fields
+
+Verbatim-safe target from the source's final conjecture: for odd q and b,c,d in F_(q^2),
+the polynomial f(x)=x^(q+1)+b*x^q+c*x+d is not a permutation polynomial of F_(q^2).
+
+Finite boundary to attack: q=9, so enumerate every b,c,d in F_81 with b^9 != c.
+For each admissible triple, evaluate f on every element of F_81. A witness is an
+admissible triple whose 81 outputs are pairwise distinct. A nonexistence result
+requires a complete exhaustive enumeration with a self-contained rebuildable
+certificate; a heuristic or solver timeout is UNKNOWN.
+
+Scope boundary: this is only the q=9 finite restriction. It does not settle the
+general odd-q conjecture and no different polynomial family may be substituted.

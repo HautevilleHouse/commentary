@@ -1,0 +1,14 @@
+{
+  "observed_date": "2026-07-20",
+  "scope": "finite cyclic slice only; general Kotzig conjecture remains open",
+  "source": "https://github.com/google-deepmind/formal-conjectures/blob/6f57f58effb32da91a5761c1a5491904a85921ab/FormalConjectures/Paper/KotzigConjecture.lean",
+  "source_commit": "6f57f58effb32da91a5761c1a5491904a85921ab",
+  "source_statement_sha256": "271fc4639f0e130ea547fa6ae8baf77837ffe21e853a211ca7a66f976f118dd0",
+  "target": "finite Kotzig cyclic slice kotzig-t10-cyclic-k21",
+  "title": "Kotzig 10-Edge T-Tree Cyclic Decomposition in K21",
+  "versioned_source": {
+    "identifier": "google-deepmind/formal-conjectures@6f57f58effb32da91a5761c1a5491904a85921ab#FormalConjectures/Paper/KotzigConjecture.lean",
+    "kind": "public_repository",
+    "url": "https://github.com/google-deepmind/formal-conjectures/blob/6f57f58effb32da91a5761c1a5491904a85921ab/FormalConjectures/Paper/KotzigConjecture.lean"
+  }
+}

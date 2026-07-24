@@ -1,0 +1,9 @@
+{
+  "checked_indices": [
+    3,
+    250000
+  ],
+  "construction": "separate self-describing run builders",
+  "status": "PASS",
+  "universal_basis": "PROOF.md"
+}

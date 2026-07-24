@@ -1,0 +1,22 @@
+{
+  "arxiv": {
+    "archive_bytes": 93742,
+    "archive_sha256": "e3787b2f92e0508c1fba9972a1011cf54807adb12fa68c565d533423c19d5039",
+    "identifier": "2606.26786v1",
+    "submitted_utc": "2026-06-25T09:21:42Z",
+    "tex_bytes": 141942,
+    "tex_sha256": "f02354089034d1daab83d2f85a645e8595c61610a300eebda31ef311b3f16163",
+    "title": "Avalanche homology of digraphs via sandpile dynamics",
+    "url": "https://arxiv.org/abs/2606.26786v1"
+  },
+  "author_code": {
+    "commit": "c84849eed3a0a0f1d529da43690293ab7015127f",
+    "path": "avalanche/sandpile.py",
+    "sha256": "9a19fb4285eba6bd4074feceb40b21a06606334eec0beeb422c3aa113a536eef",
+    "url": "https://github.com/JasonPSmith/AvalancheHomology"
+  },
+  "claim": "source label conj:conjzeroes; cycle zero-class homotopy type",
+  "claim_content_sha256": "9f6194c9322aec0f8473ad03d699a57d83f2d055da3148626c9e33c6f13cd287",
+  "openconjecture_id": 4244,
+  "secondary_source_claim": "source label lem:modcycle; non-zero residue class gives k disconnected points"
+}

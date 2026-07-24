@@ -1,0 +1,11 @@
+{
+  "openconjecture_id": 1909,
+  "arxiv_id": "2604.08998v2",
+  "title": "Root geometry of domination polynomials for friendship and book graphs",
+  "source_lines": "642-649",
+  "source_content_sha256": "134952ba5efe49164c4ace99f4e6cb4ba6faac53e25c7329c6ad12af0c21af95",
+  "authoritative_source_sha256": "2a3a3d4adb0d420df74a2782ded9eef654fcb483fdfdc41973d6f8eaad96e96b",
+  "synthetic_statement_sha256": "c39c780fd71d36f1930d03b208f1b546e4e5273fc9f88a55d757c86bab05f319",
+  "public_packet_role": "Finite exact Sturm replay for the n=5 slice of the book-graph real-root conjecture",
+  "arxiv_abs_url": "https://arxiv.org/abs/2604.08998v2"
+}

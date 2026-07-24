@@ -1,0 +1,16 @@
+{
+  "searched_on": "2026-07-17",
+  "surfaces": [
+    "indexed web search",
+    "GitHub code search"
+  ],
+  "queries": [
+    "\"Symmetry efficiency\" \"m^*(G_data\"",
+    "\"From Gradient Descent to Harmonic Interpolation\" \"Symmetry efficiency\"",
+    "\"m^*(G_{data}\" equivariant sections",
+    "site:github.com \"Symmetry efficiency\" \"m^*\"",
+    "GitHub code: \"Symmetry efficiency\" \"m^*(G\""
+  ],
+  "result": "The source paper/index entry or no matching public proof of the exact subgroup-restriction argument.",
+  "limitations": "The search does not exclude unpublished, unindexed, or differently described work."
+}

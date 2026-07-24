@@ -1,0 +1,10 @@
+name = "KotzigT8K17"
+version = "0.1.0"
+defaultTargets = ["KotzigT8K17"]
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "17b4b96c4eb874624e9cab005e966a25fd68ab14"
+[[lean_lib]]
+name = "KotzigT8K17"
+srcDir = "formal"

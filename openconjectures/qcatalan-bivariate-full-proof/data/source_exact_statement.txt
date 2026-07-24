@@ -1,0 +1,18 @@
+Source: arXiv:2605.14682v1, Definition 5.1 and Conjecture 5.4.
+TeX member: W0_EN.tex, SHA-256 25c80e050e895e61221ccb14d4d6bd133f486dd241c70323adb68411a63513eb.
+
+The one-variable q-Catalan definition gives C_(n,k)(q)=0 for k>n, and its
+following remark uses that convention to saturate the k=n row. The later
+q,p-Catalan definition separately displays
+C_(n,k)(q,p)=C_(n,k-1)(q,p)+q^(n-k-1)p^k C_(n-1,k)(q,p) for 1<=k<=n, but does
+not restate an out-of-range convention. Consequently its k=n line contains
+an undefined C_(n-1,n)(q,p) term unless the natural saturation convention is
+supplied.
+
+Conjecture 5.4 states that, for every n and k, C_(n,k)(q,p) equals the
+weighted inversion/co-inversion enumerator on the source's 312-avoiding
+permutation class S'_(n,k).
+
+This packet proves the stated bivariate interpretation for 0<=k<n and proves
+the natural saturated completion at k=n. It discloses, rather than silently
+repairs, the source's missing bivariate boundary convention.

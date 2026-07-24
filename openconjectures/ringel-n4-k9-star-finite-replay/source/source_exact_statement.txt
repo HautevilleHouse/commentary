@@ -1,0 +1,13 @@
+This packet settles only the finite (n=4), star-tree slice of Ringel's
+conjecture. It makes no claim about other trees or general (n).
+
+Source material: `synthetic://ringel-n4-k9-star-exact-20260720`, observed
+2026-07-20, SHA-256
+`47342eac8d35fea9b4e65ee1102f72f8d9ea6981107aeb6708e4872772471c9a`.
+
+Construction: for each center `i` in `Z/9Z`, take leaves
+`i+1,i+2,i+3,i+4` modulo 9. This gives nine stars and 36 mapped edges.
+Each unordered pair occurs exactly once because every nonzero cyclic
+difference is represented by exactly one of `1,2,3,4` up to reversal.
+
+Replay:

@@ -1,0 +1,32 @@
+{
+  "schema_version": "2026-07-23.prior_public_resolution_search.v1",
+  "checked_at_utc": "2026-07-23T21:38:00Z",
+  "query_boundary": [
+    "Graffiti 284 Hoffman-Singleton counterexample Lean",
+    "Demonstrandum Graffiti 284",
+    "site:github.com Graffiti 284 language:Lean",
+    "arxiv Graffiti 284 Hoffman"
+  ],
+  "observations": [
+    {
+      "claim": "Roucairol-Cazenave ECAI 2025 search table lists Graffiti 284 as open with n<=50 budget and no refutation found by their algorithms.",
+      "status": "observed",
+      "url": "https://www.lamsade.dauphine.fr/~cazenave/papers/ConjectureRefutationECAI2025.pdf"
+    },
+    {
+      "claim": "No public Lean formalization of Graffiti 284 / Hoffman-Singleton distance CE found on GitHub at search time.",
+      "status": "observed"
+    },
+    {
+      "claim": "Demonstrandum Zenodo bundle covers Graffiti 143 and 154, not 284.",
+      "status": "observed",
+      "url": "https://doi.org/10.5281/zenodo.20673864"
+    },
+    {
+      "claim": "mewc/math-lab has an algebraic markdown check of the same spectral identity, not a Lean packet.",
+      "status": "observed",
+      "url": "https://github.com/mewc/math-lab/blob/main/research/graffiti-284.md"
+    }
+  ],
+  "conclusion": "No prior public Lean/Demonstrandum settlement of Graffiti 284 was found. Older automated searches listing 284 as open are compatible with an n=50 Hoffman-Singleton witness at the search ceiling."
+}

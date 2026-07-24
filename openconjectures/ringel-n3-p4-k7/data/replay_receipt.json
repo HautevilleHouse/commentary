@@ -1,0 +1,35 @@
+{
+  "schema_version": "2026-07-23.lean_replay_seal.v1",
+  "checked_at_utc": "2026-07-24T01:34:16Z",
+  "source_object": {
+    "packet": "ringel-n3-p4-k7"
+  },
+  "commands": {
+    "lean": "cd lean && lake build"
+  },
+  "environment": {
+    "lean_toolchain": "leanprover/lean4:v4.28.0"
+  },
+  "lean_replay": {
+    "all_pass": true,
+    "status": "pass",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "olean_count": 1,
+    "checked_at_utc": "2026-07-24T01:34:16Z"
+  },
+  "files": {
+    "README.md": "792d73325ba1c63fe0349c49500036ddef45c2c117da77dae3117f9bcf83ec2a",
+    "verify.py": "208084b1d0da5e9b537b5dbb4eb23fb0644deb0201806bae70e96f1051c883ae",
+    "lean/MathlibProof.lean": "2b99f67c48bff2f5c0a6d0f6af9498bed5b305edac22ec488c674a7b1286e7ee",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "e5e075576cfe1f1a0ffa11aceb5fd029f6fb66616dd2a66d713cc1dd1224f75d",
+    "lean/lakefile.toml": "f929f7f29a62bac6c2abb3d74912773c6121b52c88073bbdd3fb20fb558d12fa",
+    "formal/README.md": "2e9a80df630654018fa56c974e1ab28d97afc1511e23952cd9daf9dba337b589",
+    "formal/RingelN3.lean": "62bb347843c448e5e2829defaf0b5e6d605772788a27d5cdddfb52a9abda5806",
+    "data/lean_build_replay.log": "7de923a9d44eb145b865cfa3d9145fcf932c118617cef25c5daf20e6495dbbe2",
+    "formal/mathlib/RingelN3Mathlib.lean": "c5437a5dbb4cd7fbd44007d3e183d4d49fcfdfca09a1915a039bc7535e9abbfa",
+    "formal/mathlib/README.md": "2a60da3f751f25ff64d90fc05b83d0b879f2ad1c22647ab9f3f265304f13628d",
+    "data/replay_receipt.json": "052420bd25c23d636f225e8114b36ff066b68c91f2b49329bd1f17f03180624f"
+  }
+}

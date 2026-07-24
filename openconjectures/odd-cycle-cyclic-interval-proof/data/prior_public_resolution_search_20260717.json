@@ -1,0 +1,47 @@
+{
+  "search_date": "2026-07-17",
+  "claim": "No separate public resolution was found in the bounded searches recorded here.",
+  "queries": [
+    "\"Cyclic interval lemma\" \"m is odd\" arc symmetric difference",
+    "\"Odd cycles require the naive dimension\"",
+    "\"kmin(C_m)\" \"m-1\" odd cycle Abelian Cayley graph",
+    "\"2607.07939\" \"cyclic interval\" proof",
+    "\"Cyclic interval lemma\" averaging arcs",
+    "\"support of x\" \"arc W\" \"symmetric difference\" odd cycle",
+    "GitHub code: \"Cyclic interval lemma\"",
+    "GitHub code: \"kmin(C_m)\" \"m-1\""
+  ],
+  "reviewed_public_results": [
+    {
+      "url": "https://arxiv.org/abs/2607.07939v1",
+      "classification": "source paper; conjecture remains open in v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.29391v1",
+      "classification": "source authors' thesis duplicate; same finite verification and conjecture"
+    },
+    {
+      "url": "https://papers.cool/arxiv/2607.07939",
+      "classification": "discovery mirror of source abstract; no resolution"
+    },
+    {
+      "url": "https://github.com/1stproof/batch-2",
+      "classification": "unrelated proof-benchmark logs returned by GitHub search; decoded files concern a Bernoulli problem, not this lemma"
+    },
+    {
+      "url": "https://github.com/rjwalters/lean-genius",
+      "classification": "unrelated indexed metadata hit; no resolution of this lemma"
+    }
+  ],
+  "github_search_counts": {
+    "exact_cyclic_interval_phrase": 3,
+    "kmin_formula_query": 0,
+    "relevant_resolutions_after_review": 0
+  },
+  "arxiv_version_observed": "v1",
+  "limitations": [
+    "Search-engine and GitHub indexes are incomplete.",
+    "Unpublished, private, unindexed, or differently worded work may exist.",
+    "This record does not claim universal priority or nonexistence."
+  ]
+}

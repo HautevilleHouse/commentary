@@ -1,0 +1,50 @@
+{
+  "status": "INTERNALLY_VERIFIED_FINITE_COUNTEREXAMPLES",
+  "cases": {
+    "25": {
+      "m": 24,
+      "tau": 8,
+      "value": 32,
+      "bound": 27
+    },
+    "26": {
+      "m": 24,
+      "tau": 8,
+      "value": 32,
+      "bound": 28
+    },
+    "30": {
+      "m": 28,
+      "tau": 6,
+      "value": 34,
+      "bound": 32
+    }
+  },
+  "independent_languages": [
+    "Python",
+    "Ruby"
+  ],
+  "general_statement_resolved": false,
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "files": {
+    "README.md": "44444d3816e9984065a70e0c50dfb52f27b988b01bf51145c82dca3ab7745356",
+    "lean/MathlibProof.lean": "b5645bcde1a9e43b50cc1119d07ebca73070aca6af19fc3756830791212a2915",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "6e2353a94434a763d9558e866291412052cef0b4a2829b9e5c60212a477fb107",
+    "lean/lakefile.toml": "f066a5fc6a7ca07c40f355271b966d1a567d450e5c0a20fc889535cfa3c3241d",
+    "checkers/verify_python.py": "7de4a5fb1d60e35f7c7642ace77b1ff07b62d0327a6691b2acdae71643027b80",
+    "checkers/verify_ruby.rb": "586dafc24d19186cd01e22ecd977ee3b624ed835b42d204f1ad41bf6d4633864",
+    "data/source_identity.json": "3ad1d07ab48f73b7b5926176b6247d0e2341f0a043eeddf5af8baa25fc4fe840",
+    "data/lean_build_replay.log": "724a70ebc5a83824bd960a15bbab6c15f36ff1ee39e025e30f6f1bae5dcdec4c",
+    "data/replay_receipt.json": "a01fe7fca1c67315bb091195b33d41375c9782be10a4516cd8e993afbf427e73"
+  }
+}

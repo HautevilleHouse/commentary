@@ -1,0 +1,27 @@
+{
+  "all_pass": true,
+  "claim_boundary": "Exact checks cover the product rewrites and rational tail comparisons. The all-parameter theorem is in PROOF.md.",
+  "exact_product_identities_checked": 40,
+  "minimum_numerical_margin": "4.06023984389643235227508179226016453800562363458363698820542540996089352E-9",
+  "minimum_numerical_margin_case": "a",
+  "minimum_numerical_margin_s": 5000,
+  "minimum_real_endpoint_margin": "1.17747359788713372914163324451998297265258937819200942877425508826601349E-9",
+  "minimum_real_endpoint_margin_case": "b",
+  "minimum_real_endpoint_margin_s": 5000,
+  "numerical_source_instances_checked": 536,
+  "rational_certificate": {
+    "ab_left": "49/50",
+    "ab_right": "1728/625",
+    "c_margin": "1497/200",
+    "d_gap_ratio_lower": "13/20",
+    "d_power_upper": "15625/13824",
+    "d_q_upper": "1225/20736",
+    "d_scale_margin": "1/900",
+    "d_tail_ratio_upper": "49/470",
+    "exp_partial": "12013/6000"
+  },
+  "real_lower_endpoints_checked": 536,
+  "schema_version": "2026-07-18.hilbert_depth_product_inequalities_check.v1",
+  "source": "arXiv:2602.09607v1",
+  "source_archive_sha256": "2b3a73c98fe1fe0b9ee73be69f5308a6eaac279f5df9cd1cd769819aaef74ce8"
+}

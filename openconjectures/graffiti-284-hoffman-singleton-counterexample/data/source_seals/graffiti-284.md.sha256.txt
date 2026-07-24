@@ -1,0 +1,1 @@
+fc1312dc876edd488ebac65e38c03e090ac059de19667f3f97a735d9a27e0bd4  https://raw.githubusercontent.com/mewc/math-lab/e3431d07460682da8cbb823be96025446d1d51cd/research/graffiti-284.md

@@ -1,0 +1,7 @@
+Exact bounded target from Formal Conjectures, ErdosProblems/624.lean at commit
+c252a41054125b5fd9c8356e2137cd9b55337657.
+
+For X={0,1,2,3,4,5,6}, determine whether m=4 is achievable by a function
+f:P(X)->X whose image over every Y subseteq X with |Y|>=4 equals X. Preserve
+the full powerset domain and all quantifiers. This packet establishes only a
+bounded H(7) interval and does not settle the asymptotic Erdős-624 conjecture.

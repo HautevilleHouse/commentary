@@ -1,0 +1,9 @@
+{
+  "arxiv_id": "2604.10779v2",
+  "observed_date": "2026-07-20",
+  "scope": "finite n=11 replay only; all-n Motzkin bijection claim is in the sibling packet",
+  "source": "https://arxiv.org/abs/2604.10779v2",
+  "source_statement_sha256": "d4a131aa73c334771b2682af5018e5f6db9fea17189bf2a0c26cb8d63c3a37cb",
+  "target": "stack-sorting Motzkin finite n=11 replay",
+  "title": "Stack-sortable permutations: n=11 finite replay"
+}

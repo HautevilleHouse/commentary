@@ -1,0 +1,38 @@
+{
+  "schema_version": "2026-07-23.lean_replay_seal.v1",
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "source_object": {
+    "packet": "circulant-path-homology-counterexample"
+  },
+  "commands": {
+    "lean": "cd lean && lake build"
+  },
+  "environment": {
+    "lean_toolchain": "leanprover/lean4:v4.28.0"
+  },
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "files": {
+    "replay.sh": "9200a7d0ee5180a7f00d3a6b03fd2de66ac406a3680526e223cb94bf08164a56",
+    "README.md": "d2aa81ba31ae8044a35c71b9fc0bd2afd1ebc245ddc61b803587d7b6b942e69e",
+    "lean/MathlibProof.lean": "846240e3e55633fccdde40a31e87b1bb291c3557f5f8f559a2501f03699e1a1b",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "21df7506792c897d2da4dea1c3485c1f76896910006f00aaf6f5e3a2a3b5e2b6",
+    "lean/lakefile.toml": "174bb0b41bed70e76a02b573dd3a56b403e9fea09d4f5b6c4a01b5fac7cb7b51",
+    "checkers/requirements.txt": "d195d93d1dbb2461b703d41642ba0796d275e4cd0438897c2f11f824f578a3e9",
+    "checkers/verify_counterexample.py": "e03d653e19ff90e1f4eeee452173ba4ba5b1b42ca074965421779184f9f6400a",
+    "data/prior_public_resolution_search_20260717.json": "c3b833dc4608ac25a4d104f626bd88e28a9dc979a97baa87d3927535c542032d",
+    "data/source_identity.json": "2ed930fc630aec78fb84a7831ec3fca266de0e9328f30d94c6bb0e3657fd3f83",
+    "data/counterexample_check_20260717.json": "e481a01c7699aef8f34c43fd9856c4965bd85d26fb92b43630751c814acd28da",
+    "data/lean_build_replay.log": "ebf4293a92970e5afc278aace06528f07c6576f585e12a82944763c7982af89a",
+    "data/verification_receipt.json": "a75eece314744bb2b6e0b53bf729d2845f2bf85c092663ed6f0fda0b807999e6",
+    "data/replay_receipt.json": "a14e14c2deed572b3c2a2979a234ed6a33a2c1de9228c4a4492e573b3cfec211"
+  }
+}

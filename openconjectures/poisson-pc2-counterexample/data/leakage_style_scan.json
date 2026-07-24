@@ -1,0 +1,10 @@
+{
+  "packet": "poisson-pc2-counterexample",
+  "scanned_utc_date": "2026-07-23",
+  "banned_pattern_hits": [],
+  "pass": true,
+  "notes": [
+    "Public packet scanned for banned disclaimer wording and private workstation path leakage.",
+    "The private style guide is not copied into this packet."
+  ]
+}

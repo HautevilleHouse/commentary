@@ -1,0 +1,35 @@
+{
+  "schema_version": "2026-07-23.lean_replay_seal.v1",
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "source_object": {
+    "packet": "stack-sort-motzkin-n11-finite-replay"
+  },
+  "commands": {
+    "lean": "cd lean && lake build"
+  },
+  "environment": {
+    "lean_toolchain": "leanprover/lean4:v4.28.0"
+  },
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "files": {
+    "result.json": "60e72a54919f2b857720bbea530d9a8152349b5e3775bbdc39f4ef6b58b24eba",
+    "README.md": "598bc32f678bcd689552f7af745b1fc0627e9771bee51dd98d5bc86b1f208b6c",
+    "lean/MathlibProof.lean": "4a0f4164362939803064e85ef9fcee673d7117c4753ddafb56dbcc4c740d3e37",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "8c51d1a2a4ea7a8c1c1312eecd2623474f5cc5d4be0becb241cb0dfeaf0b91f2",
+    "lean/lakefile.toml": "5d135465dd584929a76aedac01458287fc2f25cbd9ccc0ab5bf1bcde79225b87",
+    "checkers/verify.swift": "051da94e7fd8dd4523cffda1263887cb76ce50bd8f07abdaee4b02e188d7d9f8",
+    "checkers/verify.cpp": "f4281914a4e7d3bf89d372a262be55912e723553e974d30830355273e0ff61c1",
+    "source/source_exact_statement.txt": "d4a131aa73c334771b2682af5018e5f6db9fea17189bf2a0c26cb8d63c3a37cb",
+    "data/lean_build_replay.log": "0f68524222ee464ac53e5771521a4884a46ee7627f47320187e1bbad1f978b01",
+    "data/replay_receipt.json": "4e479e2bdd589b39dc5abd21c23e3663e129e63c172500b3a5c67e372bb44cb9"
+  }
+}

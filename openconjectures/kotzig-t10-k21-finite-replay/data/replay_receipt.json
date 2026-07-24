@@ -1,0 +1,45 @@
+{
+  "source": {
+    "locator": "synthetic://kotzig-t10-cyclic-exact-20260720",
+    "observed_date": "2026-07-20",
+    "sha256": "10a1d080b8eff95108b6b3db56dad945ab9467c9a05f9c2428082155277164f8"
+  },
+  "target": "Kotzig finite 10-edge tree slice in K21",
+  "status": "INTERNALLY_VERIFIED_FINITE_RESULT",
+  "delegation_receipt": "/Users/hautevillehouse/Library/Application Support/CanonicalLaneRuntime/deepseek-public-delegate/reports/universal_delegate/dispatch/cb7bd0b76da497bb6bf2997b1fac2259d3b1bd66ee7ed34c27b06f9d1f8a966e.json",
+  "construction": "Base labels [0,9,8,10,3,18,13,17,20,1,2]; shift modulo 21.",
+  "replays": [
+    "python3 math_research/checkers/kotzig_t10_k21_checker.py",
+    "ruby math_research/checkers/kotzig_t10_k21_checker.rb"
+  ],
+  "scope_boundary": "Finite 10-edge tree instance only; Kotzig's general conjecture remains open.",
+  "publication": "not_yet_published",
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "files": {
+    "lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+    "README.md": "ce13b68c4b42527992ca31e7f7b2eb1fcad3d6bfff19fbd8a3036ee645a6118a",
+    "lakefile.toml": "b9f5b3c01827b88a8dfa3f15133c3ac8521b90638b541e7fe2bcbc6172c16ad0",
+    "lean/MathlibProof.lean": "3ebc91d9e1d17430c3a01a8f7043870a719cef539c6b8b310aff0d32a3371a5f",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "f19b75889772641ae0f591220f2ccc7724582c79fc8cfcb062a9595a7eab6987",
+    "lean/lakefile.toml": "a9cf43e25af9bdfd19653dd844775e61d0ebded8d67e749b45e7852f8e4c1f75",
+    "checkers/verify_python.py": "d5a700b109f87c86d8b4f302b160ad25280ffe71bc3c1019cc4c135b652df9e0",
+    "checkers/verify_ruby.rb": "b1d25add739454726ff22930a1470f087e517169ed286d2be000a8d6c95f1b7d",
+    "formal/README.md": "cf395fbeaaa2003cac861488382efc428cfeb62cf6db956ad2a64acba3210a01",
+    "formal/KotzigT10K21.lean": "769bdb63df07beff4ddc75b91915a2bc43056be98c842f8cab2ca20b5e2dd377",
+    "formal/mathlib/KotzigT10K21Mathlib.lean": "78a142775cf15af7d5ff051cfc75212e176b56612031c961ac77e7469c3e55f1",
+    "formal/mathlib/README.md": "7b51abdb038210f163eb5654d93aaef9b4f9d149cdcbdf29a838181ddc9b0e15",
+    "data/source_identity.json": "365f899daf2779a53a37de5161cfee6f5949218c15c24e43bf18712744d13004",
+    "data/lean_build_replay.log": "60c456055a5a15d0d73932a3557ee657df0bfa51407d7bf91738b7a72a99e2bb",
+    "data/replay_receipt.json": "38e925c58c8e27aa1edc4b27145113523e75ae448fe5ae8e4b0eeab85ddabeb9"
+  }
+}

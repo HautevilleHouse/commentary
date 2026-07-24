@@ -1,0 +1,20 @@
+{
+  "arxiv_abs_url": "https://arxiv.org/abs/2607.08366v2",
+  "arxiv_id": "2607.08366v2",
+  "arxiv_pdf_sha256": "99f7ecc3eb9cfa5f214941e7dd07304cd89f37fba2391ea887ce306676e5b7f6",
+  "arxiv_pdf_url": "https://arxiv.org/pdf/2607.08366v2",
+  "arxiv_source_archive_sha256": "d52abee8e4dacef41fda0c99d7969850ad485fd6ba2d913f5e99c8db0ce875c5",
+  "arxiv_source_url": "https://arxiv.org/e-print/2607.08366v2",
+  "author": "José A. R. Fonollosa",
+  "author_code_repository": "https://github.com/jarfo/min-modulus",
+  "author_code_repository_head_commit": "10a0b2c7b4ef24a990e4169188c14e4175746e89",
+  "author_code_repository_head_commit_utc": "2026-07-11T09:17:39Z",
+  "doi": "https://doi.org/10.48550/arXiv.2607.08366",
+  "open_problem": "Section 8, item 4, Beyond cyclic groups",
+  "revised_utc": "2026-07-14T06:13:11Z",
+  "source_bytes_included": false,
+  "source_license_family": "arxiv_nonexclusive_distribution",
+  "source_statement_boundary": "Whether 2^(n-1) is the least order over all finite abelian groups for every n; the source records exhaustive confirmation through n=6.",
+  "submitted_utc": "2026-07-09T11:23:23Z",
+  "title": "Minimum modulus for the unique multiset-sum problem"
+}

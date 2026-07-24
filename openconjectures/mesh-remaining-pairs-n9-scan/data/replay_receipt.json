@@ -1,0 +1,37 @@
+{
+  "schema_version": "2026-07-23.lean_replay_seal.v1",
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "source_object": {
+    "packet": "mesh-remaining-pairs-n9-scan"
+  },
+  "commands": {
+    "lean": "cd lean && lake build"
+  },
+  "environment": {
+    "lean_toolchain": "leanprover/lean4:v4.28.0"
+  },
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "files": {
+    "result.json": "8d4179f2bd93ea88ae15e4e749b76109bbae3fe043a6f2301214cb7925245644",
+    "README.md": "00fbccfa6421887165f153ec0cc88cc7099c063497be26fab51bc5d87da56e30",
+    "lean/MathlibProof.lean": "df92d63bf17048d5e1d2916e3d51ad250c5038fab61f55f3d6fad7b7e7c027bd",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "d0758c394871ba94be13e9d469a10071661b614d83ec8993dcb622142bf9aeb4",
+    "lean/lakefile.toml": "2024c09ad8375a1743314e3c19a86f589410eea3a210f28f359dcd741f0c7a5c",
+    "checkers/scan_n11.cpp": "4407530703186243b2e0ef252fb39d399c2bb9316946b2d4f4d41234005459cc",
+    "checkers/scan_n10.cpp": "328e0958f26cf7fdf1197709c84405fbdc45b867a266f914a6d539b14d45e245",
+    "checkers/scan.rb": "55681415fd23656b53ab4a179c5ffb04800a2a7973e4326d80e1318ab88f0075",
+    "checkers/scan.py": "7453022f2332518d6c3d8bfbe7cc40e634cf210bf3ac1aa4b3c2d60cfa1d70ca",
+    "source/source_scope.txt": "0dddd999e622854a8146b5387bf60da2af3da1d215ae95fa9ef432ecd2db42b9",
+    "data/lean_build_replay.log": "af843ed73b5b3db6945f261cd55a42c9f7f5531e8f3632c8304a31d87395db4e",
+    "data/replay_receipt.json": "4bf896093d56dde192dd79e2d1cf4b87b20bd8dcc1c007c543e45464997bf893"
+  }
+}

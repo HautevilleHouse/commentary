@@ -1,0 +1,9 @@
+{
+  "arxiv_id": "2606.14529v1",
+  "observed_date": "2026-07-22",
+  "scope": "Only b,c,d in F_81 with b^9 != c; no general odd-q claim",
+  "source": "https://arxiv.org/abs/2606.14529v1",
+  "source_statement_sha256": "4fc3d116abce8e4065d2eef7ce1d6a80c3df574a2764ad34380eace176d0e48d",
+  "target": "Odd-q permutation-polynomial conjecture, q=9 finite restriction",
+  "title": "Odd-q permutation-polynomial conjecture \u2014 q=9 finite replay"
+}

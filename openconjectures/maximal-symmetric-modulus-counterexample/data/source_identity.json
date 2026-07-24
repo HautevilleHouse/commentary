@@ -1,0 +1,16 @@
+{
+  "arxiv_abs_url": "http://arxiv.org/abs/2606.15624v2",
+  "arxiv_id": "2606.15624v2",
+  "arxiv_pdf_url": "https://arxiv.org/pdf/2606.15624v2",
+  "arxiv_source_url": "https://arxiv.org/e-print/2606.15624v2",
+  "arxiv_source_payload_sha256": "5d6268edb8344ba01ff55ffdbe5771a4976513db4a15d21db32545005f41ecb4",
+  "arxiv_source_tex_sha256": "0f10442adbde23fea4a2964ffe94be2b09351750417caeccb628ae26006ed49f",
+  "license_family": "cc_by",
+  "local_row_sha256": "95eef8ad0e6228926f18fb6b9407b83dde1d499b904c18f9ec2e7e5914b7cb91",
+  "openconjecture_id": 3706,
+  "source_claim_body_sha256": "4f47a2321d6d8379a5ed45467508e1b0a3b8a7cf38078874ec35d64fa15440d8",
+  "source_file": "Averages-3.tex",
+  "source_lines": "675-693",
+  "source_object": "Conjecture after Question on maximal symmetric modulus",
+  "title": "Averages over matrix unitary orbits and spectral order"
+}

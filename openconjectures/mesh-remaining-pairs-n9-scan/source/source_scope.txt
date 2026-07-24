@@ -1,0 +1,3 @@
+Exact bounded target derived from arXiv:2605.19429v1, “Equidistribution of mesh patterns of short length.”
+
+Using the paper's exact definitions of length-2 mesh patterns and equidistribution, determine the number of equidistribution equivalence classes among all length-2 mesh patterns. The source conjectures this number is exactly 105, with three remaining conjectural equivalences and a resulting conjectural 46 Wilf-class count. A publishable finite result must enumerate all patterns, provide exact counting/equivalence certificates, and distinguish the 105-class conjecture from the paper's already-proved lower/upper bounds. This target does not claim the general theory beyond length 2.

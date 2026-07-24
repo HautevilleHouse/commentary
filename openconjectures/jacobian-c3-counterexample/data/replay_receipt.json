@@ -1,0 +1,36 @@
+{
+  "status": "LEAN_FORMALIZED_REPLAY",
+  "sympy": "PASS",
+  "lean": "PASS",
+  "determinant": "-2",
+  "noninjective": true,
+  "claim_boundary": "Displayed dimension-3 map only",
+  "lean_replay": {
+    "all_pass": true,
+    "status": "pass",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake exe cache get && lake build",
+    "olean_count": 1,
+    "checked_at_utc": "2026-07-24T03:06:33Z",
+    "clean_verify": {
+      "method": "lake_clean",
+      "lake_clean_clone": true,
+      "note": "Clean lake exe cache get && lake build succeeded from empty .lake."
+    }
+  },
+  "checked_at_utc": "2026-07-24T03:06:33Z",
+  "files": {
+    "requirements.txt": "a9029fbebed80d5530d9a770340843cfd032aac6af297d237cc24b758537ea81",
+    "README.md": "5a10131ec555232627372f08f339462abb82dfe934cd3de48f6da987386765dc",
+    "lean/MathlibProof.lean": "12b66b96fb82174c51dd6d607d1acfaf964310c3a0dc5dc29b899be5bc698ba6",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "08ee71d5ab7a95b3646804c554b1758ba5da90f25d57230b41e60eddc2584412",
+    "lean/lakefile.toml": "f68ac849847f8c9dac5a8545e3ca64c137c84e1b7384591d8f946bb270e49add",
+    "lean/Counterexample.lean": "936bed661c9d64be2dec5e6fe309593af4038279815fc6e37830ecf34a6ed262",
+    "checkers/verify.py": "b2b02d8932383ad1addd7421ae97cac66ce924c24ee0b15a3a2e02234e9d8210",
+    "data/source_identity.json": "5a12962d51f1a111bdb4aa20f611da54ae5e55f4d881f2688f1e75428d0e3db7",
+    "data/lean_build_clean_verify.log": "8c9e12c6ba52fec4c84d61a1ac93dd693463a5fdceb660fa100d1e1b7b93033d",
+    "data/lean_build_replay.log": "56f57df8c0d24e8b37480ff89c58e0da0f56362fb321f0bdc24664ab64629b5b",
+    "data/replay_receipt.json": "8e82c99cc20f505e77b62fb902755b7e42ac7fc63bdbe4839b93e171d55c53a5"
+  }
+}

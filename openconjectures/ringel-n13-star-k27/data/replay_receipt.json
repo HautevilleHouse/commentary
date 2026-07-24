@@ -1,0 +1,32 @@
+{
+  "schema_version": "2026-07-23.lean_replay_seal.v1",
+  "checked_at_utc": "2026-07-24T03:06:33Z",
+  "source_object": {
+    "packet": "ringel-n13-star-k27"
+  },
+  "commands": {
+    "lean": "cd lean && lake build"
+  },
+  "environment": {
+    "lean_toolchain": "leanprover/lean4:v4.28.0"
+  },
+  "lean_replay": {
+    "all_pass": true,
+    "status": "pass",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "olean_count": 1,
+    "checked_at_utc": "2026-07-24T03:06:33Z",
+    "note": "Stdlib Lake native_decide certificate for the cyclic K1,13 partition of K27; Python verify.py remains a separate checker."
+  },
+  "files": {
+    "README.md": "149859c366d1938be82b85ca4a96558507403a40a490c52749ff97ac34a03225",
+    "verify.py": "bf2fd7e65363b639b6ba8aa15cd0a01808e5b1dc67aaa752f6f79cca6bf278fa",
+    "lean/MathlibProof.lean": "34fbe61c5390644eb7ca1a35b84a809fd65204cddd09328537cd2d1be175ab2b",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "773edc12aec37aa210f60c993dbb43b8443e32fef6ee440bdc43003c54237be9",
+    "lean/lakefile.toml": "c303aec395655d7e986604c30040a77c5ee09531b5bcae5e160162ad81fc7176",
+    "data/lean_build_replay.log": "36d7aab1f3d63476ad230d5cb2fb28aa986c62580101656249c66b4c5d2c2542",
+    "data/replay_receipt.json": "b25ec68d4924c80a675987063552ebb88360d062a9d2949a36cf01e76210a459"
+  }
+}

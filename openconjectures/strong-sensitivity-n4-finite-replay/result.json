@@ -1,0 +1,23 @@
+{
+  "problem": "Formal Conjectures Strong Sensitivity, n=4",
+  "status": "FINITE_VERIFIED",
+  "source_commit": "b8b5208aa5d01f5f91c49ca516bf09cae8d93693",
+  "source_sha256": "08b23f822c1ca1171a45022e6522a75e0dd6e8a025f0f47b9c6a9e59f114ef76",
+  "synthetic_statement_sha256": "f3c732b65a97e6195257906ebda1a9d12d2b569568e60710b69791aa18b7fe77",
+  "functions": 65536,
+  "result": "blockSensitivity(f) <= sensitivity(f)^2 for every enumerated function",
+  "distribution": {
+    "(0,0)": 2,
+    "(1,1)": 8,
+    "(2,2)": 668,
+    "(2,3)": 24,
+    "(3,3)": 28328,
+    "(4,4)": 36506
+  },
+  "replays": [
+    "Python",
+    "Ruby"
+  ],
+  "claim_boundary": "finite n=4 result only; the general Strong Sensitivity conjecture remains open",
+  "provider_note": "The DeepSeek handoff was source-identified but its proof sketch was invalid; this result is based on separate exhaustive replays."
+}

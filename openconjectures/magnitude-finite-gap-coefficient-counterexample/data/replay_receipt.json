@@ -1,0 +1,43 @@
+{
+  "schema_version": "2026-07-23.lean_replay_seal.v1",
+  "checked_at_utc": "2026-07-24T05:57:55Z",
+  "source_object": {
+    "packet": "magnitude-finite-gap-coefficient-counterexample"
+  },
+  "commands": {
+    "lean": "cd lean && lake exe cache get && lake build"
+  },
+  "environment": {
+    "lean_toolchain": "leanprover/lean4:v4.28.0"
+  },
+  "lean_replay": {
+    "all_pass": true,
+    "status": "pass",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake exe cache get && lake build",
+    "olean_count": 2,
+    "checked_at_utc": "2026-07-24T05:57:55Z",
+    "clean_verify": {
+      "method": "lake_clean",
+      "lake_clean_clone": true,
+      "note": "Clean lake exe cache get && lake build succeeded from empty .lake."
+    }
+  },
+  "files": {
+    "README.md": "0e0ecd1a30ff049b8881c28b9b3a1b47c64bf3f70b21339edc323855b1266958",
+    "lean/MathlibProof.lean": "63e4c1532f29bb1d27cd840fce30f9af6a429cdf46dc9ee421456e4382a4235d",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "a1ec0a756065445729f7b78029023f24dae0e01d26fbfd2c6672b6fdb710490d",
+    "lean/lakefile.toml": "2983d73a988254312186ec13b5f5b6f1aecf0ac5a3e7c40301a4c57b020bfc73",
+    "lean/MagnitudeGeneralizationBoundary.lean": "1d2939eb00bfa0cca69970c8b98cf94816a9e61486dcc87d210bf08e3231686a",
+    "lean/MagnitudeDisproof.lean": "a67e0a7f9dc2778df58ba4a9e312ada78341606e86d1de9c9349f3b78ed468dc",
+    "formal/mathlib/MagnitudeDisproofMathlib.lean": "85e5a60eaf42df303e5123bd8d4835f8c66dedfca7fa1749648c185403733aa0",
+    "formal/mathlib/README.md": "bc13023003823b1f26049f245ec6249e0537ab001aa7acc3702f068693da625a",
+    "data/source_identity.json": "bc96d8afa8328bfe8babde0e3f9d52d88ef9d5866ea308ff5356056d47372c76",
+    "data/lean_build_clean_verify.log": "aba5c043f44e2abf3cecbb347971d87ee508542e5f98c85a920fd4c91628a72b",
+    "data/public_packet_build_20260708.log": "f59c88ba8bd08aabd4c3822cd858582757464416c0075bf5b719939a568a1e15",
+    "data/lean_build_replay.log": "853c39bed2b031610f5b5eb74fc96ac0a9f100f37d8234c95d9ec57cb940c4e4",
+    "data/build_receipt.json": "4ac0beef7906a07b0e52ef61ed35e60305c1eb64771e3973d6c823e3f7e85c7d",
+    "data/replay_receipt.json": "4b5e1d5f8b310166c5ec59183cfa411e6186df269c375d6834e32b15543b0b34"
+  }
+}

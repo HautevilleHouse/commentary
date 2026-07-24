@@ -1,0 +1,17 @@
+{
+  "checker": "checkers/verify_counterexample.py",
+  "checker_sha256": "e03d653e19ff90e1f4eeee452173ba4ba5b1b42ca074965421779184f9f6400a",
+  "command": "python3 openconjectures/circulant-path-homology-counterexample/checkers/verify_counterexample.py",
+  "result_file": "data/counterexample_check_20260717.json",
+  "result_summary": {
+    "cycle_terms": 78,
+    "invariant_omega_4_unknowns": 81,
+    "selected_minor_determinant": 1,
+    "status": "pass"
+  },
+  "claim_boundary": [
+    "The exact source universal claim is refuted by the directed circulant C_13^{1,4,6}.",
+    "The packet proves nonvanishing of H_3^path, not a full homology classification.",
+    "The public-resolution search is bounded."
+  ]
+}

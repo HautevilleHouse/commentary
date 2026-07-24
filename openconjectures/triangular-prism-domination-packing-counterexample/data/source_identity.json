@@ -1,0 +1,29 @@
+{
+  "arxiv_abs_url": "https://arxiv.org/abs/2606.29199v1",
+  "arxiv_id": "2606.29199v1",
+  "arxiv_pdf_url": "https://arxiv.org/pdf/2606.29199v1",
+  "arxiv_source_archive_sha256": "295435747e0de91a3936104a87d4b21ed11e649d64f3a0f7dcf60524f7115b34",
+  "arxiv_source_url": "https://arxiv.org/e-print/2606.29199v1",
+  "authors": [
+    "Juan Gutiérrez",
+    "Kaustav Paul"
+  ],
+  "license_family": "cc_by_4_0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "openconjecture_id": 4867,
+  "openconjecture_row_sha256": "8bbacfd2f3974a4d9266f1a60532eaef539c31af3c5ea1e31077a765d55bad9d",
+  "source_conjecture_sha256": "7d91c1c83d344bcdfaa2a7dfab8b170fc5367b6f3f8c82e86339d64c0954d731",
+  "source_context_sha256": "d0637272b8cfc5c930439203c435c0e24805d5f97808a32f8c1b55239fd3ed9c",
+  "source_definition_sha256": "338f3d58cb3d45438aed0c0b0d3408f085ed460a82ea77cc53385579717b8b33",
+  "source_file": "intro.tex",
+  "source_intro_tex_sha256": "c663a578c95e2c63c6440a64c960349d25c6dd841db6465bf0e6ef63db9361d8",
+  "source_lines": {
+    "conjecture": "76-81",
+    "definitions": "7",
+    "motivation": "67-83"
+  },
+  "source_main_tex_sha256": "79a1d29c6b354e03b86df8d8bc2beeb7c5aa32688dd5313f53be3bca525a1f25",
+  "source_object": "Conjecture conj:cubic-75",
+  "submitted_at": "2026-06-28T04:58:55Z",
+  "title": "Improved Domination--Packing Bounds in Claw-Free Cubic Graphs and Unit Disk Graphs"
+}

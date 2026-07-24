@@ -1,0 +1,51 @@
+{
+  "carried_boundary": [
+    "The packet disproves the printed formula on its stated 0 <= k < r domain.",
+    "The exact witness is R^0_(1,1)=[1], with actual value 1 and printed value 2.",
+    "The domain repair r >= 2 removes this witness; the repaired formula and other CRIM conjectures remain open here."
+  ],
+  "checker_sha256": "8e064fbb762c432c85cfe244c9997e2fbcccf77d1617a966140e955c68caa479",
+  "closed_claims": [
+    "Counterexample to OpenConjecture 3659 on its printed domain.",
+    "Exact one-move mex calculation for R^0_(1,1).",
+    "Source-internal confirmation through the later S_1 value assignment."
+  ],
+  "command": "python3 openconjectures/crim-rectair-boundary-counterexample/checkers/replay_counterexample.py",
+  "endpoint_result": "Local replay completed and wrote data/counterexample_check_20260717.json.",
+  "output_sha256": "3c890f17646b3d0994e37b82bf49bc39275c06a9308f9d301f15e90015048ec9",
+  "prior_public_resolution_search_sha256": "3dd097fb70c60a96f0ac6c17ba2974e31b793b90b742bb4f36851a1d31be7423",
+  "python_version": "Python 3.14.6",
+  "readme_sha256": "f756a3b06ba3ea4613cced72f9f4ce63b6af570f546d1dabe2cc9d0c10a2d9bf",
+  "requirements_sha256": "d195d93d1dbb2461b703d41642ba0796d275e4cd0438897c2f11f824f578a3e9",
+  "source_identity_sha256": "05d25c3c2a16e5915132df607fd24e4aa329a916acf8f9e4320711273eb11074",
+  "source_object": {
+    "arxiv_id": "2606.16828v1",
+    "openconjecture_id": 3659,
+    "source_file": "arXiv.tex",
+    "source_lines": "1021-1030"
+  },
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "files": {
+    "README.md": "f756a3b06ba3ea4613cced72f9f4ce63b6af570f546d1dabe2cc9d0c10a2d9bf",
+    "lean/MathlibProof.lean": "f592bd3de4d8d2ebddadb0361316b5c4b4922a7dd559243f3c818deeb68b1050",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "8e10da2ea8208037534d6be0f8767e9e1ab7728d19acb14ac663f0280e40ca24",
+    "lean/lakefile.toml": "fa00b8f77cef008251f143efca2a5698fa5d7bf3eb6e1bb8d952af068a3ac057",
+    "checkers/requirements.txt": "d195d93d1dbb2461b703d41642ba0796d275e4cd0438897c2f11f824f578a3e9",
+    "checkers/replay_counterexample.py": "8e064fbb762c432c85cfe244c9997e2fbcccf77d1617a966140e955c68caa479",
+    "data/prior_public_resolution_search_20260717.json": "3dd097fb70c60a96f0ac6c17ba2974e31b793b90b742bb4f36851a1d31be7423",
+    "data/source_identity.json": "05d25c3c2a16e5915132df607fd24e4aa329a916acf8f9e4320711273eb11074",
+    "data/counterexample_check_20260717.json": "3c890f17646b3d0994e37b82bf49bc39275c06a9308f9d301f15e90015048ec9",
+    "data/lean_build_replay.log": "5d217a621ebd6c59b1c807946b73578b92bd6689c5408c87a2576f10e56ed0ee",
+    "data/replay_receipt.json": "02fe9153f81624c86e4bf44bb89364d538a9187b77f879b54223fe849ccb8fa9"
+  }
+}

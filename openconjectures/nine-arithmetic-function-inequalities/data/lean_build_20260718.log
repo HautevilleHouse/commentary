@@ -1,0 +1,33 @@
+Verification branch record
+Checked UTC: 2026-07-18T23:48:33Z
+Source revision: 113f05c44f409dfb8ff7dd0752e5f9a40950868d
+Workflow: .github/workflows/verify-nine-arithmetic-function-inequalities.yml
+
+exact-replay: PASS
+  Python: 3.14.6
+  SymPy: 1.14.0
+  Stored output comparison: exact match
+  Symbolic identities: 18
+  Finite source instances: 67,275
+  Implementation mismatches: 0
+  Inequality failures: 0
+
+lean-certificates: PASS
+  Lean: 4.28.0
+  Lake: 5.0.0
+  mathlib: v4.28.0
+  Lake build: 961 jobs completed successfully
+  bundled leanchecker: PASS
+
+independent nanoda check: PASS
+  lean4export revision: af5aa64bb914c3c2c781f378088dbd38acf4f804
+  nanoda revision: f58f2f6d535e189a40fcb02ede8eb95f97a92d37
+  packet certificate declarations requested: 19
+  recursive declaration closure checked: 6,933
+  type-checking errors: 0
+  reporting errors: 0
+  sorryAx permitted: no
+
+The finite replay is corroborative. The universal claims rest on the written
+proof; Lean and nanoda check the algebraic certificate declarations identified
+in the workflow.

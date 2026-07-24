@@ -1,0 +1,1 @@
+Exact bounded Strong Sensitivity target from FormalConjectures/Paper/StrongSensitivityConjecture.lean at commit b8b5208aa5d01f5f91c49ca516bf09cae8d93693. Finite n=3 slice only; general conjecture remains open.

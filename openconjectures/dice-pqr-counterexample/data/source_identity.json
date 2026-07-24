@@ -1,0 +1,32 @@
+{
+  "openconjecture_id": 3558,
+  "arxiv_id": "2606.20311v1",
+  "title": "Dice Relabeling Using Square-Sided Dice",
+  "source_file": "Revisiting_Dice_Relabeling_II.tex",
+  "source_statement_lines": "1103-1105",
+  "source_context_lines": "960-1105",
+  "source_content_sha256": "b5b22d9053ffde51aff1f6bd5bb3134e7a1bb164d5168d1df8ba93c106665689",
+  "source_object": "Conjecture con:pqr in the pqr square-sided dice section",
+  "publication_text_policy": "publish_text",
+  "checked_instance": {
+    "a_b_c_d": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "p_q_r": [
+      3,
+      5,
+      11
+    ],
+    "paired_b_exponents": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "inside_source_conjecture_instance": true,
+    "outside_table_condition_max_is_r_min_is_2": true
+  }
+}

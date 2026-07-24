@@ -1,0 +1,16 @@
+{
+  "observed_utc": "2026-07-19T07:54:20Z",
+  "surfaces": [
+    "arXiv version record and HTML",
+    "exact-title and Class-69 web searches",
+    "mesh-pattern literature search",
+    "local OpenConjecture and formal-conjectures catalogs"
+  ],
+  "queries": [
+    "2606.14367 Class 69 counterexample",
+    "mesh pattern Class 69 involutions counterexample",
+    "equidistributed on involutions mesh patterns"
+  ],
+  "result": "No earlier public report of this S_3 involution counterexample was located.",
+  "qualification": "Dated search evidence only; ."
+}

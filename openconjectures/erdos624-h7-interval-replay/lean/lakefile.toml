@@ -1,0 +1,9 @@
+name = "Erdos624H7IntervalReplay"
+version = "0.1.0"
+defaultTargets = ["MathlibProof"]
+
+[leanOptions]
+relaxedAutoImplicit = false
+
+[[lean_lib]]
+name = "MathlibProof"

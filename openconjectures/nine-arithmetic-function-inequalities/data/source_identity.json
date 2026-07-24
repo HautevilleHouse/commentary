@@ -1,0 +1,103 @@
+{
+  "arxiv_id": "2606.12484",
+  "arxiv_version": "v1",
+  "authors": [
+    "S. I. Dimitrov"
+  ],
+  "checked_utc": "2026-07-18T22:09:25Z",
+  "conjecture_source_sha256": "420cbba0db4fa52530f6601275598e18b565498e207a6ce21a6d8cf4462eccaa",
+  "current_version_at_check": "v1",
+  "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "observed_utc": "2026-07-18T22:09:25Z",
+  "openconjecture_id": [
+    3856,
+    3857,
+    3858,
+    3859,
+    3860,
+    3861,
+    3862,
+    3863,
+    3864
+  ],
+  "openconjecture_records": [
+    {
+      "conjecture": 1,
+      "end_line": 155,
+      "id": 3856,
+      "start_line": 150
+    },
+    {
+      "conjecture": 2,
+      "end_line": 169,
+      "id": 3857,
+      "start_line": 162
+    },
+    {
+      "conjecture": 3,
+      "end_line": 177,
+      "id": 3858,
+      "start_line": 172
+    },
+    {
+      "conjecture": 4,
+      "end_line": 191,
+      "id": 3859,
+      "start_line": 184
+    },
+    {
+      "conjecture": 5,
+      "end_line": 201,
+      "id": 3860,
+      "start_line": 194
+    },
+    {
+      "conjecture": 6,
+      "end_line": 210,
+      "id": 3861,
+      "start_line": 204
+    },
+    {
+      "conjecture": 7,
+      "end_line": 219,
+      "id": 3862,
+      "start_line": 213
+    },
+    {
+      "conjecture": 8,
+      "end_line": 230,
+      "id": 3863,
+      "start_line": 222
+    },
+    {
+      "conjecture": 9,
+      "end_line": 241,
+      "id": 3864,
+      "start_line": 233
+    }
+  ],
+  "primary_category": "math.NT",
+  "source_file": "Lower_bounds_3.tex",
+  "source_file_sha256": "6b242f3206cb438885158cca500d5d0b27ded340ef86cd19912b09410ae23373",
+  "source_id": "arXiv:2606.12484v1",
+  "source_lines": [
+    "150-155",
+    "162-169",
+    "172-177",
+    "184-191",
+    "194-201",
+    "204-210",
+    "213-219",
+    "222-230",
+    "233-241"
+  ],
+  "source_url": "https://arxiv.org/abs/2606.12484v1",
+  "source_urls": [
+    "https://arxiv.org/abs/2606.12484v1",
+    "https://arxiv.org/pdf/2606.12484v1",
+    "https://arxiv.org/src/2606.12484v1"
+  ],
+  "statement_scope": "Conjectures 1-9 exactly as stated for integers n >= 2 and k >= 1",
+  "target": "Conjectures 1-9; OpenConjecture 3856-3864",
+  "title": "Lower bounds on expressions depending on the functions phi(n), psi(n) and sigma(n), III"
+}

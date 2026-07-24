@@ -1,0 +1,7 @@
+This packet records a finite counterexample to Goemans' cost-enhanced single-source unsplittable-flow conjecture (Conjecture 1.3 in [arXiv:2308.02651](https://arxiv.org/abs/2308.02651)). It addresses only the displayed seven-vertex acyclic instance; it does not claim a general theorem about all SSUF instances.
+
+The fractional flow has cost 58. Exhaustive enumeration of all eight path selections shows that every selection satisfying `flow <= x + d_max` has cost 60 or 90, while every selection of cost at most 58 violates a capacity bound. Thus no unsplittable flow satisfies both source conditions for this instance.
+
+## Replay
+
+From a clean clone, run:

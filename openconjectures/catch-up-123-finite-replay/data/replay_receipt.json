@@ -1,0 +1,32 @@
+{
+  "python": "draw",
+  "ruby": "draw",
+  "independent_routes": 2,
+  "status": "internally_verified_finite_result",
+  "claim_boundary": "S={1,2,3} only",
+  "lean_replay": {
+    "all_pass": true,
+    "status": "pass",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "olean_count": 1,
+    "checked_at_utc": "2026-07-24T01:34:16Z"
+  },
+  "checked_at_utc": "2026-07-24T01:34:16Z",
+  "files": {
+    "README.md": "61281860d475690dfaa1a9018fba7f3d9a3af036a04f8b6c5d067fe0d093a187",
+    "lean/MathlibProof.lean": "3e61e760cba1c6a2f52ebd108271db407876f91da617352de84d1090a94a36c4",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "bfb253fa8b55dceb1295931dd4de6baf5be8014bcc10f74279de80eb3d14cb09",
+    "lean/lakefile.toml": "d1327f7f91420fec08b1425274f013ed43447b9c7e56723e39d6babf07b5ed87",
+    "checkers/verify_python.py": "4189a5eabcd579bf4b826a9d784a057d3f8fa8842594166ada0258fd24fd0fbc",
+    "checkers/verify_ruby.rb": "d19de56ba1b4f8985a71e1305aed5f2f332204574f649cd772372ca6787bcfd5",
+    "formal/CatchUp123.lean": "af64fd43b7fe93ea2bc557f5e26bcac5d4135dc1d83bd12e97e2f7f212777b16",
+    "formal/README.md": "5bb561af067b93da6c9efaa4f5f1cfc604e3621470995577412e217b3c909c27",
+    "data/source_identity.json": "bcc717bdc05fac16ce33130a9cdcf9c2bf8998125b516c53a17a1dad7886edf5",
+    "data/lean_build_replay.log": "4a04a996897c917d1fb43618a6f9568d20586e651a4d34e83b3dde470bbae73a",
+    "formal/mathlib/CatchUp123Mathlib.lean": "6f7864077d207fa960f75dbef8afc81cc2892a016d819360a26c41a8c936ddc0",
+    "formal/mathlib/README.md": "b697707b54f1edcda1d0e52d8306bc080d5962028f3e56185814a2dee2f10d34",
+    "data/replay_receipt.json": "39dfce46246326a5b28c9344490fa5fa8b1c4544d52e421fcf065c48ec887312"
+  }
+}

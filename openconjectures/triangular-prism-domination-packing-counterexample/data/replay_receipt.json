@@ -1,0 +1,51 @@
+{
+  "carried_boundary": [
+    "The packet refutes only the exact universal statement of Conjecture conj:cubic-75.",
+    "The source theorem gamma(G) <= (7/4)*rho(G) + 5/6 remains valid for the witness.",
+    "Repaired variants with additional hypotheses and the unit-disk-graph conjecture remain outside the packet."
+  ],
+  "checker_sha256": "8f7d088cc2de173e8ff2476ff0ff54763565e51279ef78a8407e39603d86d8b9",
+  "closed_claims": [
+    "The triangular prism is a simple connected bridgeless claw-free cubic graph.",
+    "Exhaustive vertex-subset enumeration gives domination number 2 and packing number 1.",
+    "The witness violates gamma(G) <= (5/4)*rho(G)."
+  ],
+  "command": "python3 openconjectures/triangular-prism-domination-packing-counterexample/checkers/replay_counterexample.py",
+  "endpoint_result": "Local replay completed and wrote data/counterexample_check_20260717.json.",
+  "output_sha256": "250b7f8c21237a84af3e0e29d24215ecbf16d854be32500482343ad3bb9c259a",
+  "prior_public_resolution_search_sha256": "529b3e9c96895d5ca3aad7134223b950060da99acd6e7babe22ed68e728f516a",
+  "python_version": "Python 3.14.6",
+  "readme_sha256": "b8665ee7720c4b0ce4993e22c13e2122863ab5aa83c371fdeb566962ec9d78b9",
+  "requirements_sha256": "d195d93d1dbb2461b703d41642ba0796d275e4cd0438897c2f11f824f578a3e9",
+  "source_identity_sha256": "1b496591f02ecbf3f6129df60ea213ffcea0891bccbad55ce34375ca5b4e9d4b",
+  "source_object": {
+    "arxiv_id": "2606.29199v1",
+    "openconjecture_id": 4867,
+    "source_file": "intro.tex",
+    "source_lines": "76-81"
+  },
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "files": {
+    "README.md": "b8665ee7720c4b0ce4993e22c13e2122863ab5aa83c371fdeb566962ec9d78b9",
+    "lean/MathlibProof.lean": "01603a754c1a5334c470d3a8d1217e1dd325a2f304c55e5a5fa132e2099bb330",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "6fccb90e29cd416eae538fc77765d30c618a4bf8c6db6383bcd9b62f7d36d6fd",
+    "lean/lakefile.toml": "8433e4ee09cd612e54323461f3f6f4f6e488f408d302bcdb075ed2e2132073e6",
+    "checkers/requirements.txt": "d195d93d1dbb2461b703d41642ba0796d275e4cd0438897c2f11f824f578a3e9",
+    "checkers/replay_counterexample.py": "8f7d088cc2de173e8ff2476ff0ff54763565e51279ef78a8407e39603d86d8b9",
+    "data/prior_public_resolution_search_20260717.json": "529b3e9c96895d5ca3aad7134223b950060da99acd6e7babe22ed68e728f516a",
+    "data/source_identity.json": "1b496591f02ecbf3f6129df60ea213ffcea0891bccbad55ce34375ca5b4e9d4b",
+    "data/counterexample_check_20260717.json": "250b7f8c21237a84af3e0e29d24215ecbf16d854be32500482343ad3bb9c259a",
+    "data/lean_build_replay.log": "e44ed7621bccbd232c27c5398cdf59a294b70f9c2d40f0646c2994b46fd39cfc",
+    "data/replay_receipt.json": "b0ddef09b1330a89da0ace4105520364e5f8c64c0c1062ca1048e9b07e4cfacf"
+  }
+}

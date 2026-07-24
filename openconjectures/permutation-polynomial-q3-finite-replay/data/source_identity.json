@@ -1,0 +1,9 @@
+{
+  "arxiv_id": "2606.14529v1",
+  "observed_date": "2026-07-20",
+  "scope": "finite restriction only; general odd-q conjecture remains open",
+  "source": "https://arxiv.org/abs/2606.14529v1",
+  "source_statement_sha256": "17b3945f4b02423863b3ab42043a64c28a9b28af190e170c8623214c202b9eaa",
+  "target": "Odd-q permutation-polynomial conjecture, q=3 finite slice",
+  "title": "Permutation-polynomial conjecture: finite `q=3` replay"
+}

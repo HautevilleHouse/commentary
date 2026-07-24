@@ -1,0 +1,9 @@
+{
+  "checked_on": "2026-07-17",
+  "claim": "Under the source definition, subgroup restriction maps every G-feasible rank to a G_data-feasible rank of the same value.",
+  "proof_boundary": "The result applies to Definition mstar in the cited source and does not add feasibility constraints absent from that definition.",
+  "source_tex_sha256": "f8f616f37179f9289b1d69fb74cc5bed444be17e263753083e2f6012b5ec93bf",
+  "proof_sha256": "01cc8de7b4189a4cef39e84e4eba959139859c11556c292385a9c25bfd81616e",
+  "readme_sha256": "6cb98c9c75c3a9b0be968a9e5a612f05ccfec1e9a152304fe8e7c3cfd7b6e1cc",
+  "status": "definition-level proof reviewed against source lines 1474-1502"
+}

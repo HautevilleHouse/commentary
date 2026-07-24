@@ -1,0 +1,31 @@
+{
+  "arxiv_id": "2607.07407v1",
+  "arxiv_record_url": "https://arxiv.org/abs/2607.07407v1",
+  "arxiv_source_archive_sha256": "d1258f6f7625080ac117c81bfbdbf53b69b15e6f83bbd31da4211d321b0955a5",
+  "arxiv_source_url": "https://arxiv.org/e-print/2607.07407v1",
+  "authors": [
+    "Azzah Albejania",
+    "Yuqing Lin",
+    "Joe Ryan",
+    "Kiki A. Sugeng"
+  ],
+  "computational_assertion_excerpt": {
+    "lines": "702-704",
+    "sha256": "a7f1c2e911242c4caa9bf20bf6ae0e985466002a0d41bb3e02e753a6fae8ab06"
+  },
+  "conjecture_excerpt": {
+    "lines": "785-791",
+    "sha256": "440318c0813b6079bdd1fa3c6f473003cc788b7a079294b8db5888319eeebe3c"
+  },
+  "definition_excerpt": {
+    "lines": "132-151",
+    "sha256": "4f56eba1cc0d276305402f5c26449ee1095b95706b777a512b325d1f18a481c6"
+  },
+  "openconjecture_content_hash": "3be17471836d6662e70ae7d068cd5a06ab3f8ff65b9c8a9a79039233435961b2",
+  "openconjecture_id": 4479,
+  "source_file": "EJGTATemplate.tex",
+  "source_file_sha256": "d8903cfd072b4d45a3dbd6816370d3af12ed6fc92aca5b0bcfbf4a59d3931004",
+  "source_version_status_checked_20260717": "The official arXiv submission history listed only v1.",
+  "submitted_at_utc": "2026-07-08T13:40:21Z",
+  "title": "Multiset Partition Dimension of Graphs"
+}

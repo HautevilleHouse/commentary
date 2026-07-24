@@ -1,0 +1,85 @@
+{
+  "checks": {
+    "all_three_vertex_set_partitions_enumerated": true,
+    "nonboundary_k_less_than_n": true,
+    "positive_count_at_r1": true,
+    "positive_count_at_r2": true,
+    "strictness_fails": true,
+    "unique_graphical_two_block_partition": true,
+    "weak_inequality_holds": true
+  },
+  "environment": {
+    "python": "3.14.6",
+    "script_sha256": "f7741316f927b551bffa87cd524ef532113c07ee78784a0cf361d51447a53107"
+  },
+  "general_result": {
+    "displayed_weak_chain_proved": true,
+    "gap_identity": "|A_r|-|A_(r+1)| counts pi in A_r where r+1 shares a block with one of 1,...,r",
+    "inclusion": "A_(r+1) subseteq A_r",
+    "restricted_class": "A_r = {pi in P_k(G): 1,...,r occupy distinct blocks}",
+    "universal_strict_gloss": false
+  },
+  "payload_sha256_without_self": "2c11320339a1b55b8f3df54392c747209cc082c42493df8a41bbce93b33c41ce",
+  "source": {
+    "arxiv_id": "2602.02046v1",
+    "openconjecture_id": 746,
+    "source_claim_body_sha256": "ae7faab8d3e948cc0f600bb241d0d582420c9f896e16065945d88c550f2a3788",
+    "source_file": "YaqMirV1__1___2_.tex",
+    "source_lines": "1811-1818"
+  },
+  "witness": {
+    "all_set_partition_count": 5,
+    "edges": [
+      [
+        2,
+        3
+      ]
+    ],
+    "graphical_k_partition_count": 1,
+    "graphical_k_partitions": [
+      [
+        [
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    ],
+    "k": 2,
+    "restricted_counts": {
+      "1": 1,
+      "2": 1
+    },
+    "restricted_partitions": {
+      "1": [
+        [
+          [
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      ],
+      "2": [
+        [
+          [
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      ]
+    },
+    "vertices": [
+      1,
+      2,
+      3
+    ]
+  }
+}

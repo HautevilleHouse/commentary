@@ -1,0 +1,9 @@
+Source-exact public bounded task, from Erdős Problem 624 as formalized in
+FormalConjectures/ErdosProblems/624.lean at commit
+c252a41054125b5fd9c8356e2137cd9b55337657.
+
+For X={0,1,2,3}, H(4) is the least m for which there exists a function
+f:P(X)->X such that for every Y subseteq X with |Y|>=m, the image
+{f(A): A subseteq Y} equals X. Determine H(4). Return an explicit truth table
+for f attaining the value and a complete finite proof that m-1 is impossible.
+Keep the all-subsets quantifier and the exact definition of H unchanged.

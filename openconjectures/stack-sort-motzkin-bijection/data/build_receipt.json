@@ -1,0 +1,30 @@
+{
+  "receipt_id": "stack_sort_motzkin_bijection_public_packet_20260712",
+  "openconjecture_id": 1878,
+  "target": "StackSortMotzkinBijection",
+  "command": "cd openconjectures/stack-sort-motzkin-bijection/lean && lake build StackSortMotzkinBijection",
+  "result": "passed",
+  "warning_count": 11,
+  "checked_at_utc": "2026-07-12T04:25:00Z",
+  "lean_toolchain": "leanprover/lean4:v4.31.0",
+  "source": {
+    "arxiv_id": "2604.10779v2",
+    "source_file": "stacksortingdiagrams.tex",
+    "source_lines": "127-130, 516-528, 742-763, 817-821, 870-873",
+    "source_content_sha256": "d9e6aae2fa8e5559c95923cf4ef6faf1a1fd4b6c981a50fb64ec231907cb3528",
+    "source_text_publication": "withheld"
+  },
+  "hashes": {
+    "lean/StackSortMotzkinBijection.lean": "990f46c0bba5b83076ae97545e34d22ac985fee588344ffd91ec68418589cc99",
+    "lean/lakefile.toml": "89ca2bcb24ecf966a6cbc385fe14afbce18ee5ff16c9afcd34d66bf3b45f817a",
+    "lean/lake-manifest.json": "e1e4bf6c16611abd49207159104cfb1ea37e1e91dd942886d7ac9f74c43ec195",
+    "lean/lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+    "data/lean_build_20260712.log": "ce740a5535662033e3068a033238c63a76e875ecbdcaf95101e9ddf8bf6bcf27"
+  },
+  "closed_claim": "Lean/Lake target build closure for the encoded OpenConjecture 1878 Motzkin bijection packet, including inverse-to-forward roundtrip.",
+  "carried": [
+    "full paper theorem package outside the encoded route",
+    "source body text publication",
+    "broader stack-sorting families outside W'_2(n)"
+  ]
+}

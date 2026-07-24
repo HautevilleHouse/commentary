@@ -1,0 +1,14 @@
+{
+  "status": "FINITE_VERIFIED",
+  "source": "arXiv:2606.14529v1",
+  "q": 5,
+  "field_size": 25,
+  "admissible_triples": 15000,
+  "permutation_witnesses": 0,
+  "replays": {
+    "python": "15000 0",
+    "ruby": "15000 0"
+  },
+  "claim_boundary": "finite q=5 restriction only; the general odd-q conjecture remains open",
+  "provider_correction": "An earlier provider count of 15625 was incorrect; separate enumeration gives 15000 admissible triples."
+}

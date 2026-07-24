@@ -1,0 +1,240 @@
+{
+  "attainment_witnesses": [
+    {
+      "a": 4,
+      "actual_k": 3,
+      "actual_value": 1,
+      "b": 4,
+      "expected_k": 3,
+      "expected_value": 1,
+      "passed": true
+    },
+    {
+      "a": 4,
+      "actual_k": 3,
+      "actual_value": 5,
+      "b": 6,
+      "expected_k": 3,
+      "expected_value": 5,
+      "passed": true
+    },
+    {
+      "a": 2,
+      "actual_k": 4,
+      "actual_value": 2,
+      "b": 2,
+      "expected_k": 4,
+      "expected_value": 2,
+      "passed": true
+    },
+    {
+      "a": 2,
+      "actual_k": 4,
+      "actual_value": 3,
+      "b": 4,
+      "expected_k": 4,
+      "expected_value": 3,
+      "passed": true
+    },
+    {
+      "a": 1,
+      "actual_k": 6,
+      "actual_value": 4,
+      "b": 1,
+      "expected_k": 6,
+      "expected_value": 4,
+      "passed": true
+    },
+    {
+      "a": 1,
+      "actual_k": 6,
+      "actual_value": 8,
+      "b": 3,
+      "expected_k": 6,
+      "expected_value": 8,
+      "passed": true
+    }
+  ],
+  "bounded_scan": {
+    "coordinate_bound": 1000,
+    "observed_values": {
+      "3": [
+        1,
+        5
+      ],
+      "4": [
+        2,
+        3
+      ],
+      "6": [
+        4,
+        8
+      ]
+    },
+    "ordered_solution_counts": {
+      "3": 13,
+      "4": 11,
+      "6": 9
+    },
+    "passed": true,
+    "unexpected": []
+  },
+  "checks": {
+    "all_attainment_witnesses_pass": true,
+    "bounded_scan_pass": true,
+    "odd_residue_and_divisor_reduction_pass": true,
+    "primitive_reconstruction_pass": true
+  },
+  "environment": {
+    "python": "3.14.6",
+    "script_sha256": "8d77a04df6fec4f70e1fbdc456d0c7d7e4ef0dee878e24357abebf5d1b59297d"
+  },
+  "odd_residue_check": {
+    "odd_x_y_Q_residues_mod_16": [
+      4,
+      8
+    ],
+    "passed": true,
+    "positive_divisors_of_32": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32
+    ],
+    "surviving_divisors": [
+      4,
+      8
+    ]
+  },
+  "payload_sha256_without_self": "0db93ca1c9681eb5474d1c1f1b2e17d155c4b92b9ac3cad1e1b2be2aa057fbee",
+  "primitive_k6_check": {
+    "Q_values": [
+      4,
+      8
+    ],
+    "all_reconstruct_k6_solutions": true,
+    "cases": [
+      {
+        "Q": 4,
+        "a": 1,
+        "b": 1,
+        "d": 1,
+        "equation_k": 6,
+        "normalized_value": 4,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "Q": 8,
+        "a": 1,
+        "b": 3,
+        "d": 1,
+        "equation_k": 6,
+        "normalized_value": 8,
+        "x": 1,
+        "y": 3
+      },
+      {
+        "Q": 4,
+        "a": 3,
+        "b": 15,
+        "d": 3,
+        "equation_k": 6,
+        "normalized_value": 4,
+        "x": 1,
+        "y": 5
+      },
+      {
+        "Q": 8,
+        "a": 3,
+        "b": 1,
+        "d": 1,
+        "equation_k": 6,
+        "normalized_value": 8,
+        "x": 3,
+        "y": 1
+      },
+      {
+        "Q": 8,
+        "a": 15,
+        "b": 85,
+        "d": 5,
+        "equation_k": 6,
+        "normalized_value": 8,
+        "x": 3,
+        "y": 17
+      },
+      {
+        "Q": 4,
+        "a": 15,
+        "b": 3,
+        "d": 3,
+        "equation_k": 6,
+        "normalized_value": 4,
+        "x": 5,
+        "y": 1
+      },
+      {
+        "Q": 4,
+        "a": 85,
+        "b": 493,
+        "d": 17,
+        "equation_k": 6,
+        "normalized_value": 4,
+        "x": 5,
+        "y": 29
+      },
+      {
+        "Q": 8,
+        "a": 85,
+        "b": 15,
+        "d": 5,
+        "equation_k": 6,
+        "normalized_value": 8,
+        "x": 17,
+        "y": 3
+      },
+      {
+        "Q": 4,
+        "a": 493,
+        "b": 85,
+        "d": 17,
+        "equation_k": 6,
+        "normalized_value": 4,
+        "x": 29,
+        "y": 5
+      }
+    ],
+    "primitive_case_count": 9
+  },
+  "source": {
+    "current_arxiv_id": "2605.19083v2",
+    "dataset_arxiv_id": "2605.19083v1",
+    "openconjecture_id": 2765,
+    "source_claim_body_sha256": "70df689b615a35468266c66a5118d72725bed0b997891f417d423517c14de837",
+    "source_file": "FibNumbVietaJumpRatDiophEq_MNS_v10.tex",
+    "source_lines": "942-958"
+  },
+  "symbolic_result": {
+    "closed_value_sets": {
+      "3": [
+        1,
+        5
+      ],
+      "4": [
+        2,
+        3
+      ],
+      "6": [
+        4,
+        8
+      ]
+    },
+    "k3_k4_reduction": "a=2A and b=2B reduce to source Theorem 3.5",
+    "k6_divisibility": "Q divides 32 and Q mod 16 belongs to {4,8}",
+    "k6_normalization": "Q=6xy-x^2-y^2, dQ=2(x+y), gcd(Q,xy)=1",
+    "source_orbit_reduction": "k in {3,4,6}, with every solution connected to its diagonal solution"
+  }
+}

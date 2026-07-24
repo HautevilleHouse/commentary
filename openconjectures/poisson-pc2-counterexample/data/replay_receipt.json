@@ -1,0 +1,32 @@
+{
+  "replay_target": "openconjectures/poisson-pc2-counterexample/checkers/verify_poisson_pc2.py",
+  "command": "python3 openconjectures/poisson-pc2-counterexample/checkers/verify_poisson_pc2.py",
+  "python_version": "Python 3.14.6",
+  "sympy_version": "1.14.0",
+  "third_party_dependencies": [
+    "sympy"
+  ],
+  "result": {
+    "endpoint_check": true,
+    "jacobian_determinant": "1",
+    "poisson_brackets_ok": true,
+    "three_point_fiber_ok": true,
+    "all_distinct_inputs": true
+  },
+  "output_path": "data/replay_output_20260723.json",
+  "hashes": {
+    "README.md": "1151050c03c168dd95d52a994a427d36a9a0767cee8f34f8b9fea366bf4ed74b",
+    "checkers/verify_poisson_pc2.py": "5e58985bc89326754250afc74311174be0270c785fa47e4774a0b78853cbba38",
+    "checkers/requirements.txt": "a9029fbebed80d5530d9a770340843cfd032aac6af297d237cc24b758537ea81",
+    "data/source_identity.json": "b4ba0e954a4ba8b52fd956f1775418aacb3571c5a575bbde58a7784b03457527",
+    "data/replay_output_20260723.json": "702115462e39c8177c1679d3a73b13ddf410be3bafc8d89b14051c7650f9cf07",
+    "data/leakage_style_scan.json": "3808b42a7f245f285475d69ccb30337e7b65a5ffb49d7f6578a3c026fd2635f9",
+    "data/public_packet_inventory.json": "24a1ddd8f3d2ba078bf8f9d45fb975b68e369456ae51cbef3fb89aa295d8ecc2"
+  },
+  "closed": "displayed rank-2 Poisson endomorphism fails to be an automorphism: brackets, det J=1, and three-point fiber replayed over QQ",
+  "carried": [
+    "JC(2) remains open",
+    "Lean formalization of this witness not included",
+    "Dixmier/A4 appendix not replayed"
+  ]
+}

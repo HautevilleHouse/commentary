@@ -1,0 +1,10 @@
+name = "RingelN9Star"
+version = "0.1.0"
+defaultTargets = ["RingelN9Star"]
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "17b4b96c4eb874624e9cab005e966a25fd68ab14"
+[[lean_lib]]
+name = "RingelN9Star"
+srcDir = "formal"

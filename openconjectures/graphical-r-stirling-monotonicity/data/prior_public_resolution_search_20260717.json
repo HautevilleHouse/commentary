@@ -1,0 +1,79 @@
+{
+  "checked_at_utc": "2026-07-17T22:01:39Z",
+  "conclusion": "The searches returned the original arXiv source record and no separate public resolution.",
+  "limits": [
+    "Unpublished work lies outside the search scope.",
+    "Public work absent from the queried indexes or using unrelated terminology lies outside the search scope.",
+    "This dated record is a public-source search receipt only."
+  ],
+  "search_date": "2026-07-17",
+  "searches": [
+    {
+      "query": "2602.02046",
+      "result": "No matching proof or counterexample found beyond the source-paper record.",
+      "surface": "indexed web"
+    },
+    {
+      "query": "sequence decreases strictly as the size of the restricted set increases",
+      "result": "No separate resolution found.",
+      "surface": "indexed web"
+    },
+    {
+      "query": "2602.02046",
+      "result": "0 code results",
+      "surface": "GitHub code search"
+    },
+    {
+      "query": "graphical r-Stirling",
+      "result": "0 code results",
+      "surface": "GitHub code search"
+    },
+    {
+      "query": "conj:r-monotone",
+      "result": "0 code results",
+      "surface": "GitHub code search"
+    },
+    {
+      "query": "recursive tree path match for 2602.02046 or 746",
+      "repository": "https://github.com/davisrbr/conjectures-arxiv",
+      "result": "0 matching paths",
+      "surface": "GitHub repository tree"
+    },
+    {
+      "record": "https://arxiv.org/abs/2602.02046v1",
+      "result": "Current source record remained version v1.",
+      "surface": "arXiv"
+    },
+    {
+      "query": "ti:\"On the Graphical r-Stirling Numbers of the First Kind for Specific Graph Families\"",
+      "result": "1 result: the original arXiv:2602.02046v1 source record.",
+      "surface": "official arXiv API"
+    },
+    {
+      "query": "all:\"graphical r-Stirling\" AND all:monotonicity",
+      "result": "0 results",
+      "surface": "official arXiv API"
+    },
+    {
+      "query": "all:\"r-restricted graphical Stirling\"",
+      "result": "0 results",
+      "surface": "official arXiv API"
+    },
+    {
+      "query": "all:Stirling AND all:graphical AND all:restricted AND cat:math.CO",
+      "result": "2 results: the original source record and one unrelated quantum-physics record; no separate resolution.",
+      "surface": "official arXiv API"
+    },
+    {
+      "record": "https://openalex.org/W7127374912",
+      "result": "cited_by_count = 0",
+      "surface": "OpenAlex"
+    }
+  ],
+  "source_object": {
+    "arxiv_id": "2602.02046v1",
+    "openconjecture_id": 746,
+    "source_file": "YaqMirV1__1___2_.tex",
+    "source_lines": "1811-1818"
+  }
+}

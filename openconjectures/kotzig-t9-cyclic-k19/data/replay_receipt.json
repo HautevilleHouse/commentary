@@ -1,0 +1,33 @@
+{
+  "schema_version": "2026-07-23.lean_replay_seal.v1",
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "source_object": {
+    "packet": "kotzig-t9-cyclic-k19"
+  },
+  "commands": {
+    "lean": "cd lean && lake build"
+  },
+  "environment": {
+    "lean_toolchain": "leanprover/lean4:v4.28.0"
+  },
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "files": {
+    "README.md": "f6b67d8bcd155fa4282526a9b98e55cee22f815ef4d93ee836101e92cfa3e663",
+    "lean/MathlibProof.lean": "424bb56ecf4a2779b82f52ca320f224b6bbd1525941ce6824c6e539af71095c7",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "f956713229e558a120209515908ecfe5dc2b52bfbc64cfefe2937bea03d97aef",
+    "lean/lakefile.toml": "1ff7569ba0abcb474e9fe7aba4538a1d1dc35d41f848bc89ad08761996bc390f",
+    "checkers/verify.rb": "3bc025a1c1586dbccb2ffe8436f67b19a7e1aab79c6665bfb55f035bbcb88fe2",
+    "checkers/verify.py": "79227ba25fe0fa25522d9b07f2e197ccb2c71add571e73f323a5cf23aa650470",
+    "data/lean_build_replay.log": "c1c007243efe1dc0d75f92ce0654fd53fa481fcb0b6fd65e9e6a5b58f34e55ed",
+    "data/replay_receipt.json": "971f0136c6a5ac97226defce3d25fbd3d7db856f27bb7b08b7129f3cd2c00423"
+  }
+}

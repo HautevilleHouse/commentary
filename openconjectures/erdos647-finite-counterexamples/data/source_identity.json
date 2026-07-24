@@ -1,0 +1,14 @@
+{
+  "observed_date": "2026-07-20",
+  "scope": "finite counterexamples only; existential and asymptotic statements remain open",
+  "source": "https://github.com/google-deepmind/formal-conjectures/blob/c252a41054125b5fd9c8356e2137cd9b55337657/FormalConjectures/ErdosProblems/647.lean",
+  "source_commit": "c252a41054125b5fd9c8356e2137cd9b55337657",
+  "source_statement_sha256": "b761e4f03921011c4239ce38bdf41e60c199ef79088429a3a88dd36e3f8b3c42",
+  "target": "Erd\u0151s 647 finite instances n=25,26,30",
+  "title": "Erd\u0151s 647: three finite counterexamples",
+  "versioned_source": {
+    "identifier": "google-deepmind/formal-conjectures@c252a41054125b5fd9c8356e2137cd9b55337657#FormalConjectures/ErdosProblems/647.lean",
+    "kind": "public_repository",
+    "url": "https://github.com/google-deepmind/formal-conjectures/blob/c252a41054125b5fd9c8356e2137cd9b55337657/FormalConjectures/ErdosProblems/647.lean"
+  }
+}

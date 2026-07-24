@@ -1,0 +1,11 @@
+{
+  "openconjecture_id": 367,
+  "arxiv_id": "2602.13960v1",
+  "title": "Steady-State Behavior of Constant-Stepsize Stochastic Approximation: Gaussian Approximation and Tail Bounds",
+  "source_file": "Arxiv_Version.tex",
+  "source_lines": "792-794",
+  "source_content_sha256": "be1cee092961964276619d9696224da5e1692068d9798e474e535936f43fef58",
+  "source_text_publication": "withheld",
+  "public_packet_role": "Lean-checked bounded disproof packet for the encoded literal and repaired-centered routes",
+  "arxiv_abs_url": "https://arxiv.org/abs/2602.13960v1"
+}

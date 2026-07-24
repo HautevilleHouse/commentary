@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.lake/
+*.olean
+*.olean.private
+.DS_Store

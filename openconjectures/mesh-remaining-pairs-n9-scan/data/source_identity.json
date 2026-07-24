@@ -1,0 +1,9 @@
+{
+  "arxiv_id": "2606.14367v1",
+  "observed_date": "2026-07-20",
+  "scope": "finite n<=9 (plus separate n=10/11 scans) only; infinite equidistribution conjectures remain open",
+  "source": "https://arxiv.org/abs/2606.14367v1",
+  "source_statement_sha256": "13e4de61d63dd9b2f1feb2db9b664c7dfe18341f62815ec3dcd752f7c4509e92",
+  "target": "mesh equidistribution pairs Classes 54/69/71, finite n<=9 scan",
+  "title": "Remaining mesh-pattern pairs: finite `n\u22649` scan"
+}

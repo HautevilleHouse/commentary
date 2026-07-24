@@ -1,0 +1,7 @@
+Exact bounded target from Formal Conjectures, ErdosProblems/624.lean at commit
+c252a41054125b5fd9c8356e2137cd9b55337657.
+
+For X={0,1,2}, determine H(3), the least m for which there exists a function
+f:P(X)->X such that every Y subseteq X with |Y|>=m satisfies
+{f(A): A subseteq Y}=X. Exhaustive enumeration shows H(3)=2. This is only the
+finite H(3) slice and does not settle the asymptotic conjecture.

@@ -1,0 +1,56 @@
+{
+  "bounded_scan": {
+    "case_count": 45,
+    "grundy_state_count": 5777,
+    "maximum_r": 9,
+    "mismatches": [
+      {
+        "actual": 1,
+        "k": 0,
+        "partition": [
+          1
+        ],
+        "printed": 2,
+        "r": 1
+      }
+    ]
+  },
+  "checks": {
+    "bounded_scan_has_exact_boundary_mismatch": true,
+    "empty_partition_value_is_zero": true,
+    "later_source_staircase_value_agrees": true,
+    "only_distinct_option_is_empty": true,
+    "parameters_satisfy_printed_domain": true,
+    "printed_branch_value_is_two": true,
+    "rectair_is_one_cell_partition": true,
+    "witness_value_is_one": true
+  },
+  "environment": {
+    "python": "3.14.6",
+    "script_sha256": "8e064fbb762c432c85cfe244c9997e2fbcccf77d1617a966140e955c68caa479"
+  },
+  "payload_sha256_without_self": "f5647b5b9fae67753f4fe32c752bc6566b4949099297c8c4830089671c1d9407",
+  "source": {
+    "arxiv_id": "2606.16828v1",
+    "openconjecture_id": 3659,
+    "source_claim_body_sha256": "c6d863ece2e788f09c3107fbb175c2ba8818a4bee7c7d66b9d1bcfda6f99f3d9",
+    "source_file": "arXiv.tex",
+    "source_lines": "1021-1030"
+  },
+  "witness": {
+    "actual_value": 1,
+    "distinct_options": [
+      []
+    ],
+    "k": 0,
+    "later_source_S1_value": 1,
+    "option_values": [
+      0
+    ],
+    "partition": [
+      1
+    ],
+    "printed_value": 2,
+    "r": 1
+  }
+}

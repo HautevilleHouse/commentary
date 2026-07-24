@@ -1,0 +1,45 @@
+{
+  "source": {
+    "locator": "synthetic://ringel-n6-k13-p7-exact-20260720",
+    "observed_date": "2026-07-20",
+    "sha256": "a5274c8060f61eed112d13944bebea6764ebaa3178d9a418d93dab4181c4e577"
+  },
+  "target": "Ringel finite path slice n=6, P7 decomposing K13",
+  "status": "INTERNALLY_VERIFIED_FINITE_RESULT",
+  "delegation_receipt": "/Users/hautevillehouse/Library/Application Support/CanonicalLaneRuntime/deepseek-public-delegate/reports/universal_delegate/dispatch/ab9ba486c91ca4c06a2e05f6fb54a2bfeb4aaad98fb6f96d166776c0fe4f053d.json",
+  "construction": "Cyclic shifts modulo 13 of path [0,1,3,6,10,2,8].",
+  "replays": [
+    "python3 math_research/checkers/ringel_n6_k13_p7_checker.py",
+    "ruby math_research/checkers/ringel_n6_k13_p7_checker.rb"
+  ],
+  "scope_boundary": "Finite P7 slice only; Ringel's general conjecture remains open.",
+  "publication": "not_yet_published",
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "files": {
+    "lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+    "README.md": "a162897e772674e6396735d55f720d9aa7cd3063655cbbcb22b089c65759fed0",
+    "lakefile.toml": "0af4336500aa3291e61ad2a8da6870ddede7916af1bb1650f94ec0730a9768af",
+    "lean/MathlibProof.lean": "c72ac001e81a811fa15c39c1f88c589baefe6a9ebf759d79fddbeb4b7e26cbc5",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "8455ff6995a69f68df1cc42cf5484a258102be60de1b5761bc94f4f2ba54fdac",
+    "lean/lakefile.toml": "bfe9fc28baf1570b96b1c3e3131f53d4af6f3733f4ef85f2112348832fcb20cf",
+    "checkers/verify_python.py": "530a1fa2328aca1d3201692c7a6ca5d533a6ea4f6d23e247d3f969fb2b45a3d4",
+    "checkers/verify_ruby.rb": "37d77019f7271fc016e15326c8d4e1deb9fe688429d4f22c1090683039642eb2",
+    "formal/README.md": "079ff088579417f4e00c7a16caeacabe1733b42a6f31ca235834554b3784d760",
+    "formal/RingelN6K13P7.lean": "18755c012c7b4705eb58ac6cc0d9fcd03f0bfb269570f7d362ea7d1ce218097f",
+    "formal/mathlib/RingelN6K13P7Mathlib.lean": "5365fc9005bbeaf2c127438f4caab3eb37fb3f0d3dd26328cf78fddcb776ec22",
+    "formal/mathlib/README.md": "450d192419da64c05108e69225dff0c644a0433856f4acf9a7740a152335cfac",
+    "data/source_identity.json": "80040cee34d3345d11aa916f0066ee8257e1932563fa9f454e481eda4475b130",
+    "data/lean_build_replay.log": "e8aba4255b8d6b48f2feaa15c7bc175c5927a8b7850ada3d95b62a7fde49b6d8",
+    "data/replay_receipt.json": "acfe5760fcc5af94b9b9a38f5051bc647ff1ca80c6d781310630694027e4a2f2"
+  }
+}

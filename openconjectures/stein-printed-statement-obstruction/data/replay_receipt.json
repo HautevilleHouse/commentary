@@ -1,0 +1,41 @@
+{
+  "schema_version": "2026-07-23.lean_replay_seal.v1",
+  "checked_at_utc": "2026-07-24T05:10:59Z",
+  "source_object": {
+    "packet": "stein-printed-statement-obstruction"
+  },
+  "commands": {
+    "lean": "cd lean && lake exe cache get && lake build"
+  },
+  "environment": {
+    "lean_toolchain": "leanprover/lean4:v4.28.0"
+  },
+  "lean_replay": {
+    "all_pass": true,
+    "status": "pass",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake exe cache get && lake build",
+    "olean_count": 1,
+    "checked_at_utc": "2026-07-24T05:10:59Z",
+    "clean_verify": {
+      "method": "lake_clean",
+      "lake_clean_clone": true,
+      "note": "Clean lake exe cache get && lake build succeeded from empty .lake."
+    }
+  },
+  "files": {
+    "README.md": "c4602517c74a3b164055c62c7f025a747b282a09636e4f48c32857fdf7ced19d",
+    "lean/MathlibProof.lean": "6800b415f86c5f7a1ee7bfa94c951fc067eaddf83a59f744aac841eb175aec6d",
+    "lean/SteinDisproof.lean": "00b66db890cac54c59af108ff4711b3770d853337cb6f6d61c49f434d9cae15b",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "c5fa140ddca27bf0bde392669ad8ffb8adcbb7965aa98d276ef961b222c19bcf",
+    "lean/lakefile.toml": "d99a83af3f987679f0af9370c23a70efb05ac08d9fbbc4e4e547b5b4f0598bd6",
+    "formal/mathlib/SteinDisproofMathlib.lean": "6800b415f86c5f7a1ee7bfa94c951fc067eaddf83a59f744aac841eb175aec6d",
+    "formal/mathlib/README.md": "cd6c68207cb52626705f3825991812665acc69116800e4d2e499188757a05eac",
+    "data/source_identity.json": "50b53da5fe4b7938db0177123dfaef421404feace7455cef855449daae41457a",
+    "data/lean_build_20260709.log": "a799d3379600c1afc2bebab44153c953e37bdc5027125af160078b8b1264a65c",
+    "data/lean_build_clean_verify.log": "e31df75a9541228358ee0220cc1de67a1df630331eb78d8c2fabc0e802891579",
+    "data/build_receipt.json": "ff92c5eb1f6bd843e4854e11888bc9c4b16afca87b95a992c64f8f31472b7a72",
+    "data/replay_receipt.json": "19d009260b1d3c524976d05924847d948445a4b06e8017141b68b2c7c1018ee7"
+  }
+}

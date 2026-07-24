@@ -1,0 +1,34 @@
+{
+  "arxiv": {
+    "identifier": "2606.14367v1",
+    "title": "On mesh patterns of short length: Equidistribution and enumeration",
+    "authors": [
+      "Qi Fang",
+      "Shishuo Fu",
+      "Sergey Kitaev",
+      "Haijun Li",
+      "Xinyu Su",
+      "Ziyao Sun"
+    ],
+    "submitted_utc": "2026-06-12T11:55:04Z",
+    "url": "https://arxiv.org/abs/2606.14367v1",
+    "archive_url": "https://arxiv.org/e-print/2606.14367v1",
+    "archive_sha256": "6170898bff82981077557aedfba0b1a07abe9e2ad1e7e0d4ffd5cf4ace9af152",
+    "pdf_url": "https://arxiv.org/pdf/2606.14367v1",
+    "pdf_sha256": "4a04dd457870c821bd942764a294776280b1278ad92900de6cef8a006dd21c34",
+    "html_url": "https://arxiv.org/html/2606.14367v1",
+    "html_sha256": "918d5fd14377754d9f33fb9401cfab2608aaf3626c4d91950366ce16a2c0304f"
+  },
+  "claim": {
+    "label": "Concluding Conjecture: Class 69 patterns equidistributed on involutions",
+    "location": "Concluding remarks, source lines 995-1006 in the pinned TeX extraction",
+    "statement_sha256": "4d343a1557970a8492dd39a82597e9006671a998083efd122bfadb8283e6eb3f",
+    "scope": "Only the added involution-restricted conjecture is tested; unrestricted Class-69 equidistribution remains outside scope."
+  },
+  "source_statement_boundary": "Concluding remarks, source lines 995-1006 in the pinned TeX extraction",
+  "claim_statement_sha256": "4d343a1557970a8492dd39a82597e9006671a998083efd122bfadb8283e6eb3f",
+  "rights": {
+    "notice": "All Rights Reserved - No License Granted",
+    "upstream_license_url": null
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "admitted": true,
+  "command": "lake build",
+  "formal_scope": [
+    "target has 12 piles",
+    "all target piles exceed the source threshold 4",
+    "target has seven odd piles",
+    "the printed k=0 mod 4 clause predicts P",
+    "the all-piles move maps the target exactly to the certified child",
+    "a legal move to a P-position implies the target is not P"
+  ],
+  "formalizes_full_sprague_grundy_replay": false,
+  "lean_toolchain": "leanprover/lean4:v4.28.0",
+  "mathlib_input_revision": "v4.28.0",
+  "mathlib_resolved_commit": "8f9d9cff6bd728b17a24e163c9402775d9e6a365",
+  "output": "Build completed successfully (469 jobs).",
+  "output_sha256": "43ec54fcaba2166e13d5d28a1100716f7c404c566fa450f971fa0bfc3a8cbdb0",
+  "status": "source conditions and logical bridge checked; exhaustive game replay remains checked by Python and C++"
+}

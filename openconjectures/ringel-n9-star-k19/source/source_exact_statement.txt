@@ -1,0 +1,5 @@
+Source: [Formal Conjectures `RingelConjecture.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6f57f58effb32da91a5761c1a5491904a85921ab/FormalConjectures/Paper/RingelConjecture.lean), commit `6f57f58effb32da91a5761c1a5491904a85921ab`, observed 2026-07-20.
+
+This packet settles only `n=9` for the 9-edge star `K1,9` in `K19`. For each center `c` from 0 through 18, take leaves `c+1,c+2,...,c+9 (mod 19)`. These 19 stars have 171 pairwise distinct edges and cover every edge of `K19`. The general Ringel conjecture remains open.
+
+## Replay

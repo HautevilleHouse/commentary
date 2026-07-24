@@ -1,0 +1,48 @@
+{
+  "source_kind": "public_github_writeup",
+  "author": "Christopher D. Long",
+  "author_handle": "octonion",
+  "title": "An Explicit Counterexample to the Rank-Two Poisson Conjecture",
+  "source_dated": "2026-07-21",
+  "repository": "https://github.com/octonion/mathematics",
+  "source_path": "poisson/",
+  "source_readme_url": "https://github.com/octonion/mathematics/blob/main/poisson/README.md",
+  "source_tex_url": "https://github.com/octonion/mathematics/blob/main/poisson/explicit_rank_two_poisson_counterexample_updated.tex",
+  "source_pdf_url": "https://github.com/octonion/mathematics/blob/main/poisson/explicit_rank_two_poisson_counterexample_updated.pdf",
+  "pinned_commit": "166240ba8f65c6b40cd217237a0b4dd8af4db2ea",
+  "pinned_commit_date_utc": "2026-07-23T05:08:52Z",
+  "source_object": "Explicit polynomials R,T,D,S defining a Poisson endomorphism of P_2 that is not an automorphism",
+  "indexing_convention": "Adjamagbo\u2013van den Essen PC(n): n canonical pairs, 2n variables",
+  "related_context": [
+    {
+      "role": "implication_chain",
+      "locator": "arXiv:math/0608009",
+      "note": "JC(2n) \u21d2 PC(n) \u21d2 DC(n) \u21d2 JC(n)"
+    },
+    {
+      "role": "ambient_jacobian_c3",
+      "locator": "openconjectures/jacobian-c3-counterexample",
+      "note": "Dimension-3 Jacobian counterexample used as ambient motivation in the source writeup; PC(2) is a separate witness"
+    }
+  ],
+  "arxiv_id_for_this_writeup": null,
+  "checked_instance": {
+    "algebra": "P_2 = C[x,q,p,z]",
+    "output_map": "(x,q,p,z) -> (R,T,D,S)",
+    "R_form": "x*(2-3*x*q)",
+    "jacobian_determinant": "1",
+    "fiber_target": [
+      "0",
+      "1/8",
+      "0",
+      "0"
+    ],
+    "fiber_cardinality_checked": 3
+  },
+  "versioned_source": {
+    "kind": "public_repository",
+    "identifier": "octonion/mathematics@166240ba8f65c6b40cd217237a0b4dd8af4db2ea#poisson/",
+    "url": "https://github.com/octonion/mathematics/tree/166240ba8f65c6b40cd217237a0b4dd8af4db2ea/poisson"
+  },
+  "statement_content_sha256": "8fc81641392406426999a3c89e5bf6cd8e64aa1cb04d4708a243bebd70c7a61a"
+}

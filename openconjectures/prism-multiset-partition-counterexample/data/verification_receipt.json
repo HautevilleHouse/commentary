@@ -1,0 +1,27 @@
+{
+  "carried_boundary": [
+    "The packet proves mpd(P_8) <= 5 but does not distinguish exact value 4 from 5.",
+    "The packet does not classify other prism parameters.",
+    "The packet does not diagnose the source's reported computation through m=70."
+  ],
+  "checker_sha256": "fcf13070d48b971ffbdbae0d0cde0acf48be949c47bafb075c7b713630fe802d",
+  "closed_claims": [
+    "The displayed five nonempty parts are pairwise disjoint and cover all 16 vertices of P_8.",
+    "Breadth-first graph distances give 16 pairwise distinct unordered multiset representations.",
+    "Therefore mpd(P_8) <= 5, contradicting the conjectured value 6."
+  ],
+  "command": "python3 openconjectures/prism-multiset-partition-counterexample/checkers/verify_counterexample.py",
+  "endpoint_result": "Local verification completed and wrote data/counterexample_check_20260717.json.",
+  "output_sha256": "8cbe253c5c7d093b79b59974fc916c5b965feb122526d0d3ba501934702982b7",
+  "prior_public_resolution_search_sha256": "1ed6d3b2b273040348de2b80872329df987ea0cf31fe1579739bfa0cd19677e2",
+  "python_version": "Python 3.14.6",
+  "readme_sha256": "85d77eddc4cc2c5987f366ceb9309fdeb7dceb501f820b4a2d65183bef4e07f5",
+  "requirements_sha256": "d195d93d1dbb2461b703d41642ba0796d275e4cd0438897c2f11f824f578a3e9",
+  "source_identity_sha256": "659adf7d09cc59cbdbd27a0ede2b85e49d6825b9f569d1271e91701b518c1244",
+  "source_object": {
+    "arxiv_id": "2607.07407v1",
+    "openconjecture_id": 4479,
+    "source_file": "EJGTATemplate.tex",
+    "source_lines": "785-791"
+  }
+}

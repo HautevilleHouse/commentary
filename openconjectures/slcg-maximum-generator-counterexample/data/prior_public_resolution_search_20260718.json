@@ -1,0 +1,26 @@
+{
+  "schema_version": "2026-07-18.bounded_public_resolution_search.v1",
+  "observed_utc": "2026-07-18T16:47:12Z",
+  "scope": "Bounded primary-source search for a later version, correction, proof, or counterexample to the exact S-LCG Maximum Generator conjecture.",
+  "queries": [
+    "arXiv exact source title plus Maximum Generator",
+    "arXiv S-LCG plus alpha_max",
+    "arXiv identifier 2605.05198 version history",
+    "GitHub code search for arXiv identifier 2605.05198",
+    "GitHub code search for exact S-LCG Maximum Generator terminology",
+    "GitHub code search for the n=7 cycle values 42 and 85 with S-LCG"
+  ],
+  "sources_checked": [
+    "https://arxiv.org/abs/2605.05198v1",
+    "https://export.arxiv.org/api/query?id_list=2605.05198",
+    "https://arxiv.org/search/",
+    "https://github.com/search?type=code"
+  ],
+  "findings": [
+    "The arXiv API returned one record and identified v1 as the latest public version at the observation time.",
+    "No later arXiv proof, correction, or counterexample to the exact Maximum Generator conjecture was located in the bounded searches.",
+    "The three exact GitHub code searches returned no matching public files."
+  ],
+  "outcome": "no_prior_public_resolution_located",
+  "claim_boundary": "This is a dated public-source search receipt."
+}

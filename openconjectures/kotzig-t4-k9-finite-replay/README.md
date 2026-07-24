@@ -1,0 +1,21 @@
+# Kotzig finite slice: the 4-edge T-tree in (K_9)
+
+This packet settles only the bounded (n=4) instance. It makes no claim
+about the general Kotzig conjecture.
+
+Source material: `synthetic://kotzig-t4-cyclic-exact-20260720`, observed
+2026-07-20, SHA-256
+`ad3fa0ecbbee46436682cebede888a604c5d7023d15371bc942aab2582639f2d`.
+
+The tree has edges `(0,1),(0,2),(0,3),(3,4)`. Base labels are
+`{0:0,1:1,2:2,3:3,4:7}`; the nine shifts modulo 9 cover all 36 edges of
+`K9` exactly once.
+
+Replay:
+
+```sh
+python3 math_research/checkers/kotzig_t4_k9_checker.py
+ruby math_research/checkers/kotzig_t4_k9_checker.rb
+```
+
+Delegation receipt: `results/kotzig_t4_k9_delegated_replay_20260722.json`

@@ -1,0 +1,41 @@
+{
+  "arxiv_id": "2604.02404v1",
+  "source_title": "Almost Golomb Sequences",
+  "source_author": "Benoit Cloitre",
+  "source_submitted_utc": "2026-04-02T16:24:34Z",
+  "source_url": "https://arxiv.org/abs/2604.02404v1",
+  "source_file": "Almost_Golomb_V3.tex",
+  "source_file_sha256": "f1ffcc4ce23ef591045fb028a81d1e655cea2853d7cfbf5472c4880304945ae9",
+  "source_archive_sha256": "fa0745e041fa9440b309c583ecd1832a937a2aa6a75f02a1c3fe8ff153055c43",
+  "source_lines": {
+    "full_threshold_conjecture": [
+      2091,
+      2098
+    ],
+    "run_length_identity": [
+      2109,
+      2121
+    ],
+    "prefix_conjecture": [
+      2127,
+      2139
+    ],
+    "domination_lemma": [
+      2149,
+      2164
+    ]
+  },
+  "openconjecture": {
+    "id": 1688,
+    "snapshot_commit": "d2e3afe62098611fabd7236998acc73f64e4b3b7",
+    "snapshot_observed_utc": "2026-07-19T00:00:00Z",
+    "scope_note": "OpenConjecture 1688 indexes the full threshold law. This packet proves only its Prefix Conjecture constituent."
+  },
+  "claim": "For every integer r>=3, a_r(r)=G(r-1).",
+  "excluded_claims": [
+    "M(r)=N_r(r-1) for all r>=5",
+    "the full j_k threshold law",
+    "a complete formalization of the source sequence construction",
+    "external expert review"
+  ]
+}

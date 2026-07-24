@@ -1,0 +1,14 @@
+{
+  "citation": "Tewodros Amdeberhan and Matthias Beck, Bergeron's Conjecture & A Tale of Two Binomial Coefficients, arXiv:2607.04050v1",
+  "observed_date": "2026-07-19",
+  "source_statement": "For 1<=a<b<c<d with ad=bc, [b+c choose b]_q-[a+d choose a]_q is coefficientwise nonnegative.",
+  "eprint_url": "https://arxiv.org/e-print/2607.04050v1",
+  "eprint_sha256": "cae3ead79ad8fc57481c266e25dee9d5555d7f2ed2d2a2b050037301ece1b73c",
+  "html_url": "https://arxiv.org/html/2607.04050v1",
+  "html_sha256": "cb20a27c0b8ace74102c060f94f9520e88bfae62b873bcd3c929b627b5b2c97c",
+  "pdf_url": "https://arxiv.org/pdf/2607.04050v1",
+  "pdf_sha256": "9eebed259f0ffa1a917607502a50039616494438a7f2f3d921a78014c7db753c",
+  "finite_scope": "All quadruples with d<=60; exact recurrence, no q=1 substitution.",
+  "synthetic_statement_sha256": "c10184adb5784f9dd7394bb297054c97ce170a48de4798318fbc071878b702a4",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/"
+}

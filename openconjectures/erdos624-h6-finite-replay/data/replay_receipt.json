@@ -1,0 +1,35 @@
+{
+  "schema_version": "2026-07-23.lean_replay_seal.v1",
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "source_object": {
+    "packet": "erdos624-h6-finite-replay"
+  },
+  "commands": {
+    "lean": "cd lean && lake build"
+  },
+  "environment": {
+    "lean_toolchain": "leanprover/lean4:v4.28.0"
+  },
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "files": {
+    "result.json": "aa309a97e186b290a7db3d80d0f75020dad1d5019ff6fbac5c9add40da0f29ca",
+    "README.md": "f2b9dc6b3a0631db8101de838d11cd23de974bdac0b570ec4fca10e220e31b85",
+    "lean/MathlibProof.lean": "8c1f06ccebb7c9445d329e9921a29c23cc45f7048a199233fab067573257d190",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "2560a61286fa3ba9d35c5c979e5eb30256644b857a324172d046772039284060",
+    "lean/lakefile.toml": "4a6cd9774aac4923effe9305e63a7322a060a6f4a8fd9888566c0d0078d6a769",
+    "checkers/verify_h6.py": "195ffd0a29ec654e9e567c95b55ad3dfdfb5dc9c8370ae07e7fc97fe16958541",
+    "checkers/verify_h6.rb": "c39cfe0142395e340f12b9622a9234a6b17b1a1cd941ed6430fb15104e7613c8",
+    "source/source_exact_statement.txt": "cb242121baf8a4011397a2e7f3ae9de9515070aab9f708e250823d1ec1b1d19e",
+    "data/lean_build_replay.log": "be56edae8351c87e9cbe304ea9655f6de47d1156b6275e677d6392a59984de64",
+    "data/replay_receipt.json": "72e8155eabccd6b0f23df6f0648eb35fa3c27d78dca1be2c89c0dd2fd57b87a4"
+  }
+}

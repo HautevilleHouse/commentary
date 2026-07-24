@@ -1,0 +1,32 @@
+{
+  "schema_version": "2026-07-19.misere-escalation-m3-verification.v1",
+  "status": "SOURCE_EXACT_M3_QUOTIENT_VERIFIED",
+  "quotient_elements": [
+    "1",
+    "e",
+    "x",
+    "y",
+    "z"
+  ],
+  "relations": [
+    "1 is global identity",
+    "e^2=e",
+    "x^2=y^2=z^2=e",
+    "xy=z",
+    "xz=y",
+    "yz=x"
+  ],
+  "loss_set": [
+    "e"
+  ],
+  "heap_map": {
+    "1_mod_4": "e",
+    "2_mod_4": "x",
+    "3_mod_4": "y",
+    "0_mod_4": "z"
+  },
+  "positions_checked": 1947792,
+  "independent_routes": 2,
+  "claim": "The five-element monoid is the exact misere quotient for the source game with move set {1,2,3}.",
+  "limitation": "The source's all-m finiteness conjecture and other game variants remain unresolved."
+}

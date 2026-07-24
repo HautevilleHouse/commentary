@@ -1,0 +1,20 @@
+{
+  "schema_version": "2026-07-18.bounded_public_resolution_search.v1",
+  "observed_utc": "2026-07-18T11:56:01Z",
+  "target": "Conjecture 5.7 in arXiv:2606.20311v1",
+  "scope": "Bounded public-source search of arXiv for a later version or public resolution of the exact Q_01 coefficient classification.",
+  "queries": [
+    "exact paper title with coefficient proof terms",
+    "author names with Q_01",
+    "Q_01 with Dice Relabeling",
+    "exact conjecture language about nonnegative coefficients",
+    "arXiv 2606.20311 revised"
+  ],
+  "observations": [
+    "The arXiv submission history lists only v1, submitted 2026-06-18.",
+    "The public HTML identifies Conjecture 5.7 and records the p=2 slice as Theorem 5.8.",
+    "The exact-title, author, and polynomial-label searches returned the source paper and no later arXiv resolution."
+  ],
+  "outcome": "No prior public arXiv resolution was located within the searched scope.",
+  "limitation": "This is a dated public-source search receipt."
+}

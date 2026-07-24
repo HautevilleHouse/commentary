@@ -1,0 +1,28 @@
+{
+  "files": {
+    "PROOF.md": "6be8e0cd4be546b5e7e6053a3403d558a7e0cf44f88fd99ed12c2d181e9652d6",
+    "README.md": "fec994a087429a7e54a2b44b2b111c245db0bda0ecaa508442a05cc0341e6ed5",
+    "lean/MathlibProof.lean": "a50e6474ce70e4766171f8be62dcec9e44b698c6a6fe09c040eb56ee9a1e180d",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "be5a74f5e57693ca50d88865296d7403fddc27d4b9293f7e740869e1872bbf3e",
+    "lean/lakefile.toml": "ae9648aee57a16f44dcb5e0b5bede2891c25a8d64ffceee1968534478f79d243",
+    "checkers/crosscheck.cpp": "78ced616390a381e5a6d9337fe328491b7dd3d5a8943cf80e6daea1660693ff7",
+    "checkers/verify.py": "c63f6486c365c1e478445958e118e2a697129ea54db5fad1c78d5b1a81281121",
+    "data/source_identity.json": "349be16c9668630600ef0084e301a6e390e3fa08780ed70218632daf26dfad48",
+    "data/verification_result_20260718.json": "94dcea9808826787c6ef049bdf6cb007a5c374e7678a420824101f2c28cac153",
+    "data/lean_build_replay.log": "086f6e8f4b659996db99d31da2b047e8541010bc2c47a862c9b8e5d215be7456",
+    "data/prior_public_resolution_search_20260718.json": "c5510badcab3029c670d661238294c917d0a5a5008bc8f6c6e291aefbfc7ec70",
+    "data/replay_receipt.json": "082d22c57fbce973f24f12350511655ba44cc3e9f160b5eebb140d863a6e7003"
+  },
+  "schema": "public-proof-packet-replay.v1",
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "checked_at_utc": "2026-07-24T01:58:47Z"
+}

@@ -1,0 +1,49 @@
+{
+  "checked_at_utc": "2026-07-17T23:42:31Z",
+  "conclusion": "The bounded searches returned the current source, related random-walk sampling literature, standard cardioid references, and source-metadata mirrors, but no separate public statement of the cardioid closure counterexample.",
+  "limits": [
+    "Unpublished work lies outside the search scope.",
+    "Public work absent from the queried indexes or using unrelated terminology lies outside the search scope.",
+    "An unavailable index endpoint is recorded as unavailable, not as evidence of absence.",
+    "This dated record is a public-source search receipt only."
+  ],
+  "search_date": "2026-07-17",
+  "searches": [
+    {
+      "queries": [
+        "\"Effect of sampling on the descriptive distributions of correlated random walks\" cardioid",
+        "\"There is no circular distribution\" \"regardless of step-length distribution\"",
+        "\"2607.03186\" counterexample OR proof OR cardioid",
+        "cardioid distribution subsampling correlated random walk closure"
+      ],
+      "result": "Results contained the source paper, related random-walk sampling papers, and a standard cardioid reference; no separate resolution of the source conjectures appeared.",
+      "surface": "indexed web"
+    },
+    {
+      "query": "2607.03186",
+      "result": "1 code result, an arXiv metadata mirror of the source paper; no resolution.",
+      "surface": "GitHub code search"
+    },
+    {
+      "query": "cardioid 2607.03186",
+      "result": "0 code results.",
+      "surface": "GitHub code search"
+    },
+    {
+      "query": "2607.03186",
+      "result": "0 issue results.",
+      "surface": "GitHub issue search"
+    },
+    {
+      "record": "https://arxiv.org/abs/2607.03186v1",
+      "result": "The current official record contains version v1, submitted 2026-07-03.",
+      "surface": "official arXiv"
+    }
+  ],
+  "source_object": {
+    "arxiv_id": "2607.03186v1",
+    "openconjecture_id": 4648,
+    "source_file": "main.tex",
+    "source_lines": "613-619"
+  }
+}

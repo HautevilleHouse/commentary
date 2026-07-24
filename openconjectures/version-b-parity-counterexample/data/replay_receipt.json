@@ -1,0 +1,31 @@
+{
+  "files": {
+    "PROOF.md": "77630cd57754590cb2a94af9944757480facf1f3cb8da0f660576fc8ff4fd5e8",
+    "README.md": "13628ce46913d3136d3fe94bc8eb1ddfd4bad5e8aa7227b86249d4aa9d131fb5",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "4553aa82f6ec643578108d9826484b092237fa091b1a9560a11ac3206415cb1c",
+    "lean/VersionBParityCounterexample.lean": "04e198bd7dea9a78a335c9982b329095daa55d316011f68bc5fdcd272a39c908",
+    "lean/lakefile.toml": "5273a3629d59f72f9c4b5e5976d27cc2c4ee41deef4cda8419279afa53991cd5",
+    "checkers/crosscheck.cpp": "b2913f7ca9f911ea54002251c55367208d84b51225ec643ebcbc128220ae9fdb",
+    "checkers/verify.py": "cca5d8401ec0683b2026f6d2a1e387de39c4f5ac2ca79d0b6379ffa3657eec9f",
+    "formal/mathlib/VersionBParityCounterexampleMathlib.lean": "e5609c360d0a4434cadedf85e72ad2935d458dd9f14b780d97d33ffed6903cc8",
+    "formal/mathlib/README.md": "a499fd2fec65f02e32a5e2341985697d6369c5d38a8eb5cb8ab82f47a1a58360",
+    "data/lean_build_20260718.log": "43ec54fcaba2166e13d5d28a1100716f7c404c566fa450f971fa0bfc3a8cbdb0",
+    "data/source_identity.json": "4be31b3d923e11622d85f8639a02ec57b127200fa6168cdcc5573ae2d179b223",
+    "data/lean_verification_20260718.json": "5d2729c3bab95038b05f4460e343b241fa392585e1476b943f8218e740056998",
+    "data/verification_result_20260718.json": "f941b757ca2a85c46d50b1c8c8f65ecf3c1d7282b3c5afe87cca3b5ac699b40c",
+    "data/lean_build_replay.log": "774f93bdd9f13ab2ea63a214184de0e6667ce525b26cd0ae2c420b0c9b1a8c91",
+    "data/prior_public_resolution_search_20260718.json": "d16dbb104163bf343910478bf1c7808f89c4b1f27b9a7cbf01a15f8e9b3a3496",
+    "data/replay_receipt.json": "83f35ed798419826a0d61288e6fb3ad2786087e3218585fd65d20217712d04b6"
+  },
+  "schema": "public-proof-packet-replay.v1",
+  "lean_replay": {
+    "all_pass": true,
+    "status": "pass",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "olean_count": 1,
+    "checked_at_utc": "2026-07-24T01:58:47Z"
+  },
+  "checked_at_utc": "2026-07-24T01:58:47Z"
+}

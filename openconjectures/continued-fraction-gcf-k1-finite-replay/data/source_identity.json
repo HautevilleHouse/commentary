@@ -1,0 +1,12 @@
+{
+  "arxiv_id": "2607.04077v1",
+  "authors": [
+    "David Victor Feldman"
+  ],
+  "observed_date": "2026-07-20",
+  "scope": "finite N=3 / a1=7,a2=14 only; all-k/all-N g(N) conjecture and paper main sqrt(R) theorem remain outside",
+  "source": "https://arxiv.org/abs/2607.04077v1",
+  "source_statement_sha256": "09a6b057fbb9288eea2a5006ba0679f44371bd3d45e4ac2767620bd7e8b6bf34",
+  "target": "g(N)=sqrt(R_N/2) partial quotients a1=7,a2=14 at N=3",
+  "title": "Continued fraction target k=1, N=3"
+}

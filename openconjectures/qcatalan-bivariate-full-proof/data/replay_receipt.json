@@ -1,0 +1,47 @@
+{
+  "status": "DELEGATED_ADVERSARIAL_REVIEWED_WITH_DISCLOSED_SOURCE_BOUNDARY_REPAIR",
+  "python": {
+    "path": "checkers/verify_python.py",
+    "max_n": 9,
+    "sha256": "04c7c1a959096228b102b6dcba9d348230b43bb9444e5df50528f8b81c21c3d0"
+  },
+  "ruby": {
+    "path": "checkers/verify_ruby.rb",
+    "max_n": 8,
+    "sha256": "8a4eb9855898cc4c487b32e32f9115293e96e137b7f3f267829a682e0cbe7c2e"
+  },
+  "proof_sha256": "d40c1afb4702508f20d5845745414be5b73222069ec241fa701309b3d11fbd1a",
+  "delegation": {
+    "task_id": "qcatalan-adversarial-review-source-faithful-builder-exact-20260721",
+    "receipt_digest": "4caf5867b0ef8f82e8a94caa253e20384415088bfdb53ec51697979d32a118fd",
+    "source_identity_verified": true,
+    "classification": "VALID_FOR_K_LT_N, CONDITIONALLY_VALID_AT_K_EQ_N",
+    "provider_untrusted": true
+  },
+  "claim_boundary": "Conjecture 5.4 on 0<=k<n, plus the proved natural saturated completion at k=n; the source does not explicitly define the bivariate out-of-range term. No other q-Catalan conjecture is claimed",
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "files": {
+    "replay_receipt.json": "3a0c93690b68a6356cc98a4801eca037f9cd34ddffb42dc8a8e50ee4be072c1d",
+    "source_identity.json": "34e19221cb261755494a17427f62b1ecb2dea4343b68126eacba4775bf1231e5",
+    "README.md": "0d46db883c3ef611e5be4f5901f7dbdccce77a5b808d61ee831036f04d9b9f97",
+    "lean/MathlibProof.lean": "6319a39d7d3ab03e4ac35f5e4068fe557adb602baa09785bd580bbd981fe0fd7",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "1e3196220cbf6424f51c6f2cdddad8d858dfc7caf43d35b8197fc67e6cc46349",
+    "lean/lakefile.toml": "838293445a0b377cad4e539346307e9f19dc66930642750bd5e5a6af1aefa11d",
+    "checkers/verify_python.py": "04c7c1a959096228b102b6dcba9d348230b43bb9444e5df50528f8b81c21c3d0",
+    "checkers/verify_ruby.rb": "8a4eb9855898cc4c487b32e32f9115293e96e137b7f3f267829a682e0cbe7c2e",
+    "data/source_identity.json": "34e19221cb261755494a17427f62b1ecb2dea4343b68126eacba4775bf1231e5",
+    "data/source_exact_statement.txt": "52278ee2e88a05c0e4ab51f54ee62cb46c790de27028e0cd0fe5080b47142ab0",
+    "data/lean_build_replay.log": "b5f1392c36651a59b4f5d790177a29b1e65120b8210300c81d31b862b02ca954",
+    "data/replay_receipt.json": "341b6d17b12f1d969d12b374a9ef0cb6919d1f9081b06d8ce52255733d32f5ec"
+  }
+}

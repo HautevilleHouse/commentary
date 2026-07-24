@@ -1,0 +1,269 @@
+{
+  "schema_version": "2026-07-18.lego_reciprocity_proof_check.v2",
+  "source": "arXiv:2605.07380v1",
+  "all_pass": true,
+  "source_rows_checked": 8,
+  "source_records": [
+    {
+      "n": 1,
+      "type_counts": [
+        1
+      ],
+      "polynomial_coefficients_increasing_degree": [
+        1
+      ],
+      "h_numerator": [
+        1
+      ]
+    },
+    {
+      "n": 2,
+      "type_counts": [
+        1,
+        2
+      ],
+      "polynomial_coefficients_increasing_degree": [
+        -1,
+        2
+      ],
+      "h_numerator": [
+        1,
+        1
+      ]
+    },
+    {
+      "n": 3,
+      "type_counts": [
+        1,
+        10,
+        10
+      ],
+      "polynomial_coefficients_increasing_degree": [
+        1,
+        -5,
+        5
+      ],
+      "h_numerator": [
+        1,
+        8,
+        1
+      ]
+    },
+    {
+      "n": 4,
+      "type_counts": [
+        1,
+        43,
+        123,
+        82
+      ],
+      "polynomial_coefficients_increasing_degree": [
+        -1,
+        "53/6",
+        "-41/2",
+        "41/3"
+      ],
+      "h_numerator": [
+        1,
+        40,
+        40,
+        1
+      ]
+    },
+    {
+      "n": 5,
+      "type_counts": [
+        1,
+        185,
+        1135,
+        1900,
+        950
+      ],
+      "polynomial_coefficients_increasing_degree": [
+        1,
+        "-40/3",
+        "635/12",
+        "-475/6",
+        "475/12"
+      ],
+      "h_numerator": [
+        1,
+        181,
+        586,
+        181,
+        1
+      ]
+    },
+    {
+      "n": 6,
+      "type_counts": [
+        1,
+        813,
+        9563,
+        30142,
+        35650,
+        14260
+      ],
+      "polynomial_coefficients_increasing_degree": [
+        -1,
+        "55/3",
+        "-1301/12",
+        "811/3",
+        "-3565/12",
+        "713/6"
+      ],
+      "h_numerator": [
+        1,
+        808,
+        6321,
+        6321,
+        808,
+        1
+      ]
+    },
+    {
+      "n": 7,
+      "type_counts": [
+        1,
+        3655,
+        78046,
+        412510,
+        865575,
+        791184,
+        263728
+      ],
+      "polynomial_coefficients_increasing_degree": [
+        1,
+        "-1423/60",
+        "69491/360",
+        "-8459/12",
+        "91309/72",
+        "-16483/15",
+        "16483/45"
+      ],
+      "h_numerator": [
+        1,
+        3649,
+        59786,
+        136856,
+        59786,
+        3649,
+        1
+      ]
+    },
+    {
+      "n": 8,
+      "type_counts": [
+        1,
+        16730,
+        630078,
+        5252794,
+        17398280,
+        27257646,
+        20298334,
+        5799524
+      ],
+      "polynomial_coefficients_increasing_degree": [
+        -1,
+        "3076/105",
+        "-56077/180",
+        "557479/360",
+        "-289801/72",
+        "2029483/360",
+        "-1449881/360",
+        "1449881/1260"
+      ],
+      "h_numerator": [
+        1,
+        16723,
+        529719,
+        2353319,
+        2353319,
+        529719,
+        16723,
+        1
+      ]
+    }
+  ],
+  "graph_reciprocity": [
+    {
+      "n": 1,
+      "connected_graphs_checked": 1
+    },
+    {
+      "n": 2,
+      "connected_graphs_checked": 1
+    },
+    {
+      "n": 3,
+      "connected_graphs_checked": 4
+    },
+    {
+      "n": 4,
+      "connected_graphs_checked": 38
+    }
+  ],
+  "direct_reconstruction": [
+    {
+      "n": 1,
+      "w": 1,
+      "labelled_count": 1,
+      "translation_classes": 1
+    },
+    {
+      "n": 2,
+      "w": 1,
+      "labelled_count": 2,
+      "translation_classes": 1
+    },
+    {
+      "n": 2,
+      "w": 2,
+      "labelled_count": 6,
+      "translation_classes": 3
+    },
+    {
+      "n": 3,
+      "w": 1,
+      "labelled_count": 6,
+      "translation_classes": 1
+    },
+    {
+      "n": 3,
+      "w": 2,
+      "labelled_count": 66,
+      "translation_classes": 11
+    },
+    {
+      "n": 3,
+      "w": 3,
+      "labelled_count": 186,
+      "translation_classes": 31
+    },
+    {
+      "n": 4,
+      "w": 1,
+      "labelled_count": 24,
+      "translation_classes": 1
+    },
+    {
+      "n": 4,
+      "w": 2,
+      "labelled_count": 1056,
+      "translation_classes": 44
+    },
+    {
+      "n": 4,
+      "w": 3,
+      "labelled_count": 5040,
+      "translation_classes": 210
+    },
+    {
+      "n": 4,
+      "w": 4,
+      "labelled_count": 13944,
+      "translation_classes": 581
+    }
+  ],
+  "claim_boundary": "Finite checks validate source transcription, all connected graphs on at most four vertices, and direct LEGO counts through n=4. The arbitrary-n theorem is proved in the accompanying public proof."
+}

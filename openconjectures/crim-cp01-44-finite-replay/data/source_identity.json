@@ -1,0 +1,9 @@
+{
+  "arxiv_id": "2606.16828v1",
+  "observed_date": "2026-07-20",
+  "scope": "finite CRIM slice only; no broader classification claim",
+  "source": "https://arxiv.org/abs/2606.16828v1",
+  "source_statement_sha256": "d789372de8eee18b8de348a7efa12d5d1a26510fc688212d920de7f9c58a2fa5",
+  "target": "CRIM Conway-pair [4,4] finite replay",
+  "title": "CRIM Conway pair `[4,4]` finite replay"
+}

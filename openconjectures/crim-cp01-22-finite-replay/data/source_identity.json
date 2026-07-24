@@ -1,0 +1,9 @@
+{
+  "arxiv_id": "2606.16828v1",
+  "observed_date": "2026-07-20",
+  "scope": "finite CRIM slice only; no broader classification claim",
+  "source": "https://arxiv.org/abs/2606.16828v1",
+  "source_statement_sha256": "54c439b1c779d0ce0f6b99b1ee19c8ec4a2eec78e461ce0f03079bf3c96eb1f4",
+  "target": "CRIM Conway-pair [2,2] finite replay",
+  "title": "CRIM finite replay: partition ([2,2])"
+}

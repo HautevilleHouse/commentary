@@ -1,0 +1,9 @@
+name = "RingelN6K13P7FiniteReplay"
+version = "0.1.0"
+defaultTargets = ["MathlibProof"]
+
+[leanOptions]
+relaxedAutoImplicit = false
+
+[[lean_lib]]
+name = "MathlibProof"

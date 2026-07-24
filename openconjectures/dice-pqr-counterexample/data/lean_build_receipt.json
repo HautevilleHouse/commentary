@@ -1,0 +1,70 @@
+{
+  "receipt_id": "dice_pqr_lean_build_20260708",
+  "created_utc": "2026-07-08T20:37:57Z",
+  "openconjecture_id": 3558,
+  "arxiv_id": "2606.20311v1",
+  "source_title": "Dice Relabeling Using Square-Sided Dice",
+  "source_object": "Conjecture con:pqr in Revisiting_Dice_Relabeling_II.tex, lines 1103-1105",
+  "checked_instance": {
+    "a": 1,
+    "b": 1,
+    "c": 1,
+    "d": 1,
+    "p": 3,
+    "q": 5,
+    "r": 11,
+    "paired_b_exponents": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "lean": {
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "package": "DicePqrCounterexample",
+    "target": "DicePqrCounterexample",
+    "build_command": "cd openconjectures/dice-pqr-counterexample/lean && lake build DicePqrCounterexample",
+    "build_status": "passed",
+    "build_result": "Build completed successfully (3 jobs).",
+    "external_packages": []
+  },
+  "evidence_tier": "LEAN_BUILD_PASSED_FOR_ENCODED_PACKET_SCOPE_CERTIFICATE",
+  "closed_object": "encoded packet-scope certificate and finite coefficient-list product for the exact checked counterexample instance",
+  "carried_remainder": [
+    "full symbolic classification of all pqr cases",
+    "source-author or full-table correction",
+    "repaired source theorem",
+    "source-formula reconstruction and coefficient hash checks remain checked by the integer Python replay and certificate JSON"
+  ],
+  "files": [
+    {
+      "path": "openconjectures/dice-pqr-counterexample/lean/DicePqrCounterexample.lean",
+      "sha256": "9f2acbc8af52879e9c84b3ea4988dea52f90bbe62fc2045efa0daed682c42a13"
+    },
+    {
+      "path": "openconjectures/dice-pqr-counterexample/lean/lakefile.toml",
+      "sha256": "aa1f039af2262ce79f365f9d959f22876f674d63f09d1106970d946d61c2dfb7"
+    },
+    {
+      "path": "openconjectures/dice-pqr-counterexample/lean/lake-manifest.json",
+      "sha256": "92944d8116f7f8abff6f7f633b7fe05aeb91eaed896dff45f9a8af73c8a8c2e8"
+    },
+    {
+      "path": "openconjectures/dice-pqr-counterexample/lean/lean-toolchain",
+      "sha256": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028"
+    },
+    {
+      "path": "openconjectures/dice-pqr-counterexample/data/lean_build_20260708.log",
+      "sha256": "aaa6967345f4ce24c41fd061aff125096bd03c61e5b513623d9217b815aca742"
+    },
+    {
+      "path": "openconjectures/dice-pqr-counterexample/data/dice_pqr_counterexample_1111_p3_q5_r11.json",
+      "sha256": "ca574f36df90709a22985880b047e466901e5f1a0c8df6ebe864c35ab6d56eb2"
+    },
+    {
+      "path": "openconjectures/dice-pqr-counterexample/data/source_identity.json",
+      "sha256": "3f60cf1b59aa5f33e2db8917eb211b134fa557dfd960a51786400b798977d79b"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "all_pass": true,
+  "checked_utc": "2026-07-18T11:30:00Z",
+  "command": "PYTHONDONTWRITEBYTECODE=1 python3 checkers/verify.py",
+  "expected_stdout_sha256": "43035a9af375c396056d7dd14d3ab3ba31396b883ddc93352a44569982b5eb06",
+  "files": {
+    "PROOF.md": "7e2038f2cc2fda3f33f45caf5717b2108649425bb651e8b30b1debb2a4e01729",
+    "README.md": "e83c16df6aa8d38c600ce7443280b06666bb3fd7c1ce2b2e9e3d4e9897b65a6b",
+    "lean/MathlibProof.lean": "4313f10af4cc5b899b05995b8abd68590d15cefd3c616ece2d5ca63dd1833900",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "bc30f879f04eb09849d71ee6c0d72391f2ac499aeda4da1e9c0d512ced3292e3",
+    "lean/lakefile.toml": "1d6bbb68976a60cffc794120e733617d9186137582bedb64a0e63e7907e3afa4",
+    "checkers/verify.py": "5901c436e567befee0a15b407f656621448bda33a2902df431d9a1284051d0bf",
+    "data/source_identity.json": "ea8a22231f1a4b1061b7b77406f305595ca6e8153f6817858e9bca99d5524aec",
+    "data/verification_result_20260718.json": "f4c8b1a7f10e1b0691423afa3012ed161f593ae286b2f9e621d4450602f9305c",
+    "data/lean_build_replay.log": "66adf154bd90140a7ef8a75880113571b33faf5fa57e4e170466dd25d7dcabf4",
+    "data/prior_public_resolution_search_20260718.json": "968afbe38985a95fee57b13bfceb2d1f5629382604785419bd340b5e4cb41003",
+    "data/replay_receipt.json": "7bef30793d6db23d921358a07e98aafb8adce65ecdae9ffa11669c69abee76d7"
+  },
+  "python_version": "3.14.6",
+  "replay_scope": [
+    "40 exact product reindexing identities",
+    "all exact rational comparisons used in the four analytic tail bounds",
+    "536 integer-threshold source instances at 80-digit precision",
+    "536 real-lower-endpoint source instances at 80-digit precision"
+  ],
+  "schema_version": "2026-07-18.commentary_replay_receipt.v1",
+  "source": "arXiv:2602.09607v1",
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "checked_at_utc": "2026-07-24T01:58:47Z"
+}

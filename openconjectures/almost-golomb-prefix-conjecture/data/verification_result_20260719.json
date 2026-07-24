@@ -1,0 +1,10 @@
+{
+  "checked_prefix_terms": 12492501,
+  "claim": "finite corroboration of a_r(n)=G(n-1) for 3<=n<=r",
+  "orders": [
+    3,
+    5000
+  ],
+  "status": "PASS",
+  "universal_basis": "PROOF.md"
+}

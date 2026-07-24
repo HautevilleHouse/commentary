@@ -1,0 +1,108 @@
+{
+  "bounded_scan": {
+    "empty_set_mismatches": [
+      {
+        "A": [],
+        "left_cardinality": 0,
+        "n": 1,
+        "right_side": 1
+      },
+      {
+        "A": [],
+        "left_cardinality": 0,
+        "n": 2,
+        "right_side": 2
+      },
+      {
+        "A": [],
+        "left_cardinality": 0,
+        "n": 3,
+        "right_side": 3
+      },
+      {
+        "A": [],
+        "left_cardinality": 0,
+        "n": 4,
+        "right_side": 4
+      },
+      {
+        "A": [],
+        "left_cardinality": 0,
+        "n": 5,
+        "right_side": 5
+      },
+      {
+        "A": [],
+        "left_cardinality": 0,
+        "n": 6,
+        "right_side": 6
+      },
+      {
+        "A": [],
+        "left_cardinality": 0,
+        "n": 7,
+        "right_side": 7
+      },
+      {
+        "A": [],
+        "left_cardinality": 0,
+        "n": 8,
+        "right_side": 8
+      }
+    ],
+    "maximum_n": 8,
+    "nonempty_case_count": 2040,
+    "nonempty_mismatches": [],
+    "universe": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "checks": {
+    "bounded_scan_has_exact_empty_mismatches": true,
+    "bounded_scan_has_no_nonempty_mismatch": true,
+    "bounded_scan_nonempty_case_count_is_2040": true,
+    "displayed_inequality_is_false": true,
+    "empty_set_is_finite_subset": true,
+    "every_witness_dilation_is_empty": true,
+    "left_cardinality_is_zero": true,
+    "n_is_positive_integer": true,
+    "symmetric_difference_is_empty": true
+  },
+  "environment": {
+    "python": "3.14.6",
+    "script_sha256": "1fd028eb072b32f77e3e067597d2506bcd384bca15b97e8f76d4cdc439fa9724"
+  },
+  "payload_sha256_without_self": "68bd8af0c7362b4415115ed6cc5f488a90ef8d151a9072f79c38ba5c02eb3d7e",
+  "source": {
+    "arxiv_id": "2607.00934v1",
+    "openconjecture_id": 4736,
+    "source_claim_body_sha256": "92a4c9ac3858d8dacdc2181c0ed062db05f8ccb9b2615dca9b511d5b5ef6b458",
+    "source_file": "final_version.tex",
+    "source_lines": "333-336"
+  },
+  "source_boundary": {
+    "displayed_nonempty_condition_present": false,
+    "g_n_definition_nonempty_condition_present": true,
+    "large_n_theorem_nonempty_condition_present": true,
+    "n_at_most_8_theorem_nonempty_condition_present": true,
+    "preceding_problem_nonempty_condition_present": true
+  },
+  "witness": {
+    "A": [],
+    "dilations": [
+      []
+    ],
+    "displayed_inequality_holds": false,
+    "left_cardinality": 0,
+    "n": 1,
+    "right_side": 1,
+    "symmetric_difference": []
+  }
+}

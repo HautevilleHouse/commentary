@@ -1,0 +1,25 @@
+{
+  "arxiv_abs_url": "https://arxiv.org/abs/2605.19083v2",
+  "arxiv_id": "2605.19083v2",
+  "arxiv_pdf_url": "https://arxiv.org/pdf/2605.19083v2",
+  "arxiv_source_archive_sha256": "25cd064392002d7a5a283dfb76d590b117397dbd04d10f9c8ec72ea917c80600",
+  "arxiv_source_tex_sha256": "65ee5c40104a35eff3f5ca0efe3c4c9a401555a6fa93742b71d691d78b6e8941",
+  "arxiv_source_url": "https://arxiv.org/e-print/2605.19083v2",
+  "authors": [
+    "Steven J. Miller",
+    "Dimitrios Nikolakopoulos",
+    "Anitha Srinivasan"
+  ],
+  "dataset_arxiv_id": "2605.19083v1",
+  "license_family": "cc_by_4_0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "openconjecture_id": 2765,
+  "openconjecture_row_sha256": "09c84dd78c31a13d76b587a5d289c2e22cf4edad420efbbdf8c64f419600867b",
+  "published_at": "2026-05-18T20:16:28Z",
+  "revised_at": "2026-05-27T02:26:01Z",
+  "source_claim_body_sha256": "70df689b615a35468266c66a5118d72725bed0b997891f417d423517c14de837",
+  "source_file": "FibNumbVietaJumpRatDiophEq_MNS_v10.tex",
+  "source_lines": "942-958",
+  "source_object": "Conjecture 4.2",
+  "title": "Fibonacci Numbers and Vieta Jumping for a Rational Diophantine Equation"
+}

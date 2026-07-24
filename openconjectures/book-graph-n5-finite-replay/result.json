@@ -1,0 +1,19 @@
+{
+  "status": "FINITE_VERIFIED",
+  "source": "arXiv:2604.08998v2 Conjecture 5.4",
+  "openconjecture_id": 1909,
+  "n": 5,
+  "quotient": "x^10 + 12*x^9 + 66*x^8 + 210*x^7 + 410*x^6 + 492*x^5 + 354*x^4 + 150*x^3 + 45*x^2 + 10*x + 1",
+  "gcd_quotient_derivative": "1",
+  "root_counts": {
+    "(-infinity,-2)": 0,
+    "(-2,-1/2)": 0,
+    "(-1/2,0)": 2,
+    "(-infinity,infinity)": 2
+  },
+  "replays": [
+    "Python",
+    "Ruby"
+  ],
+  "claim_boundary": "finite n=5 result only; the general book-graph real-root conjecture remains open"
+}

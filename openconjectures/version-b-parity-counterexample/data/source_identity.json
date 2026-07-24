@@ -1,0 +1,20 @@
+{
+  "arxiv": {
+    "archive_bytes": 11851,
+    "archive_sha256": "976ca7472c1a0d08c49ea1b5ef9bbac424b60234a2891921c8c7d41fae5c8f1b",
+    "identifier": "2605.23213v1",
+    "submitted_utc": "2026-05-22T04:04:35Z",
+    "tex_bytes": 45843,
+    "tex_sha256": "3919ba2be2b44f51cd4657975a648391cd2e86f221bf25ca1b4b4dc06611dec9",
+    "title": "Generalizing OOOOOOB",
+    "url": "https://arxiv.org/abs/2605.23213v1"
+  },
+  "author_code": {
+    "bytes": 17119,
+    "observed_utc": "2026-07-18T17:24:00Z",
+    "sha256": "1b08a631919434d6574410de55248d4fe1d280890a538faa19c271d6f277cf60",
+    "url": "https://thotsaporn.com/OOOOOB.txt"
+  },
+  "claim": "Conjecture 2.1, Version B parity classification",
+  "openconjecture_id": 2620
+}

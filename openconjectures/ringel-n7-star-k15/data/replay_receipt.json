@@ -1,0 +1,38 @@
+{
+  "schema_version": "2026-07-23.lean_replay_seal.v1",
+  "checked_at_utc": "2026-07-24T01:34:16Z",
+  "source_object": {
+    "packet": "ringel-n7-star-k15"
+  },
+  "commands": {
+    "lean": "cd lean && lake build"
+  },
+  "environment": {
+    "lean_toolchain": "leanprover/lean4:v4.28.0"
+  },
+  "lean_replay": {
+    "all_pass": true,
+    "status": "pass",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "olean_count": 2,
+    "checked_at_utc": "2026-07-24T01:34:16Z"
+  },
+  "files": {
+    "lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+    "README.md": "0c781ca2cb3b23b71d6fb5cf0ee50fde9196d79ba59a86db264e668e849d9b09",
+    "lakefile.toml": "33fff78c5d1724211e3f4fa3642a76965963779cf95e434c8cf8f2a042937b95",
+    "verify.py": "ddc6bd4781193b3e16745d4c1148147f3f6c8fa254397f752c5f68fe494bea6f",
+    "lean/MathlibProof.lean": "55e27a6835e429da78ba90098384e0bfc4afb01ce341ea99741dbd1d6d89bbc0",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "814f71dd9c320c7da14d106499c44bb737d7cec4a64f902320b90912f513c808",
+    "lean/RingelN7Star.lean": "dbabbac46ea28f0d1bc8da16900ab8e5c9b686ac2769422ddbffbedd2dbff7a7",
+    "lean/lakefile.toml": "c34ae51aa24a02af020ed4c883b397489638daf7f5488d40994b8359680097c7",
+    "formal/README.md": "f2c0542ed0dd14309813041ad6645302de6db039666c119e45b2a4789a284182",
+    "formal/RingelN7Star.lean": "2efe3ee2d7154482c6b4e5fa4004a4924f515697e3e5e980cfa4aedb1415010c",
+    "data/lean_build_replay.log": "62673d051d9d3b3bc950570317f9f5db58836617094b8b9ac3ca249799ea8a5e",
+    "formal/mathlib/README.md": "5af2f72a82baca1e4f347df9d933f083825d86bc7f403b32ad2caebfc36bffdc",
+    "formal/mathlib/RingelN7StarMathlib.lean": "1e55dfaa0a60914b6168df1c3a28ea3bfe751a414a98d3522c419c1e90bf43ae",
+    "data/replay_receipt.json": "4db3eaffb472ed2947e0c4e50975d76f215445e9a5929726101ed5faf1c415fc"
+  }
+}

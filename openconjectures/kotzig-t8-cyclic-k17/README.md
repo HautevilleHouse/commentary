@@ -1,0 +1,9 @@
+# Kotzig 8-Edge T-Tree Cyclic Decomposition in K17
+
+For the tree with edges `(0,1),(0,2),(0,3),(3,4),(4,5),(5,6),(6,7),(7,8)`, base labels in `Z/17Z` are `{0:0,1:1,2:2,3:3,4:7,5:12,6:6,7:13,8:4}`. Seventeen cyclic shifts partition all 136 edges of `K17`.
+
+This is one finite Kotzig slice only; the general conjecture remains open.
+
+Replay with `python3 checkers/verify.py` and `ruby checkers/verify.rb`.
+
+Source: `FormalConjectures/Paper/KotzigConjecture.lean`, commit `6f57f58effb32da91a5761c1a5491904a85921ab`, observed 2026-07-20. Wrapper digest: `45a63ffe1a7076f8a73ea84620616b717e51aea4117bde59955808eb1a8a74e7`.

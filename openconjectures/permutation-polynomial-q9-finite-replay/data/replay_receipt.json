@@ -1,0 +1,50 @@
+{
+  "status": "INTERNALLY_VERIFIED_FINITE_RESULT_PENDING_EXTERNAL_REVIEW",
+  "admissible_triples": 524880,
+  "permutation_witnesses": 0,
+  "field_model": "F_3[t]/(t^4+t+2)",
+  "field_polynomial_irreducible_check": "pass",
+  "delegation": {
+    "task_id": "pp-q2-odd-bq-ne-c-q9-source-exact-supervisor-final-20260722",
+    "receipt_digest": "6cef2493f603446155609f57b101ad3094a27396d67f9cb48aa19c9f9ea446af",
+    "source_identity_verified": true,
+    "provider_deliverable": "algorithmic exhaustive-search plan; no result claimed"
+  },
+  "independent_replays": [
+    {
+      "language": "C++17",
+      "command": "c++ -O3 -std=c++17 checkers/verify.cpp -o /tmp/permutation_poly_q9 && /tmp/permutation_poly_q9",
+      "output": "admissible_triples=524880 permutation_witnesses=0"
+    },
+    {
+      "language": "Python",
+      "command": "python3 checkers/verify.py",
+      "output": "admissible_triples=524880 permutation_witnesses=0"
+    }
+  ],
+  "claim_boundary": "The q=9 finite restriction has no permutation witness under the checked field model. This does not prove the all-odd-q conjecture.",
+  "unresolved_remainder": "Formalization and broader odd-q cases remain open.",
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "files": {
+    "README.md": "e8089096d8af806fe23c7c267f993a9280bd907e15f515c313f8b7724de17ecc",
+    "lean/MathlibProof.lean": "948ea56bbb02f36bdc057d88e44d521d92159224e749e015a529aad874e9c48d",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "870780f72d6879f4b2f97fc90ef99a8384f5aa9451ca7620016ba4a4cbd2e255",
+    "lean/lakefile.toml": "35f12ebae9cfe52ec5a169cc2fd55cea0569ce5ef0a0efdc9858cb1bce04a3d9",
+    "checkers/verify.cpp": "5dacd92c1dab0480dc5286e73c4bb0de3bc3265dd11b1f178520a4ac5e58729b",
+    "checkers/verify.py": "64ba943dddb4ca7931ab487f21611e86d5289b99f5b8210ab993ebc2a541ca15",
+    "data/source_identity.json": "317df6da817005bc03288f8662618e002f1952cbee6c578df1d9824393afd7f8",
+    "data/source_exact_statement.txt": "13cb9809ccb9e5f374cae0d61a9b2a10631b61ea9c81d6107caf03cc89b4a722",
+    "data/lean_build_replay.log": "df4fe09d776aa7ba4eba406921efa8e5d1adf9c0fc518736825c2bde2ebf76fe",
+    "data/replay_receipt.json": "2bdc4bce76067bcfc122c42e83a0736fbddb22fde882b661afbce04c237ba1af"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "arxiv_id": "2606.22041v1",
+  "observed_date": "2026-07-20",
+  "scope": "Displayed dimension-3 map only; no planar Jacobian-Conjecture claim",
+  "source": "https://arxiv.org/abs/2606.22041v1",
+  "source_statement_sha256": "a5b014caa0334fb6606c727a6d843875d0f79dc8fcb32e87eee5bc719c9adda0",
+  "target": "Displayed dimension-3 polynomial map replay",
+  "title": "Reported dimension-3 Jacobian counterexample"
+}

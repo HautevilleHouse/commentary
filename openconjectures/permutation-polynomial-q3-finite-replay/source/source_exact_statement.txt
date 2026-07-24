@@ -1,0 +1,17 @@
+This packet checks only the finite restriction `q=3` of the odd-
+`q` statement in Sharma--Basnet, *A Weil Sum Approach to Permutation
+Polynomials over Quadratic Extensions of Finite Fields*, arXiv:2606.14529v1.
+
+For every `b,c,d ∈ F₉` with `b³ ≠ c`, it checks that
+
+`f(x) = x⁴ + b x³ + c x + d`
+
+is not a permutation of `F₉`. There are exactly 648 admissible triples;
+both separate checkers return `648 0` (admissible triples, permutations).
+
+This is an internally verified finite result, not a resolution of the
+general odd-`q` conjecture.
+
+## Replay
+
+From the repository root:

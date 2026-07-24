@@ -1,0 +1,16 @@
+# WOWII Conjecture 314: bounded `n≤5` replay
+
+This finite packet checks connected, triangle-free labeled simple graphs on
+2, 3, 4, and 5 vertices whose largest induced path has size at most 4. Every
+minimal total dominating set is tested using the exact source definition.
+
+Both separate replays find no violation. Retained graph counts are
+`1, 3, 19, 147` for `n=2,3,4,5` respectively.
+
+This is finite evidence only; Conjecture 314 for arbitrary finite graphs
+remains open.
+
+```sh
+python3 checkers/verify_python.py
+ruby checkers/verify_ruby.rb
+```

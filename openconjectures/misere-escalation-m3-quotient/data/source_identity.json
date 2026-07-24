@@ -1,0 +1,29 @@
+{
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "arxiv": {
+    "identifier": "2606.29015v1",
+    "title": "Impartial Combinatorial Games and the Nuclear Escalation Ladder",
+    "authors": [
+      "Arnav Garg"
+    ],
+    "url": "https://arxiv.org/abs/2606.29015v1",
+    "archive_url": "https://arxiv.org/e-print/2606.29015v1",
+    "archive_sha256": "10e9a174588e458fd56dc6bd3197656e3652291748269b2e507843c4476b9a5e",
+    "pdf_url": "https://arxiv.org/pdf/2606.29015v1",
+    "pdf_sha256": "cf9b692a3465b52c9ea19f1eb355fc838ee7a14a4cdfca6d246003c8d1022e46",
+    "html_url": "https://arxiv.org/html/2606.29015v1",
+    "html_sha256": "98af82e0e6906fb92dc19185d05de034bea3d10b696e6b02a8f5e411745627ac"
+  },
+  "claim": {
+    "label": "Conjecture C(2), exact m=3 misere quotient",
+    "location": "Definition 2.1; Conjecture C(2), source label conj:C; Theorem misere2; Remark open",
+    "statement_sha256": "dc03ae0ec6903cf4cbec04d7d84385ce8eaf2a4d3e096a0a9c107031366310cd",
+    "scope": "Only the contiguous source game with escalation set {1,2,3}; the all-m conjecture remains open."
+  },
+  "source_statement_boundary": "Definition 2.1 and Conjecture C(2) as pinned in the public bounded target statement.",
+  "claim_statement_sha256": "dc03ae0ec6903cf4cbec04d7d84385ce8eaf2a4d3e096a0a9c107031366310cd",
+  "rights": {
+    "notice": "All Rights Reserved - No License Granted",
+    "upstream_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "locator": "https://arxiv.org/abs/2605.14682v1",
+  "eprint_locator": "https://export.arxiv.org/e-print/2605.14682v1",
+  "observed_date": "2026-07-21",
+  "source_version": "v1",
+  "tex_member": "W0_EN.tex",
+  "tex_sha256": "25c80e050e895e61221ccb14d4d6bd133f486dd241c70323adb68411a63513eb",
+  "source_statement": "Conjecture 5.4, bivariate combinatorial interpretation",
+  "source_boundary": "The one-variable triangle sets C_{n,k}(q)=0 for k>n, but the later bivariate definition does not restate this convention; its k=n recurrence is incomplete unless C_{n-1,n}(q,p)=0, equivalently saturation, is supplied"
+}

@@ -1,0 +1,52 @@
+{
+  "replay_target": "openconjectures/dice-pqr-counterexample/checkers/replay_counterexample.py",
+  "command": "python3 openconjectures/dice-pqr-counterexample/checkers/replay_counterexample.py",
+  "python_version": "Python 3.14.5",
+  "third_party_dependencies": [],
+  "result": {
+    "endpoint_check": true,
+    "hash_check_all": true
+  },
+  "output_path": "data/replay_output_20260708.json",
+  "hashes": {
+    "README.md": "2cd10d020cd27088741df5d7b725ffa8317799cb49f255850e536cf8f34f4ace",
+    "checkers/replay_counterexample.py": "dce68ebcb579297af3dc07db4fff75d5c2f2377a2bebd92004bcdd55c87ec6ec",
+    "checkers/requirements.txt": "77f099ed09f91de1f9aabcbee9cc6a430c34b27b7dbf09ba1595d0b31d0b6d71",
+    "data/source_identity.json": "3f60cf1b59aa5f33e2db8917eb211b134fa557dfd960a51786400b798977d79b",
+    "data/dice_pqr_counterexample_1111_p3_q5_r11.json": "ca574f36df90709a22985880b047e466901e5f1a0c8df6ebe864c35ab6d56eb2",
+    "data/dice_pqr_counterexample_instances.csv": "44c6c8bff182fb5f883aa92cc0177ce0f4c36138c048a5349863d223b14707c1",
+    "data/replay_output_20260708.json": "858019349edde64130c8b2975d42da934dff4f5970cd738c737a57f5b92becca"
+  },
+  "closed": "source-worded counterexample instance replayed with exact integer polynomial arithmetic",
+  "carried": "full symbolic classification of all pqr cases",
+  "lean_replay": {
+    "all_pass": true,
+    "status": "pass",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "olean_count": 1,
+    "checked_at_utc": "2026-07-24T01:34:16Z"
+  },
+  "checked_at_utc": "2026-07-24T01:34:16Z",
+  "files": {
+    "README.md": "9955a9fdc909d0d024e014cf6106bd816a1061879ea6eb31063b727a50e10c8b",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/DicePqrCounterexample.lean": "9f2acbc8af52879e9c84b3ea4988dea52f90bbe62fc2045efa0daed682c42a13",
+    "lean/lake-manifest.json": "9924613102994ed0f572fb0a51d4c80817fcf7360b1d7497d924df1969d7af42",
+    "lean/lakefile.toml": "aa1f039af2262ce79f365f9d959f22876f674d63f09d1106970d946d61c2dfb7",
+    "checkers/requirements.txt": "77f099ed09f91de1f9aabcbee9cc6a430c34b27b7dbf09ba1595d0b31d0b6d71",
+    "checkers/replay_counterexample.py": "dce68ebcb579297af3dc07db4fff75d5c2f2377a2bebd92004bcdd55c87ec6ec",
+    "data/source_identity.json": "183f9aef6df727a28a9b658e2800359eef2056efbc026359715bf0ac92392fa3",
+    "data/classification_boundary_20260708.json": "cc40803132b42ae8233833ebd90f62dfe81aa0ba92ae4ec1202d7fd870521bac",
+    "data/lean_build_20260708.log": "aaa6967345f4ce24c41fd061aff125096bd03c61e5b513623d9217b815aca742",
+    "data/dice_pqr_case_classification.csv": "18e9bc4203378127549e62b06083f4c1eee9d7021349c175390f6429237d7092",
+    "data/lean_build_replay.log": "1e2e4e3f4a87cf27c2950d3aed4da258bc074a486231bf69c691ebaedfe5edeb",
+    "data/dice_pqr_counterexample_1111_p3_q5_r11.json": "ca574f36df90709a22985880b047e466901e5f1a0c8df6ebe864c35ab6d56eb2",
+    "data/dice_pqr_counterexample_instances.csv": "44c6c8bff182fb5f883aa92cc0177ce0f4c36138c048a5349863d223b14707c1",
+    "data/lean_build_receipt.json": "d605aceec64d77043101698489336c31b5813032a34c9cacf1126aafd8faa3b0",
+    "data/replay_output_20260708.json": "858019349edde64130c8b2975d42da934dff4f5970cd738c737a57f5b92becca",
+    "formal/mathlib/DicePqrMathlib.lean": "6b02e2da251a0e227f67c35b0d1fb1dd556f956c455b3d0c4728a9b9f5818bf0",
+    "formal/mathlib/README.md": "ba5fb1908514b9fd8e46d3cb164f6f72e8802ffc84158d81d45619ef06ff55c5",
+    "data/replay_receipt.json": "f64a3d14082baeb0f70ea46374f56feffb5cf4f034a02d4120c86c5cd97b3603"
+  }
+}

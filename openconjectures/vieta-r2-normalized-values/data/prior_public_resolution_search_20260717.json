@@ -1,0 +1,69 @@
+{
+  "checked_at_utc": "2026-07-17T22:18:16Z",
+  "conclusion": "The bounded searches returned the current source record and no separate public resolution.",
+  "limits": [
+    "Unpublished work lies outside the search scope.",
+    "Public work absent from the queried indexes or using unrelated terminology lies outside the search scope.",
+    "This dated record is a public-source search receipt only."
+  ],
+  "search_date": "2026-07-17",
+  "searches": [
+    {
+      "query": "Fibonacci Numbers and Vieta Jumping for a Rational Diophantine Equation conjecture proof",
+      "result": "The results contained the source paper and secondary summaries; a separate proof was absent.",
+      "surface": "indexed web"
+    },
+    {
+      "query": "2605.19083 proof conjecture",
+      "result": "The results contained the source paper and secondary summaries; a separate proof was absent.",
+      "surface": "indexed web"
+    },
+    {
+      "query": "2605.19083",
+      "result": "1 unrelated bot-index code result; 0 proof-packet results.",
+      "surface": "GitHub code search"
+    },
+    {
+      "query": "Fibonacci Numbers and Vieta Jumping",
+      "result": "0 code results.",
+      "surface": "GitHub code search"
+    },
+    {
+      "query": "gcd(a,b)^2 a+2",
+      "result": "0 code results.",
+      "surface": "GitHub code search"
+    },
+    {
+      "query": "recursive tree path match for 2605.19083, 2765, or the source title",
+      "repository": "https://github.com/davisrbr/conjectures-arxiv",
+      "result": "0 matching paths.",
+      "surface": "GitHub repository tree"
+    },
+    {
+      "record": "https://arxiv.org/abs/2605.19083v2",
+      "result": "Current source version v2, revised 2026-05-27, retains Conjecture 4.2.",
+      "surface": "arXiv"
+    },
+    {
+      "query": "ti:\"Fibonacci Numbers and Vieta Jumping for a Rational Diophantine Equation\"",
+      "result": "1 result: the original arXiv:2605.19083v2 source record.",
+      "surface": "official arXiv API"
+    },
+    {
+      "query": "all:\"Vieta jumping\" AND all:\"normalized\" AND cat:math.NT",
+      "result": "0 results.",
+      "surface": "official arXiv API"
+    },
+    {
+      "record": "https://openalex.org/W7161841799",
+      "result": "cited_by_count = 0",
+      "surface": "OpenAlex"
+    }
+  ],
+  "source_object": {
+    "arxiv_id": "2605.19083v2",
+    "openconjecture_id": 2765,
+    "source_file": "FibNumbVietaJumpRatDiophEq_MNS_v10.tex",
+    "source_lines": "942-958"
+  }
+}

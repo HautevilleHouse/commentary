@@ -1,0 +1,28 @@
+{
+  "carried_boundary": [
+    "The executable checker is finite corroboration; the averaging argument supplies the universal quantifier.",
+    "The packet makes no claim about minimum abelian host order or graph families other than odd cycles.",
+    "The prior-resolution search is a dated public-source receipt."
+  ],
+  "checker_sha256": "5c13ec1230562d8dfcb9e1cf518c0f877e4f81de87d8979d6baaba24ac900635",
+  "closed_claims": [
+    "For odd m=2d+1 and normalized subset size w<=d, length-d arcs resolve odd w by averaging.",
+    "Length-(d+1) arcs resolve even w by averaging.",
+    "Therefore the cyclic interval lemma holds for every odd m.",
+    "The source dependency-code reduction then gives k_min(C_m)=m-1 for every odd cycle."
+  ],
+  "command": "python3 openconjectures/odd-cycle-cyclic-interval-proof/checkers/verify_cyclic_interval.py",
+  "endpoint_result": "Local verification completed and wrote data/cyclic_interval_check_20260717.json.",
+  "output_sha256": "f720353d4b123e12bea8fed7963263ab79922b46e867fce5f727fb95483cc2cb",
+  "prior_public_resolution_search_sha256": "e028047faf851ed7a9b5098099127726dc551ec620123c878ae3d5fa9fea03fe",
+  "python_version": "Python 3.14.6",
+  "readme_sha256": "6788e27094e2c3f86ab2754b4ed866a777f27383de7ff74d5e0566702a2d078f",
+  "requirements_sha256": "d195d93d1dbb2461b703d41642ba0796d275e4cd0438897c2f11f824f578a3e9",
+  "source_identity_sha256": "b330f2dde3ef0477977ba2298533e60d671628b96526f83e50e710cbbfca88ea",
+  "source_object": {
+    "arxiv_id": "2607.07939v1",
+    "openconjecture_id": 4448,
+    "source_file": "paper2_revision_1.tex",
+    "source_lines": "374-410"
+  }
+}

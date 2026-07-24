@@ -1,0 +1,14 @@
+# Independent domination inequalities: all isolate-free graphs on four vertices
+
+The source conjectures two inequalities for an isolate-free finite regular
+graph, split by the parity of its maximum degree. This finite packet checks
+the stated inequalities on all 41 isolate-free labeled simple graphs with four
+vertices. No violating graph occurs.
+
+This is a finite `n=4` replay only; it does not prove the unrestricted
+conjecture.
+
+```sh
+python3 checkers/verify_python.py
+ruby checkers/verify_ruby.rb
+```

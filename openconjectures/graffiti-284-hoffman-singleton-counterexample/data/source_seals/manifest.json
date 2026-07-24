@@ -1,0 +1,49 @@
+{
+  "schema_version": "2026-07-23.source_seals.v1",
+  "target_id": "graffiti-284-hoffman-singleton",
+  "observed_utc": "2026-07-23T23:40:10Z",
+  "sealed_proxies": [
+    {
+      "role": "computational_pin",
+      "locator": "https://raw.githubusercontent.com/RoucairolMilo/refutationGBR/66b9180cdb2e39f8cb988f09f94270f2b7f49fe5/src/models/conjectures/GenerateGraph.rs",
+      "display_url": "https://github.com/RoucairolMilo/refutationGBR/blob/66b9180cdb2e39f8cb988f09f94270f2b7f49fe5/src/models/conjectures/GenerateGraph.rs",
+      "observed_utc": "2026-07-23T23:40:10Z",
+      "sha256": "fbd78a1151f31d652324d861c2fb24fb2f6e903b6ed9e3b73ebc0b7069b07478",
+      "byte_length": 59962,
+      "note": "CONJECTURE==284 computational encoding (girth>=5 / min_dual + eig.min(D)).",
+      "commit": "66b9180cdb2e39f8cb988f09f94270f2b7f49fe5",
+      "digest_file": "data/source_seals/GenerateGraph.rs.sha256.txt"
+    },
+    {
+      "role": "algebraic_writeup",
+      "locator": "https://raw.githubusercontent.com/mewc/math-lab/e3431d07460682da8cbb823be96025446d1d51cd/research/graffiti-284.md",
+      "display_url": "https://github.com/mewc/math-lab/blob/e3431d07460682da8cbb823be96025446d1d51cd/research/graffiti-284.md",
+      "observed_utc": "2026-07-23T23:40:10Z",
+      "sha256": "fc1312dc876edd488ebac65e38c03e090ac059de19667f3f97a735d9a27e0bd4",
+      "byte_length": 1664,
+      "note": "Public algebraic diameter-2 writeup; not Lean.",
+      "commit": "e3431d07460682da8cbb823be96025446d1d51cd",
+      "digest_file": "data/source_seals/graffiti-284.md.sha256.txt"
+    },
+    {
+      "role": "search_table_context",
+      "locator": "https://www.lamsade.dauphine.fr/~cazenave/papers/ConjectureRefutationECAI2025.pdf",
+      "display_url": "https://www.lamsade.dauphine.fr/~cazenave/papers/ConjectureRefutationECAI2025.pdf",
+      "observed_utc": "2026-07-23T23:40:10Z",
+      "sha256": "4431b12ba8d53855e6be2322f4f476c30437b3aaf847bd4118bb79e07a9dce08",
+      "byte_length": 1201182,
+      "note": "ECAI 2025 search table lists 284 as open at n<=50; not the printed WoW wording.",
+      "digest_file": "data/source_seals/ConjectureRefutationECAI2025.pdf.sha256.txt"
+    }
+  ],
+  "external_gates": [
+    {
+      "kind": "fajtlowicz_wow_master_list",
+      "reason": "Written on the Wall master list is available from Fajtlowicz by request; no stable public primary page/PDF printing the exact wording of conjecture 284 was fetchable.",
+      "evidence": [
+        "http://cms.uhd.edu/faculty/delavinae/research/wowii/list.htm notes Fajtlowicz WoW is available by request",
+        "public Auckland graffiti PDFs and DeLaVina wowII.pdf do not contain the printed 284 statement text"
+      ]
+    }
+  ]
+}

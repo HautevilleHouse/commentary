@@ -1,0 +1,14 @@
+✔ [2/3] Built MathlibProof (2.5s)
+Build completed successfully (3 jobs).
+real 3.06
+user 0.21
+sys 0.35
+EXIT:0
+total 296
+drwxr-xr-x@ 7 hautevillehouse  staff     224 Jul 23 22:16 .
+drwxr-xr-x@ 3 hautevillehouse  staff      96 Jul 23 22:16 ..
+-rw-r--r--@ 1 hautevillehouse  staff    5685 Jul 23 22:16 MathlibProof.ilean
+-rw-r--r--@ 1 hautevillehouse  staff      16 Jul 23 22:16 MathlibProof.ilean.hash
+-rw-r--r--@ 1 hautevillehouse  staff  129472 Jul 23 22:16 MathlibProof.olean
+-rw-r--r--@ 1 hautevillehouse  staff      16 Jul 23 22:16 MathlibProof.olean.hash
+-rw-r--r--@ 1 hautevillehouse  staff    2299 Jul 23 22:16 MathlibProof.trace

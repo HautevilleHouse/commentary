@@ -1,0 +1,48 @@
+{
+  "as_of": "2026-07-17",
+  "conclusion": "No separate public resolution was located in the bounded searches.",
+  "limitations": "This does not establish universal absence. Unpublished, unindexed, access-controlled, and differently worded work may not appear.",
+  "queries": [
+    "\"Multiset Partition Dimension of Graphs\" prism 8",
+    "\"mpd(P_8)\" OR \"mpd(P_{8})\"",
+    "\"multiset partition dimension\" prism counterexample",
+    "2607.07407 counterexample",
+    "exact singleton coordinates (0,0), (0,1), (0,3), (0,5) with prism terminology"
+  ],
+  "results_reviewed": [
+    {
+      "disposition": "source paper; conjecture remains present",
+      "url": "https://arxiv.org/abs/2607.07407v1"
+    },
+    {
+      "disposition": "institutional metadata for the source paper; no resolution",
+      "url": "https://scholar.ui.ac.id/en/publications/multiset-partition-dimension-of-graphs/"
+    },
+    {
+      "disposition": "paper summary repeating the conjectured prism value; no resolution",
+      "url": "https://www.themoonlight.io/en/review/multiset-partition-dimension-of-graphs"
+    }
+  ],
+  "surfaces": [
+    {
+      "outcome": "Only v1 was listed in the official submission history.",
+      "surface": "arXiv"
+    },
+    {
+      "outcome": "The source paper and summaries were returned; no separate resolution was located.",
+      "surface": "indexed web search"
+    },
+    {
+      "outcome": "Exact-title, formula, identifier, and witness searches returned no matching public code.",
+      "surface": "GitHub code search"
+    },
+    {
+      "outcome": "Exact-title repository search returned no matching public repository.",
+      "surface": "GitHub repository search"
+    },
+    {
+      "outcome": "No indexed paper discussion for this arXiv identifier was located.",
+      "surface": "alphaXiv/indexed discussion search"
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "carried_boundary": [
+    "The optimal value of c_vee(d) remains outside this packet.",
+    "Dimension families beyond the displayed 2 x 2 counterexample remain outside this packet.",
+    "This public packet is a checker packet rather than a Lean formalization."
+  ],
+  "certificates": [
+    {
+      "all_checks_pass": true,
+      "checks": {
+        "left_bottom_charpoly_zero": true,
+        "left_top_eigenvalue_equation": true,
+        "right_bottom_charpoly_zero": true,
+        "right_top_eigenvalue_equation": true,
+        "top_direction_condition": true
+      },
+      "left_gram": [
+        [
+          8,
+          2
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "left_top_vector": [
+        2,
+        1
+      ],
+      "matrix": [
+        [
+          2,
+          2
+        ],
+        [
+          -1,
+          2
+        ]
+      ],
+      "name": "A",
+      "right_gram": [
+        [
+          5,
+          2
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "right_top_vector": [
+        1,
+        2
+      ],
+      "singular_value_squares_desc": [
+        9,
+        4
+      ],
+      "top_direction_condition": "distinct",
+      "top_direction_determinant": -3,
+      "vee_trace": "6"
+    },
+    {
+      "all_checks_pass": true,
+      "checks": {
+        "left_bottom_charpoly_zero": true,
+        "left_top_eigenvalue_equation": true,
+        "right_bottom_charpoly_zero": true,
+        "right_top_eigenvalue_equation": true,
+        "top_direction_condition": true
+      },
+      "left_gram": [
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "left_top_vector": [
+        1,
+        0
+      ],
+      "matrix": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "name": "B",
+      "right_gram": [
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "right_top_vector": [
+        1,
+        0
+      ],
+      "singular_value_squares_desc": [
+        4,
+        0
+      ],
+      "top_direction_condition": "same",
+      "top_direction_determinant": 0,
+      "vee_trace": "2"
+    },
+    {
+      "all_checks_pass": true,
+      "checks": {
+        "left_bottom_charpoly_zero": true,
+        "left_top_eigenvalue_equation": true,
+        "right_bottom_charpoly_zero": true,
+        "right_top_eigenvalue_equation": true,
+        "top_direction_condition": true
+      },
+      "left_gram": [
+        [
+          20,
+          0
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "left_top_vector": [
+        1,
+        0
+      ],
+      "matrix": [
+        [
+          4,
+          2
+        ],
+        [
+          -1,
+          2
+        ]
+      ],
+      "name": "A+B",
+      "right_gram": [
+        [
+          17,
+          6
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "right_top_vector": [
+        2,
+        1
+      ],
+      "singular_value_squares_desc": [
+        20,
+        5
+      ],
+      "top_direction_condition": "distinct",
+      "top_direction_determinant": -1,
+      "vee_trace": "4*sqrt(5)"
+    }
+  ],
+  "checks": {
+    "all_matrix_certificates_pass": true,
+    "c_vee_equal_one_disproved_in_dimension_2": true,
+    "trace_gap_positive": true
+  },
+  "environment": {
+    "python": "3.14.5",
+    "script_sha256": "2fde6e3c0f85930dcd21837a0ff45f7f27f778d34d8b3d1910b36aabda99d0e7"
+  },
+  "payload_sha256_without_self": "77e09bb77594b4cc9f374f4a32e5bbcea47c5a3fb007ded241707672e168b042",
+  "source": {
+    "arxiv_id": "2606.15624v2",
+    "openconjecture_id": 3706,
+    "source_claim_hash_sha256": "4f47a2321d6d8379a5ed45467508e1b0a3b8a7cf38078874ec35d64fa15440d8",
+    "source_file": "Averages-3.tex",
+    "source_lines": "675-693"
+  },
+  "trace_certificate": {
+    "positive_check": "16*5 > 64",
+    "trace_gap": "4*sqrt(5) - 8",
+    "trace_gap_positive": true,
+    "trace_lhs": "4*sqrt(5)",
+    "trace_rhs": "8"
+  },
+  "witness": {
+    "A": [
+      [
+        2,
+        2
+      ],
+      [
+        -1,
+        2
+      ]
+    ],
+    "A_plus_B": [
+      [
+        4,
+        2
+      ],
+      [
+        -1,
+        2
+      ]
+    ],
+    "B": [
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "dimension": 2,
+    "field": "real matrices"
+  }
+}

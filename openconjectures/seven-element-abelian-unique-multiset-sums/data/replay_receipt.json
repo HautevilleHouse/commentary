@@ -1,0 +1,67 @@
+{
+  "carried_boundary": [
+    "The packet settles only n=7 over all finite abelian groups.",
+    "The cases n>=8 remain open.",
+    "Classification of all order-64 extremizers remains outside the packet.",
+    "The prior-public-resolution search is dated and bounded."
+  ],
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "closed_claims": [
+    "Every group order below 35 is excluded by 35 distinct three-subset sums.",
+    "Both exact implementations exhaust all 49 finite abelian group types of orders 35 through 63 without a valid seven-set.",
+    "The unpruned implementations agree on 48,167,516 nodes and 10,985,184 directly checked seven-sets.",
+    "The standard order-64 elementary abelian construction has exactly one target preimage among all 1,716 size-seven multiplicity vectors.",
+    "The minimum order for seven elements is 64."
+  ],
+  "command": "PYTHONDONTWRITEBYTECODE=1 python3 openconjectures/seven-element-abelian-unique-multiset-sums/checkers/verify.py",
+  "environment": {
+    "compiler": "Apple clang 21.0.0",
+    "compiler_target": "arm64-apple-darwin25.5.0",
+    "python": "Python 3.14.6"
+  },
+  "files": {
+    "README.md": "9eb26b1fab472e87fef51ce38cb3db370b4585752d9be008e878890a37067e96",
+    "lean/MathlibProof.lean": "b05e4e8b4fff00f5719c572cb732ee2fbbd69f2316506be73247d88c2f2851a6",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "58dc0838c9f0fcbf08bf8b613848549d43d959bc6b0d2b0eb78bd1fab81bbc92",
+    "lean/lakefile.toml": "6666dccd073c2310e7217a70d168e45b20c7afa9ba019d1f0bd7b4ed647c5bb6",
+    "checkers/requirements.txt": "d919b4f6af0be909829418790786ab67da7ee4b1a16cfe19c3d82751834fcd18",
+    "checkers/unique_multiset_group_crosscheck.cpp": "2bb4323920f8a6d45fbc6e68fa90e44a834caf2655b1060dbb2cf1ce0e3272ed",
+    "checkers/verify.py": "26a7cbf1c88b802fa267ae8b78d017bca836d48763248a73502cb49803e97430",
+    "checkers/unique_multiset_group_search.cpp": "fc3946ad36033737b6348bd60cde7442259116318f5466cbafc445b1fecdd55a",
+    "data/source_identity.json": "9788ea8bb3a584e8be7e34f6a7a7ff87c7b535f4b079c478b3f44e2214a145a3",
+    "data/verification_result_20260718.json": "00f448dd366be4b24ae0840ba637516b16954437f5e5f60d9942eca7b82dd7f7",
+    "data/group_types_35_63.json": "4bc3381013d5e56062dd0802149a67e9deca49679cdc97ce9c702da271f85c8f",
+    "data/lean_build_replay.log": "346d2b7b389eba7137d97aebc23b0a27af1d62c625e0cdd254e360796a257a2d",
+    "data/prior_public_resolution_search_20260718.json": "bfc297b13e835b3503f13fd5dcd116c2fba5304ed7e58b4b3401c8b9e0313bec",
+    "data/replay_receipt.json": "7ea1bcb0ba6507bb325cc7da126956cbe80850f7fa334b8b2d8374f866b8fcf4"
+  },
+  "full_replay": {
+    "abelian_group_type_count": 49,
+    "exact_count_match": true,
+    "exit_code": 0,
+    "result": "passed"
+  },
+  "sanitizer_check": {
+    "checks": [
+      "primary search on Z_43",
+      "separate checker on Z_43"
+    ],
+    "compiler_flags": "-O1 -g -Wall -Wextra -Werror -pedantic -fsanitize=address,undefined -fno-omit-frame-pointer",
+    "result": "passed with no AddressSanitizer or UndefinedBehaviorSanitizer diagnostics"
+  },
+  "source_object": {
+    "arxiv_id": "2607.08366v2",
+    "open_problem": "Section 8, item 4",
+    "target_case": "n=7 over all finite abelian groups"
+  },
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  }
+}

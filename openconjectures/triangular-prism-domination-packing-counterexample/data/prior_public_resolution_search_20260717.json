@@ -1,0 +1,52 @@
+{
+  "checked_at_utc": "2026-07-18T00:30:19Z",
+  "conclusion": "The bounded searches returned the current source and related graph-theory material, but no separate public proof or counterexample to Conjecture conj:cubic-75.",
+  "limits": [
+    "Unpublished work lies outside the search scope.",
+    "Public work absent from the queried indexes or using unrelated terminology lies outside the search scope.",
+    "An unavailable index endpoint is recorded as unavailable, not as evidence of absence.",
+    "This dated record is a public-source search receipt only."
+  ],
+  "search_date": "2026-07-17",
+  "searches": [
+    {
+      "queries": [
+        "\"Improved Domination--Packing Bounds in Claw-Free Cubic Graphs and Unit Disk Graphs\" \"triangular prism\"",
+        "\"For every bridgeless claw-free cubic graph\" \"5/4\"",
+        "\"2606.29199\" counterexample OR correction OR erratum",
+        "triangular prism domination number packing number"
+      ],
+      "result": "Results contained the source paper and related domination, packing, and cubic-graph literature; no separate resolution of the source conjecture appeared.",
+      "surface": "indexed web"
+    },
+    {
+      "query": "\"For every bridgeless claw-free cubic graph\"",
+      "result": "0 exact-phrase code results relevant to a resolution.",
+      "surface": "GitHub code search"
+    },
+    {
+      "query": "\"triangular prism\" domination packing",
+      "result": "0 code results stating this counterexample.",
+      "surface": "GitHub code search"
+    },
+    {
+      "queries": [
+        "2606.29199",
+        "\"For every bridgeless claw-free cubic graph\""
+      ],
+      "result": "0 issue results stating a correction or counterexample.",
+      "surface": "GitHub issue search"
+    },
+    {
+      "result": "The official source record remained at version v1.",
+      "surface": "official arXiv record",
+      "url": "https://arxiv.org/abs/2606.29199v1"
+    }
+  ],
+  "source_object": {
+    "arxiv_id": "2606.29199v1",
+    "conjecture_label": "conj:cubic-75",
+    "openconjecture_id": 4867,
+    "title": "Improved Domination--Packing Bounds in Claw-Free Cubic Graphs and Unit Disk Graphs"
+  }
+}

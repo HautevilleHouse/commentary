@@ -1,0 +1,3 @@
+Source: arXiv:2604.10779v2, https://arxiv.org/abs/2604.10779, observed 2026-07-20.
+
+Finite restriction: enumerate all permutations of [1..11], apply the source stack-sorting map twice, and count those whose result ends in the least entry. The packet claims only the n=11 count, not the all-n Motzkin conjecture.

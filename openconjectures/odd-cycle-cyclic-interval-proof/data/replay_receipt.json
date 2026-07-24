@@ -1,0 +1,38 @@
+{
+  "schema_version": "2026-07-23.lean_replay_seal.v1",
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "source_object": {
+    "packet": "odd-cycle-cyclic-interval-proof"
+  },
+  "commands": {
+    "lean": "cd lean && lake build"
+  },
+  "environment": {
+    "lean_toolchain": "leanprover/lean4:v4.28.0"
+  },
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "files": {
+    "replay.sh": "e03759607dc979ded95e25237419242e6f1963e0a667b907bf8eaf1e942705d4",
+    "README.md": "cc8422ada092af8eb70edf9c82514c5d33db30ec17417cf18035476c98b26964",
+    "lean/MathlibProof.lean": "b28311e148522fb7843ba57b215e3f7a42bb95767733227e3152dc4511eb6f1f",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "12c7032606a293256321c9ab6929b18a7248badb1417aea3039848dfd7081a22",
+    "lean/lakefile.toml": "3db56db389219ec18954e9bb2253e89c31aac7c7f1a89188360006cce2e6e97e",
+    "checkers/requirements.txt": "d195d93d1dbb2461b703d41642ba0796d275e4cd0438897c2f11f824f578a3e9",
+    "checkers/verify_cyclic_interval.py": "5c13ec1230562d8dfcb9e1cf518c0f877e4f81de87d8979d6baaba24ac900635",
+    "data/prior_public_resolution_search_20260717.json": "e028047faf851ed7a9b5098099127726dc551ec620123c878ae3d5fa9fea03fe",
+    "data/source_identity.json": "b330f2dde3ef0477977ba2298533e60d671628b96526f83e50e710cbbfca88ea",
+    "data/lean_build_replay.log": "3df617bcf48acc65155bd6f3ba5ace9cc39541e43db853ca0d271e83cf2e5b6e",
+    "data/verification_receipt.json": "f2ab84a5a2920734943746f54949a5bf6f1d099404d2263c1dc7528f8c9c320d",
+    "data/cyclic_interval_check_20260717.json": "f720353d4b123e12bea8fed7963263ab79922b46e867fce5f727fb95483cc2cb",
+    "data/replay_receipt.json": "198f7925a63b584f8622e8aa649d28ef3d533105fa47522aa57517d50ee6c479"
+  }
+}

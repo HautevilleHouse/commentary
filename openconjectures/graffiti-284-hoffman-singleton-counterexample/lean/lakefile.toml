@@ -1,0 +1,14 @@
+name = "Graffiti284HoffmanSingletonCounterexample"
+version = "0.1.0"
+keywords = ["math", "lean", "openconjecture", "graffiti"]
+defaultTargets = ["Graffiti284HoffmanSingletonCounterexample", "MathlibProof"]
+
+[leanOptions]
+pp.unicode.fun = true
+relaxedAutoImplicit = false
+
+[[lean_lib]]
+name = "Graffiti284HoffmanSingletonCounterexample"
+
+[[lean_lib]]
+name = "MathlibProof"

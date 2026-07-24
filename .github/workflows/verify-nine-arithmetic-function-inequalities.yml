@@ -1,0 +1,159 @@
+name: Verify exact mathematics packets
+
+on:
+  push:
+    paths:
+      - "openconjectures/nine-arithmetic-function-inequalities/**"
+      - "openconjectures/almost-golomb-prefix-conjecture/**"
+      - ".github/workflows/verify-nine-arithmetic-function-inequalities.yml"
+  pull_request:
+    paths:
+      - "openconjectures/nine-arithmetic-function-inequalities/**"
+      - "openconjectures/almost-golomb-prefix-conjecture/**"
+      - ".github/workflows/verify-nine-arithmetic-function-inequalities.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: exact-mathematics-packets-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  exact-replay:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: openconjectures/nine-arithmetic-function-inequalities
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.14"
+          cache: pip
+          cache-dependency-path: openconjectures/nine-arithmetic-function-inequalities/checkers/requirements.txt
+      - name: Install exact-checker dependency
+        run: python -m pip install -r checkers/requirements.txt
+      - name: Replay stored exact result
+        shell: bash
+        run: diff -u data/verification_result_20260718.json <(PYTHONDONTWRITEBYTECODE=1 python checkers/verify.py)
+
+  lean-certificates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: leanprover/lean-action@v1
+        with:
+          lake-package-directory: openconjectures/nine-arithmetic-function-inequalities/lean
+          auto-config: false
+          build: true
+          test: false
+          lint: false
+          leanchecker: true
+          nanoda: false
+      - name: Check with pinned nanoda without sorryAx
+        working-directory: openconjectures/nine-arithmetic-function-inequalities/lean
+        shell: bash
+        env:
+          EXPORTER_REV: af5aa64bb914c3c2c781f378088dbd38acf4f804
+          NANODA_REV: f58f2f6d535e189a40fcb02ede8eb95f97a92d37
+        run: |
+          set -euo pipefail
+
+          exporter="$RUNNER_TEMP/lean4export"
+          checker="$RUNNER_TEMP/nanoda_lib"
+          export_file="$RUNNER_TEMP/nanoda_export.txt"
+          config_file="$RUNNER_TEMP/nanoda_config.json"
+
+          git init --quiet "$exporter"
+          git -C "$exporter" remote add origin https://github.com/leanprover/lean4export.git
+          git -C "$exporter" fetch --quiet --depth=1 origin "$EXPORTER_REV"
+          git -C "$exporter" checkout --quiet --detach FETCH_HEAD
+          cp lean-toolchain "$exporter/lean-toolchain"
+          (cd "$exporter" && lake build)
+
+          git init --quiet "$checker"
+          git -C "$checker" remote add origin https://github.com/ammkrn/nanoda_lib.git
+          git -C "$checker" fetch --quiet --depth=1 origin "$NANODA_REV"
+          git -C "$checker" checkout --quiet --detach FETCH_HEAD
+          cargo build --locked --release --manifest-path "$checker/Cargo.toml"
+
+          declarations=(
+            NineArithmeticFunctionInequalities.symmetricProduct_left_step_identity
+            NineArithmeticFunctionInequalities.symmetricProduct_left_base_identity
+            NineArithmeticFunctionInequalities.cyclicRatio_left_step_identity
+            NineArithmeticFunctionInequalities.cyclicRatio_left_base_identity
+            NineArithmeticFunctionInequalities.leftQ_nonnegative
+            NineArithmeticFunctionInequalities.ordered_left_symmetricProduct
+            NineArithmeticFunctionInequalities.ordered_left_cyclicRatio
+            NineArithmeticFunctionInequalities.symmetricProduct_right_step_identity
+            NineArithmeticFunctionInequalities.symmetricProduct_right_base_identity
+            NineArithmeticFunctionInequalities.cyclicRatio_right_step_identity
+            NineArithmeticFunctionInequalities.cyclicRatio_right_base_identity
+            NineArithmeticFunctionInequalities.rightQ_nonnegative
+            NineArithmeticFunctionInequalities.ordered_right_symmetricProduct
+            NineArithmeticFunctionInequalities.ordered_right_cyclicRatio
+            NineArithmeticFunctionInequalities.prime_gap_base_identity
+            NineArithmeticFunctionInequalities.fresh_prime_gap_step_identity
+            NineArithmeticFunctionInequalities.fresh_prime_gap_step_nonnegative
+            NineArithmeticFunctionInequalities.repeated_prime_gap_step_identity
+            NineArithmeticFunctionInequalities.repeated_prime_gap_step_nonnegative
+          )
+          lake env "$exporter/.lake/build/bin/lean4export" \
+            NineArithmeticFunctionInequalities -- "${declarations[@]}" > "$export_file"
+
+          cat > "$config_file" <<EOF
+          {
+            "export_file_path": "$export_file",
+            "use_stdin": false,
+            "permitted_axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound",
+              "Lean.trustCompiler"
+            ],
+            "unpermitted_axiom_hard_error": false,
+            "nat_extension": true,
+            "string_extension": true,
+            "print_axioms": false,
+            "print_success_message": true
+          }
+          EOF
+
+          "$checker/target/release/nanoda_bin" "$config_file"
+
+  almost-golomb-exact-replay:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: openconjectures/almost-golomb-prefix-conjecture
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.14"
+      - name: Replay both exact constructions
+        shell: bash
+        run: |
+          set -euo pipefail
+          diff -u \
+            <(jq -S . data/verification_result_20260719.json) \
+            <(PYTHONDONTWRITEBYTECODE=1 python checkers/verify.py | jq -S .)
+          diff -u \
+            <(jq -S . data/crosscheck_result_20260719.json) \
+            <(PYTHONDONTWRITEBYTECODE=1 python checkers/crosscheck.py | jq -S .)
+
+  almost-golomb-lean-certificate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: leanprover/lean-action@v1
+        with:
+          lake-package-directory: openconjectures/almost-golomb-prefix-conjecture/lean
+          auto-config: false
+          build: true
+          test: false
+          lint: false
+          leanchecker: true
+          nanoda: false

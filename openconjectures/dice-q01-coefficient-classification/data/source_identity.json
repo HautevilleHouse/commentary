@@ -1,0 +1,22 @@
+{
+  "schema_version": "2026-07-18.source_identity.v1",
+  "arxiv_id": "2606.20311v1",
+  "title": "Dice Relabeling Using Square-Sided Dice",
+  "authors": [
+    "Evelyn Fiore",
+    "George D. Nasr",
+    "Cooper Stone"
+  ],
+  "submitted_utc": "2026-06-18T14:44:15Z",
+  "current_version_observed_utc": "2026-07-18T11:56:01Z",
+  "current_version": "v1",
+  "target": "Conjecture 5.7, source label con:q01",
+  "statement": "For distinct primes p and q, Q_01(x)=x Phi_q(x)^2 Phi_(p^2 q)(x) has nonnegative coefficients if and only if p=2 and q is congruent to 1 modulo 4.",
+  "source_urls": {
+    "abstract": "https://arxiv.org/abs/2606.20311v1",
+    "html": "https://arxiv.org/html/2606.20311v1",
+    "tex": "https://arxiv.org/src/2606.20311v1"
+  },
+  "source_archive_sha256": "a532f55c7f6b2d04ef8f1ca42679a1d144f3be951a1a93f40ec768563727314a",
+  "tex_payload_sha256": "30ad38df17ba1638faa88f2122c6b54009371b1a0ce9589259beeef1b8859a8b"
+}

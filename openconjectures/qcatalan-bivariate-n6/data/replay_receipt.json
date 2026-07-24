@@ -1,0 +1,33 @@
+{
+  "schema_version": "2026-07-23.lean_replay_seal.v1",
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "source_object": {
+    "packet": "qcatalan-bivariate-n6"
+  },
+  "commands": {
+    "lean": "cd lean && lake build"
+  },
+  "environment": {
+    "lean_toolchain": "leanprover/lean4:v4.28.0"
+  },
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "files": {
+    "README.md": "7beb78f9322e58906894d15ea5eb605e49863f286967d1ebc5080fca87998c8e",
+    "lean/MathlibProof.lean": "78a58c7a960c61257be2b4ff2317cd2d1b7abd259b4796f5f0140341a61a13ba",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "f20e14e6ccc1e30b32330d9b7a8027f1d8d1c9c04104623e0d02ebd03abf4ab4",
+    "lean/lakefile.toml": "88b8136f76cd7ffdbfce22debf1b45e353a85b0648aed366f46fa79322499a27",
+    "checkers/verify.py": "c321a57b700380a6d2fd68d6fdf4c8d49dc818ba5a082684551b4c451bb1f1c0",
+    "data/source_identity.json": "5f89c7f495c929b15fd7fdf90d619474685259e966c002180305dd761d12c7db",
+    "data/lean_build_replay.log": "bc1849652ac974312f27ce53f15a0c7a47d97a5af4546d0a5dfb783790436337",
+    "data/replay_receipt.json": "02523cc069153e735c617ae24a2d6628f1636efebd24f3bd2333e32e49c06343"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "arxiv_abs_url": "https://arxiv.org/abs/2602.02046v1",
+  "arxiv_id": "2602.02046v1",
+  "arxiv_pdf_url": "https://arxiv.org/pdf/2602.02046v1",
+  "arxiv_source_tex_sha256": "b4499b1e56ca9f045362e54ee53f15ddb3fc6611fbf700ff96a017df231af076",
+  "arxiv_source_url": "https://arxiv.org/e-print/2602.02046v1",
+  "authors": [
+    "Daniel Yaqubi",
+    "Madjid Mirzavaziri"
+  ],
+  "license_family": "cc_by_4_0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "openconjecture_id": 746,
+  "openconjecture_row_sha256": "6285c921856df95de4e205d8d795a41798c327f22b77e74ed8df216ebd4f2e3c",
+  "published_at": "2026-02-02T12:50:02Z",
+  "source_claim_body_sha256": "ae7faab8d3e948cc0f600bb241d0d582420c9f896e16065945d88c550f2a3788",
+  "source_file": "YaqMirV1__1___2_.tex",
+  "source_lines": "1811-1818",
+  "source_object": "Conjecture conj:r-monotone",
+  "title": "On the Graphical r-Stirling Numbers of the First Kind for Specific Graph Families"
+}

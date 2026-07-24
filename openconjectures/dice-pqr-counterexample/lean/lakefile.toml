@@ -1,0 +1,9 @@
+name = "DicePqrCounterexample"
+version = "0.1.0"
+defaultTargets = ["DicePqrCounterexample"]
+
+[leanOptions]
+relaxedAutoImplicit = false
+
+[[lean_lib]]
+name = "DicePqrCounterexample"

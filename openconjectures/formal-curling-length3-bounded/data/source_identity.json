@@ -1,0 +1,14 @@
+{
+  "observed_date": "2026-07-20",
+  "scope": "bounded length-3 replay only; general curling-number conjecture remains open",
+  "source": "https://github.com/google-deepmind/formal-conjectures/blob/c252a41054125b5fd9c8356e2137cd9b55337657/FormalConjectures/Arxiv/0912.2382/CurlingNumberConjecture.lean",
+  "source_commit": "c252a41054125b5fd9c8356e2137cd9b55337657",
+  "source_statement_sha256": "3eac0dfeb16ef21f21b7471108f00abb09b5f9d0f9180521b02fe8bf75ac4c54",
+  "target": "curling-number length-3 bounded replay",
+  "title": "Formal Conjectures Curling-Number Length-3 Replay",
+  "versioned_source": {
+    "identifier": "google-deepmind/formal-conjectures@c252a41054125b5fd9c8356e2137cd9b55337657#FormalConjectures/Arxiv/0912.2382/CurlingNumberConjecture.lean",
+    "kind": "public_repository",
+    "url": "https://github.com/google-deepmind/formal-conjectures/blob/c252a41054125b5fd9c8356e2137cd9b55337657/FormalConjectures/Arxiv/0912.2382/CurlingNumberConjecture.lean"
+  }
+}

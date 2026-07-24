@@ -1,0 +1,21 @@
+{
+  "boundary": "This is a dated public-source search receipt.",
+  "github_code_queries": [
+    "conj:conjzeroes",
+    "Avalanche homology of digraphs via sandpile dynamics"
+  ],
+  "github_code_results": 0,
+  "observed_utc": "2026-07-18T19:44:34Z",
+  "primary_sources_checked": [
+    "arXiv API and arXiv:2606.26786v1 source archive",
+    "the authors' JasonPSmith/AvalancheHomology repository at commit c84849eed3a0a0f1d529da43690293ab7015127f",
+    "GitHub code and issue search"
+  ],
+  "search_queries": [
+    "exact printed zero-class conjecture text",
+    "Avalanche homology of digraphs via sandpile dynamics correction",
+    "Avalanche homology of digraphs via sandpile dynamics counterexample",
+    "site:arxiv.org/abs/2606.26786"
+  ],
+  "summary": "The searches located only arXiv v1, the associated author code, and mirrors or summaries of that version. No later arXiv revision, author correction, public proof, or public counterexample to the exact statement was located at the observation time."
+}

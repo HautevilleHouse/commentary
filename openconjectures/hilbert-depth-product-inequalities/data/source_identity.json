@@ -1,0 +1,20 @@
+{
+  "authors": [
+    "Andreea I. Bordianu",
+    "Mircea Cimpoeas"
+  ],
+  "current_version_at_observation": "v1",
+  "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "observed_utc": "2026-07-18T11:26:00Z",
+  "source_archive_sha256": "2b3a73c98fe1fe0b9ee73be69f5308a6eaac279f5df9cd1cd769819aaef74ce8",
+  "source_id": "arXiv:2602.09607v1",
+  "source_tex_sha256": "d941f7309e31cd945bd2b49ff48b27f7a2cfea2ae14a1362e7491ed3b5967ff8",
+  "source_urls": [
+    "https://arxiv.org/abs/2602.09607v1",
+    "https://arxiv.org/html/2602.09607v1",
+    "https://arxiv.org/src/2602.09607v1"
+  ],
+  "submission_utc": "2026-02-10T09:56:34Z",
+  "target": "Conjecture 4.1(a)-(d)",
+  "title": "On the Hilbert depth of the quotient ring of the edge ideal of a complete bipartite graph"
+}

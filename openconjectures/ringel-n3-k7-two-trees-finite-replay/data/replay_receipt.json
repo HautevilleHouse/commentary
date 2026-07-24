@@ -1,0 +1,44 @@
+{
+  "source": {
+    "locator": "synthetic://ringel-n3-k7-two-trees-exact-20260720",
+    "observed_date": "2026-07-20",
+    "sha256": "4221ef048b80614fb9fd0a67632fefaaf858470ee29633d2ff14bc583b40a68d"
+  },
+  "target": "Ringel finite n=3 slice: P4 and K1,3 in K7",
+  "status": "INTERNALLY_VERIFIED_FINITE_RESULT",
+  "delegation_receipt": "/Users/hautevillehouse/Library/Application Support/CanonicalLaneRuntime/deepseek-public-delegate/reports/universal_delegate/dispatch/ce3bbc55c299c0fd75d187cf931d66094dd4abb1c2b1cdc5143a71dd77980a3b.json",
+  "replays": [
+    "python3 math_research/checkers/ringel_n3_k7_two_trees_checker.py",
+    "ruby math_research/checkers/ringel_n3_k7_two_trees_checker.rb"
+  ],
+  "scope_boundary": "Both unlabeled 3-edge trees at n=3 only; Ringel's general conjecture remains open.",
+  "publication": "not_yet_published",
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "files": {
+    "lean-toolchain": "efac0b94923b2d8b6840cd35be9177ad0fc5ab2332f4f4311c98712cee92fdee",
+    "README.md": "4affbcb3545b16b21f1a60df7ce5e342d4845fba874466bed0aa577491ae8437",
+    "lakefile.toml": "69c96bd5a3b43552a1c0830b34a69b6e23e04dbaaa566bb5bc88d15762fc89f9",
+    "lean/MathlibProof.lean": "09ef8c3a2079f3306e898d02010a8084e1f4f8003a9c67b6133ecc533d8bb863",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "b1622c5d853e28899ad0128efa7fe2cfe136ffac9d6c03806ac915bfc4f20668",
+    "lean/lakefile.toml": "9a7c18da334e993a1dc5140d2c4ac19e23b7c0e1ad191c3e9157db28e064e3cc",
+    "checkers/verify_python.py": "9f7df9d4da118bb87f10749483f4ff612457c956f3ef8640c86a12ea8c151da3",
+    "checkers/verify_ruby.rb": "833f08a482683c95e2bc6688d4bd79cc5b0911446cc24ab70109c0062982fac7",
+    "formal/README.md": "1fa8ec5a587f134e5af75f0456003c19e5357fba83ab5092f4362e12db2b9084",
+    "formal/RingelN3TwoTrees.lean": "5cf90e04b03815f65f52094b2d5f17763744a80e475d11a588a8a59c3a31852f",
+    "formal/mathlib/RingelN3TwoTreesMathlib.lean": "42e4bd164a1e497fac2aa8da51025e41fc24ceb0f5887b752958f9c8d67693ae",
+    "formal/mathlib/README.md": "b77339815d205228b431e55e8c52995529e4e2ae0bd9c27d09ec3a67997727e0",
+    "data/source_identity.json": "bc9c72c7b3a804f66c8f20cbbf621cbb8a7f30fa17263fde05120d8683475b4b",
+    "data/lean_build_replay.log": "21850349694583e0cfafe15a80246e6381222f8fc557fb9281319e95352a58ac",
+    "data/replay_receipt.json": "1b834dc2e383326c5752b64fc3a82d8c035fde284925628f707b0074153f74b3"
+  }
+}

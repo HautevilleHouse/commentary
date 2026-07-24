@@ -1,0 +1,6 @@
+SOURCE IDENTITY: google-deepmind/formal-conjectures commit b8b5208aa5d01f5f91c49ca516bf09cae8d93693, FormalConjectures/Paper/StrongSensitivityConjecture.lean.
+SOURCE URL: https://github.com/google-deepmind/formal-conjectures/blob/b8b5208aa5d01f5f91c49ca516bf09cae8d93693/FormalConjectures/Paper/StrongSensitivityConjecture.lean
+
+EXACT DEFINITIONS: For f:(Fin n -> Bool)->Bool and x, flip x B flips exactly the coordinates in finite block B. sensitivityAt(f,x) is the number of singleton flips changing f(x); sensitivity(f) is the maximum over all x. IsValidBlockConfig(f,x,cB) means the finite set cB of blocks is pairwise disjoint and every block flip changes f(x). blockSensitivityAt(f,x) is the maximum cardinality of a valid block configuration; blockSensitivity(f) is the maximum over x. The conjecture is blockSensitivity(f) <= sensitivity(f)^2.
+
+BOUNDED TASK: Set n=4 and enumerate all 2^(2^4)=65536 Boolean functions. Return exactly one JSON object with status CERTIFICATE, NO_CANDIDATE, or UNKNOWN. A CERTIFICATE must give the exhaustive distribution or a compact self-contained and rebuildable certificate for all functions and the exact maximum values. Do not claim the general conjecture.

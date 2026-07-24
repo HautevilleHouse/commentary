@@ -1,0 +1,30 @@
+{
+  "status": "INTERNALLY_VERIFIED_FINITE_RESULT",
+  "admissible_triples": 115248,
+  "permutation_polynomials": 0,
+  "python": "PASS",
+  "ruby": "PASS",
+  "claim_boundary": "q=7 slice only",
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "files": {
+    "README.md": "7d23d1f8792b3d6bb968703a5a553fc7f1f7e8d870f16fdd4aee1274621041bd",
+    "lean/MathlibProof.lean": "aac12da8a30a2f4a5c846b1b7b7bd5ed660d0b1c707dc472299aa37dd2b61568",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "485b50604e1eb41aac187c4f1b1217ec1146b3a8c65fcaa0073acf7e0cfd2228",
+    "lean/lakefile.toml": "591bd3f3922e415f3eb36f575c2858c9087f822aea2a4cf2c44269b1b33eebe4",
+    "checkers/verify.rb": "362a9ef24d6757998f7830ecfab5c97fbb6f964b69f8dd5fcc72b2f69c52f3c8",
+    "checkers/verify.py": "fd40ea6626a5d3c351b439b4c4c2249464e659a82399fec4a159a98a8e43b186",
+    "data/source_identity.json": "6c5adfa2bd768fc6e037173ec4cb181f98deb6d4e37a5ae6d0dd8c225b944529",
+    "data/lean_build_replay.log": "3750007dccb22b7418b91ce3e720057a2857bd3de86e5420043d9a63a34daafc",
+    "data/replay_receipt.json": "35402e1af24befa2abf81ef3eb5a11bcb88b2c25ec2d9d81484c4eb0277d26f9"
+  }
+}

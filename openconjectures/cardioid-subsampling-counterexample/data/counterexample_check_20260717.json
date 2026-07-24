@@ -1,0 +1,152 @@
+{
+  "cases": [
+    {
+      "central_mode_errors": {
+        "1": 1.389064155149092e-16,
+        "2": 5.573949658507552e-16,
+        "3": 7.707069791782214e-17,
+        "4": 2.4483886500416524e-16,
+        "5": 9.11863953006355e-17,
+        "6": 2.503870634076708e-16,
+        "7": 1.5641902520969223e-16,
+        "8": 5.890101744044453e-17
+      },
+      "checks": {
+        "central_fourier_modes_match_cardioid": true,
+        "density_is_nonnegative": true,
+        "density_normalizes_by_quadrature": true,
+        "half_angle_moment_matches_formula": true,
+        "output_first_mode_matches_parameter_map": true,
+        "output_higher_modes_vanish": true,
+        "output_parameter_contracts": true,
+        "output_parameter_is_nonuniform": true,
+        "output_parameter_is_valid": true
+      },
+      "h_one": 0.6790610905254202,
+      "maximum_higher_output_mode_magnitude": 5.573949658507568e-18,
+      "minimum_density": 0.12732395447351627,
+      "output_first_mode": {
+        "imaginary": -9.237043510785493e-18,
+        "real": 0.046112396473180446
+      },
+      "quadrature_normalization": 0.9999999999999973,
+      "rho": {
+        "decimal": 0.1,
+        "fraction": "1/10"
+      },
+      "rho_hat": 0.04611239646655729
+    },
+    {
+      "central_mode_errors": {
+        "1": 3.8857932699948345e-16,
+        "2": 1.9537546941466505e-17,
+        "3": 1.5614364839198832e-15,
+        "4": 1.7315589229818637e-16,
+        "5": 8.666663331370766e-17,
+        "6": 5.190718725217148e-16,
+        "7": 4.565644914214275e-16,
+        "8": 3.3789370594644236e-16
+      },
+      "checks": {
+        "central_fourier_modes_match_cardioid": true,
+        "density_is_nonnegative": true,
+        "density_normalizes_by_quadrature": true,
+        "half_angle_moment_matches_formula": true,
+        "output_first_mode_matches_parameter_map": true,
+        "output_higher_modes_vanish": true,
+        "output_parameter_contracts": true,
+        "output_parameter_is_nonuniform": true,
+        "output_parameter_is_valid": true
+      },
+      "h_one": 0.7427230677621782,
+      "maximum_higher_output_mode_magnitude": 1.2210966838416604e-18,
+      "minimum_density": 0.07957747154594767,
+      "output_first_mode": {
+        "imaginary": -9.786288439990255e-19,
+        "real": 0.13790938885783227
+      },
+      "quadrature_normalization": 0.9999999999999982,
+      "rho": {
+        "decimal": 0.25,
+        "fraction": "1/4"
+      },
+      "rho_hat": 0.1379093888465153
+    },
+    {
+      "central_mode_errors": {
+        "1": 3.552789192919747e-15,
+        "2": 6.706889379237187e-16,
+        "3": 1.0154186821547245e-15,
+        "4": 1.1171563004201119e-15,
+        "5": 4.3855363291223047e-17,
+        "6": 5.395793681714514e-16,
+        "7": 5.558293069024578e-16,
+        "8": 6.510049689216079e-17
+      },
+      "checks": {
+        "central_fourier_modes_match_cardioid": true,
+        "density_is_nonnegative": true,
+        "density_normalizes_by_quadrature": true,
+        "half_angle_moment_matches_formula": true,
+        "output_first_mode_matches_parameter_map": true,
+        "output_higher_modes_vanish": true,
+        "output_parameter_contracts": true,
+        "output_parameter_is_nonuniform": true,
+        "output_parameter_is_valid": true
+      },
+      "h_one": 0.8488263631567752,
+      "maximum_higher_output_mode_magnitude": 1.676722344809273e-16,
+      "minimum_density": 0.0,
+      "output_first_mode": {
+        "imaginary": 2.830138807218276e-17,
+        "real": 0.36025309739497396
+      },
+      "quadrature_normalization": 1.0000000000000018,
+      "rho": {
+        "decimal": 0.5,
+        "fraction": "1/2"
+      },
+      "rho_hat": 0.3602530973949788
+    }
+  ],
+  "checks": {
+    "all_case_checks_pass": true,
+    "endpoint_parameter_formula_matches": true,
+    "largest_half_angle_moment_is_below_one": true
+  },
+  "environment": {
+    "python": "3.14.6",
+    "script_sha256": "4046b9acdb703cebbed0022b5d5fe9162d88eefd85df65b46d59573c297e63a2"
+  },
+  "family": {
+    "central_fourier_coefficients": "phi_0=1, phi_1=phi_-1=rho, phi_m=0 for |m|>=2",
+    "density": "f_rho(theta)=(1+2*rho*cos(theta))/(2*pi)",
+    "name": "centered cardioid",
+    "parameter_domain": "0<rho<=1/2"
+  },
+  "payload_sha256_without_self": "eca7bccb2eb60c0072e152f5ae6648e7bf19703fec1c2afa94a7e7dea9745b97",
+  "quadrature": {
+    "maximum_mode": 8,
+    "method": "periodic midpoint rule",
+    "points": 65536,
+    "tolerance": 2e-10
+  },
+  "source": {
+    "arxiv_id": "2607.03186v1",
+    "conjecture_lines": "613-619",
+    "derivation_lines": "165-195",
+    "openconjecture_id": 4648,
+    "source_conjecture_1_sha256": "52d62228253c2a0721b6eac8374976fd12ccd5139845a328e958a09220759fae",
+    "source_conjecture_2_sha256": "9d96216204ea4cafd664615edd1e34c00ff979e14a91b08d96aab7d5e3ebfc04",
+    "source_file": "main.tex",
+    "source_theorem_sha256": "13f1a2243fcd15566e0dce1d489d161d21662350ea977a5e2201c6d3b5655bc5",
+    "theorem_lines": "125-134"
+  },
+  "transform": {
+    "h_one": "2*(2*rho+3)/(3*pi)",
+    "output_fourier_coefficient": "phi_m*h_m^2",
+    "rho_hat": "4*rho*(2*rho+3)^2/(9*pi^2)",
+    "sampling_rate": 2,
+    "step_lengths": "fixed equal positive"
+  }
+}

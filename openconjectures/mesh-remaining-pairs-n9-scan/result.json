@@ -1,0 +1,18 @@
+{
+  "problem": "arXiv:2605.19429v1 remaining length-2 mesh equidistribution pairs",
+  "status": "FINITE_SCAN_NO_MISMATCH",
+  "observed_date": "2026-07-21",
+  "source_pdf_sha256": "4551b9002e244af0d034230fc22bcbf99c2957201962f3189ddb6ef906b32af5",
+  "checker": "math_research/mesh_conjectured_pairs_scan.py",
+  "checker_sha256": "7453022f2332518d6c3d8bfbe7cc40e634cf210bf3ac1aa4b3c2d60cfa1d70ca",
+  "pairs": [
+    "class54",
+    "class69",
+    "class71"
+  ],
+  "window": "S_1 through S_11",
+  "result": "all three pairs have identical occurrence-count histograms at every n in the window",
+  "independent_cpp_checker": "math_research/mesh_pairs_n10.cpp",
+  "independent_cpp_n11_checker": "math_research/mesh_pairs_n11.cpp",
+  "claim_boundary": "finite evidence only; no proof of any infinite equidistribution conjecture and no counterexample found"
+}

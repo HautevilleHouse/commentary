@@ -1,0 +1,3 @@
+Source: [Formal Conjectures `RingelConjecture.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6f57f58effb32da91a5761c1a5491904a85921ab/FormalConjectures/Paper/RingelConjecture.lean), commit `6f57f58effb32da91a5761c1a5491904a85921ab`, observed 2026-07-20.
+
+This packet settles only `n=7` for the 7-edge path `P8` in `K15`. The 15 path embeddings are cyclic shifts modulo 15 of `[0,7,1,6,2,5,3,4]`:

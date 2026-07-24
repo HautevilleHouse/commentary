@@ -1,0 +1,19 @@
+Public synthetic task statement v1 (2026-07-19)
+
+Source: arXiv:2606.14877v1, “Exchange identities and symmetric slices of the valley Delta conjecture,” Definition 3.1, Definition 8.1, Conjecture 8.2, and Section 8.2.  This file is a faithful bounded target specification, not a claim that the target is solved.
+
+Exact target boundary
+---------------------
+The source conjectures that for every realizable diagonal multiset m, every k>=0 and r>=1, every scaffold Xi, and every compatible matrix g=(g_{t,delta}) of per-gap, per-diagonal undecorated-active counts, the refined class generating function Phi^(r)_{m,k,Xi,g}(u,v;q) is symmetric in u and v.  The source proves the statement for area(m)<=1 and reports exhaustive area-two checks only for (n,M)=(4,4),(5,4),(5,5),(6,4).  The target below is strictly beyond those reported ranges; it does not assert the general conjecture.
+
+Bounded area-two target
+-----------------------
+Take the unique realizable area-two diagonal multiset m=0^(n-2) 1^2 with n=6 and label alphabet {1,2,3,4,5} (M=5).  Enumerate exactly the source's valley-decorated objects (a,w,S): a is an area word with this diagonal multiset; w is a word in {1,...,5} satisfying the source's rise condition; S is a valid decoration set of valleys as in Definition 2.1.  For every r in {1,2,3,4}, every k in the source range, every scaffold Xi formed by deleting labels r and r+1, and every compatible per-gap, per-diagonal undecorated-active matrix g=(g_{t,delta}), form Phi by summing q^dinv u^alpha v^beta over the exact source class.  Decide whether every such finite polynomial satisfies Phi(u,v;q)=Phi(v,u;q).
+
+Required output for a positive finite settlement
+-------------------------------------------------
+Give deterministic exhaustive enumeration code, the exact number of refined classes checked, zero asymmetric classes, and a second separately implemented replay.  A positive result is only the bounded n=6,M=5 result; it is not a proof of Conjecture 8.2 in general.  A negative result must give one fully decoded source-definition object/class and the two unequal coefficient polynomials, plus an separate replay.  Timeout or incomplete enumeration is UNKNOWN.
+
+Allowed source locators for delegation
+---------------------------------------
+Use only the pinned public arXiv e-print, HTML, PDF, and this synthetic statement.  Do not use conversation history, private repositories, CanonicalLane material, or unstated paraphrases.

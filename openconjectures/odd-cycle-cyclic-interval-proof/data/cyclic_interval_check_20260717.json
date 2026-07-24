@@ -1,0 +1,24 @@
+{
+  "claim": "cyclic interval lemma for odd cycles",
+  "exhaustive_max_odd_m": 19,
+  "exhaustive_subsets_by_order": {
+    "11": 2046,
+    "13": 8190,
+    "15": 32766,
+    "17": 131070,
+    "19": 524286,
+    "3": 6,
+    "5": 30,
+    "7": 126,
+    "9": 510
+  },
+  "exhaustive_subsets_checked": 699030,
+  "general_proof_basis": {
+    "even_w": "average over length-(d+1) arcs exceeds w/2",
+    "note": "finite checks corroborate but do not supply the universal quantifier",
+    "odd_w": "average over length-d arcs exceeds (w-1)/2"
+  },
+  "proof_parameter_cases_checked": 500500,
+  "proof_parameter_max_d": 1000,
+  "status": "pass"
+}

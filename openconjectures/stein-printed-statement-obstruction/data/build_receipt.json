@@ -1,0 +1,30 @@
+{
+  "receipt_id": "stein_printed_statement_obstruction_public_packet_20260709",
+  "openconjecture_id": 368,
+  "target": "SteinDisproof",
+  "command": "cd openconjectures/stein-printed-statement-obstruction/lean && lake build SteinDisproof",
+  "result": "passed",
+  "warning_count": 0,
+  "checked_at_utc": "2026-07-09T02:12:00Z",
+  "lean_toolchain": "leanprover/lean4:v4.28.0",
+  "source": {
+    "arxiv_id": "2602.13960v1",
+    "source_file": "Arxiv_Version.tex",
+    "source_lines": "797-804",
+    "source_content_sha256": "8fa484006e46772a0dfe0f837490517250dff46b5607ba87bf3254029dcf4c36",
+    "source_text_publication": "withheld"
+  },
+  "hashes": {
+    "lean/SteinDisproof.lean": "00b66db890cac54c59af108ff4711b3770d853337cb6f6d61c49f434d9cae15b",
+    "data/lean_build_20260709.log": "a799d3379600c1afc2bebab44153c953e37bdc5027125af160078b8b1264a65c",
+    "lean/lakefile.toml": "d99a83af3f987679f0af9370c23a70efb05ac08d9fbbc4e4e547b5b4f0598bd6",
+    "lean/lake-manifest.json": "f83582cd65b9eeb1f67314d338a38fa7b4a1bddde5286fadeb1ab622f881eb28",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028"
+  },
+  "closed_claim": "Lean/Lake target build closure for the encoded OpenConjecture 368 printed-statement obstruction",
+  "carried": [
+    "repaired Stein variants",
+    "source body text publication",
+    "unrestricted source-level generalization"
+  ]
+}

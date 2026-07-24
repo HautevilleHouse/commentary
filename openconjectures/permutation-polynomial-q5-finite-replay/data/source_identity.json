@@ -1,0 +1,9 @@
+{
+  "arxiv_id": "2606.14529v1",
+  "observed_date": "2026-07-20",
+  "scope": "finite q=5 slice only; general odd-q conjecture remains open",
+  "source": "https://arxiv.org/abs/2606.14529v1",
+  "source_statement_sha256": "73b3157e7e86d621cca1c96be815ab6648a3661d18b960897d805f8e786da1fa",
+  "target": "Odd-q permutation-polynomial conjecture, q=5 finite slice",
+  "title": "Odd-q permutation-polynomial conjecture: q=5 finite replay"
+}

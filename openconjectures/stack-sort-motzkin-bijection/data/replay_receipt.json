@@ -1,0 +1,58 @@
+{
+  "carried_boundary": [
+    "The public packet relies on the cited source theorem package.",
+    "Lean formalization is separate from this public packet.",
+    "Broader stack-sorting questions outside W'_2(n) remain outside this packet."
+  ],
+  "checks": {
+    "bounded_rows_match_motzkin_numbers": true,
+    "bounded_rows_match_source_table": true,
+    "json_parse": true,
+    "style_scan_new_packet": "clear for local paths, protected runtime terms, and stale style wording"
+  },
+  "closed_claim": "Source-level proof packet for OpenConjecture 1878 identifying W'_2(n) with Motzkin paths.",
+  "command": "python3 openconjectures/stack-sort-motzkin-bijection/checkers/replay_motzkin_bijection.py",
+  "environment": {
+    "python": "3.14.5"
+  },
+  "files": {
+    "README.md": "5ea98324d3bb3bb0920679122814bf90608e00d994620e30915d040f00875601",
+    "lean/MathlibProof.lean": "22ca3f12d270d86186d05739282e256dbbf77f04268bbb93918582159a9fdc48",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "ebc0efc279c29d49bfb4636fcc0fc40066789dd602a76c1c97814ed16d1cb1d8",
+    "lean/StackSortMotzkinBijection.lean": "990f46c0bba5b83076ae97545e34d22ac985fee588344ffd91ec68418589cc99",
+    "lean/lakefile.toml": "2b24a22534c4835d4735c88ec3a9b7d2152c14320670cebf3273f6ce56335e59",
+    "checkers/requirements.txt": "d195d93d1dbb2461b703d41642ba0796d275e4cd0438897c2f11f824f578a3e9",
+    "checkers/replay_motzkin_bijection.py": "8c9096c8af2e2ac92418f7a629622c49b468ce75cb558ba5f684fa24f4fa00cf",
+    "formal/mathlib/README.md": "b6191cf4bfe7cf9f7fc3d398832f31e8100030ffa0d5ede04c0834896a300b24",
+    "formal/mathlib/StackSortMotzkinBijectionMathlib.lean": "22ca3f12d270d86186d05739282e256dbbf77f04268bbb93918582159a9fdc48",
+    "data/source_identity.json": "21429b24d605df3fae1bcaf2d9da8a3c7f7e1db38eb50d870aad4003c955d833",
+    "data/lean_build_clean_verify.log": "27921fd98e41699319c58b927d55dd7a1dc1ffcca36461a5b4453a9c41a96af0",
+    "data/motzkin_bijection_check_20260709.json": "76043d6acec7738d7130acdff77cee3af18e1f060d4f543987dad7fdc255294c",
+    "data/lean_build_20260712.log": "ce740a5535662033e3068a033238c63a76e875ecbdcaf95101e9ddf8bf6bcf27",
+    "data/build_receipt.json": "a50f87c2c4a841f361f64c9f3dc7ea31865b126adaaa7d8c9b8a48d3ae23e8f8",
+    "data/replay_receipt.json": "71710f84b6f091a123750c6eab290d65a1fe83f568f48b5d8590dc9b4781e732"
+  },
+  "generated_utc": "2026-07-09T03:55:00Z",
+  "public_packet": "openconjectures/stack-sort-motzkin-bijection",
+  "source": {
+    "arxiv_id": "2604.10779v2",
+    "openconjecture_id": 1878,
+    "source_file": "stacksortingdiagrams.tex",
+    "source_tex_sha256": "f6b8bcb26f9eea984863f6c4c3992519707da16192ef53cbac117c6b8019fdab"
+  },
+  "lean_replay": {
+    "all_pass": true,
+    "status": "pass",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake exe cache get && lake build",
+    "olean_count": 1,
+    "checked_at_utc": "2026-07-24T06:05:28Z",
+    "clean_verify": {
+      "method": "lake_clean",
+      "lake_clean_clone": true,
+      "note": "Clean lake exe cache get && lake build succeeded from empty .lake."
+    }
+  },
+  "checked_at_utc": "2026-07-24T06:05:28Z"
+}

@@ -1,0 +1,16 @@
+{
+  "observed_utc": "2026-07-19T08:55:00Z",
+  "surfaces": [
+    "arXiv version record and exact source HTML/e-print",
+    "OpenConjecture and formal-conjectures catalogs",
+    "public author-repository search",
+    "public mathematical literature and web search"
+  ],
+  "queries": [
+    "2606.29015 misere quotient m=3",
+    "Impartial Combinatorial Games and the Nuclear Escalation Ladder misere quotient",
+    "{1,2,3} misere quotient subtraction game"
+  ],
+  "result": "No prior m=3 quotient presentation for this exact source game was located; the source itself reports only m=2 and states m>=3 is uncomputed.",
+  "qualification": "Dated search evidence only; ."
+}

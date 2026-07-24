@@ -1,0 +1,9 @@
+Exact bounded target from arXiv:2607.04077v1 (Feldman), source file q2.tex context.
+
+For N=3, with S_N = sum_{j=1}^N j^{-3}, R_N = zeta(3)-S_N, and g(N)=sqrt(R_N/2),
+verify that the first two partial quotients of g(3) are a1=7 and a2=14, matching
+the N=N_1=3 case of the paper's formal continued-fraction pattern for g(N).
+
+This settles only the finite k=1 / N=3 slice. It does not prove the all-k or all-N
+conjecture for g(N), and it does not claim the paper's main theorem on partial
+quotients of sqrt(R_{N_k}).

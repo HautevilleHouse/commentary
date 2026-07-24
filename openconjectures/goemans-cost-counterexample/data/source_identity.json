@@ -1,0 +1,9 @@
+{
+  "arxiv_id": "2308.02651v1",
+  "observed_date": "2026-07-22",
+  "scope": "finite seven-vertex counterexample only; general SSUF conjecture remains open",
+  "source": "https://arxiv.org/abs/2308.02651v1",
+  "source_statement_sha256": "2680b999abcd39e9339f0ca75a9f792e52a21929786edb39230cf98f9990a81c",
+  "target": "Goemans cost-enhanced SSUF Conjecture 1.3, seven-vertex instance",
+  "title": "Finite Goemans cost-conjecture counterexample"
+}

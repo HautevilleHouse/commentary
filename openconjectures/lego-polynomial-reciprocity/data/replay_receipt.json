@@ -1,0 +1,52 @@
+{
+  "carried_boundary": [
+    "The theorem concerns the oriented flat structures and translation convention in the versioned source.",
+    "The source paper's asymptotic and three-dimensional questions remain outside this packet.",
+    "The prior-public-resolution search is dated and bounded."
+  ],
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "closed_claims": [
+    "For every connected graph G, the lattice enumerator of its integral Lipschitz polytope satisfies L_G(-t-1)=(-1)^d L_G(t).",
+    "Fixed vertical patterns of labelled LEGO placements are finite signed sums of connected-graph Lipschitz enumerators of common dimension n-1.",
+    "Removing labels and summing vertical patterns gives p_n(1-w)=(-1)^(n-1)p_n(w) for every positive integer n."
+  ],
+  "command": "PYTHONDONTWRITEBYTECODE=1 python3 openconjectures/lego-polynomial-reciprocity/checkers/verify.py",
+  "environment": {
+    "python": "Python 3.14.6"
+  },
+  "files": {
+    "PROOF.md": "1d825655802313faae9c17d9e5fec310c4c1aedfef6c887d59feb697b294914f",
+    "README.md": "44bf2482affb20ee2e1daa5aada36a372e86738cd3e905fffbf88d37b54cbd82",
+    "lean/MathlibProof.lean": "b7cf1f398f0de7074bb2e686b33a42da56e553ca5d4d1e3378d6f622bca72fa3",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "0f3211d9b74c4c3430757d401fffe98553305843878a5460ca148b778569feae",
+    "lean/lakefile.toml": "0e6707b1074d4dd0bf473eae801ca63b75944cd42c136162584205914e379f59",
+    "checkers/verify.py": "acd672258b500e7747dcb1d5abaf666a4643b2c897e693f6e8cac2f733cfe5cd",
+    "data/source_identity.json": "2317217867aed1805cffddf1f8ffd13af2f74a644ac5bbd4473a98d84b5249a4",
+    "data/verification_result_20260718.json": "b542c17aff2083d7601498b57cf39344c560dbeb0ead45f4b0daf137512661c7",
+    "data/lean_build_replay.log": "85d3fbbb989ad5e8cf81cc56ccf9eabcd6bd2fb64fa05e7b87233646170cd97d",
+    "data/prior_public_resolution_search_20260718.json": "e52aceaaf2a6ff2e2759fc82d771e7ce59fffe058c907447fd66ed7b7aa4b69f",
+    "data/replay_receipt.json": "ee751e43b14a02a44ceecc4ef49e24ac7774e0d6f01b3593a31a28c647e79ccb"
+  },
+  "finite_replay": {
+    "all_pass": true,
+    "connected_graphs_checked": 44,
+    "direct_geometric_cases_checked": 10,
+    "exit_code": 0,
+    "source_rows_checked": 8,
+    "stdout_sha256": "a148e616876e5ba1df16d80a57db0a8861039dab0b06f20e1911fa85a42e04a9"
+  },
+  "source_object": {
+    "arxiv_id": "2605.07380v1",
+    "target": "Conjecture 1"
+  },
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  }
+}

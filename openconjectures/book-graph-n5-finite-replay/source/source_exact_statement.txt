@@ -1,0 +1,17 @@
+SOURCE IDENTITY: arXiv:2604.08998v2, Conjecture 5.4, observed 2026-07-22.
+SOURCE URL: https://arxiv.org/abs/2604.08998v2
+
+EXACT SOURCE STATEMENT:
+The numerical data suggest the following sharper parity-dependent statement.
+(i) If n is even, then D(B_n, x) has exactly four real roots counting
+multiplicity: 0 with multiplicity 2, one simple root in (-infinity, -2), and
+one simple root in (-1/2, 0).
+(ii) If n is odd, then D(B_n, x) has exactly four real roots counting
+multiplicity: 0 with multiplicity 2 and two simple roots in (-1/2, 0).
+
+BOUNDED TASK:
+Set n=5. Let
+D(B_n, x) = (2x + 1)(x(x + 2))^n + x^2((x + 1)^2)^n - 2x^n.
+Compute the exact rational Sturm root counts for D(B_5, x) / x^2 on the
+intervals (-infinity, -2), (-2, -1/2), (-1/2, 0), and the full real line.
+Do not claim the all-n conjecture.

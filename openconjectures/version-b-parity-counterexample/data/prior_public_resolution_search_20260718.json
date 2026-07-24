@@ -1,0 +1,17 @@
+{
+  "boundary": "This is a dated public-source search receipt.",
+  "github_code_queries": [
+    "Generalizing OOOOOOB",
+    "2605.23213",
+    "OOOOOOB k/2+1"
+  ],
+  "github_code_results": 0,
+  "observed_utc": "2026-07-18T17:24:00Z",
+  "search_queries": [
+    "Generalizing OOOOOOB counterexample",
+    "Suppose we have k piles more than m tokens P-position",
+    "Version B number of odd piles P-position",
+    "site:arxiv.org Generalizing OOOOOOB"
+  ],
+  "summary": "The searches located the v1 source, the authors' current Maple program, mirrors or summaries of the source, and no public proof or counterexample to Conjecture 2.1. The arXiv API listed only v1 at the observation time."
+}

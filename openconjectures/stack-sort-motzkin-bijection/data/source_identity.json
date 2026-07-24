@@ -1,0 +1,21 @@
+{
+  "abs_url": "https://arxiv.org/abs/2604.10779v2",
+  "arxiv_id": "2604.10779v2",
+  "eprint_url": "https://arxiv.org/e-print/2604.10779v2",
+  "license_family": "cc_by",
+  "openconjecture_id": 1878,
+  "pdf_url": "https://arxiv.org/pdf/2604.10779",
+  "source_file": "stacksortingdiagrams.tex",
+  "source_lines_used": [
+    "127-130",
+    "516-528",
+    "742-763",
+    "817-821",
+    "870-873"
+  ],
+  "source_payload_sha256": "d9e6aae2fa8e5559c95923cf4ef6faf1a1fd4b6c981a50fb64ec231907cb3528",
+  "source_statement": "For all n, |W'_2(n)| is the nth Motzkin number.",
+  "source_tex_sha256": "f6b8bcb26f9eea984863f6c4c3992519707da16192ef53cbac117c6b8019fdab",
+  "steward": "arXiv",
+  "title": "Polynomial Time Enumeration of t-Stack-Sortable Permutations Ending in Their Least Entry"
+}

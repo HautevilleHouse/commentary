@@ -1,0 +1,14 @@
+{
+  "observed_date": "2026-07-21",
+  "scope": "finite n=3 slice only; general conjecture remains open",
+  "source": "https://github.com/google-deepmind/formal-conjectures/blob/b8b5208aa5d01f5f91c49ca516bf09cae8d93693/FormalConjectures/Paper/StrongSensitivityConjecture.lean",
+  "source_commit": "b8b5208aa5d01f5f91c49ca516bf09cae8d93693",
+  "source_statement_sha256": "d3846894a3b9adb5eb68aff2805994b7cbc8fb0e0f90c7bb1c9e8cb9330a2de0",
+  "target": "Strong Sensitivity conjecture finite n=3 slice",
+  "title": "Strong Sensitivity n=3 finite replay",
+  "versioned_source": {
+    "identifier": "google-deepmind/formal-conjectures@b8b5208aa5d01f5f91c49ca516bf09cae8d93693#FormalConjectures/Paper/StrongSensitivityConjecture.lean",
+    "kind": "public_repository",
+    "url": "https://github.com/google-deepmind/formal-conjectures/blob/b8b5208aa5d01f5f91c49ca516bf09cae8d93693/FormalConjectures/Paper/StrongSensitivityConjecture.lean"
+  }
+}

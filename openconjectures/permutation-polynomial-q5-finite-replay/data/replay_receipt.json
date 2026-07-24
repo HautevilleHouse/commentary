@@ -1,0 +1,35 @@
+{
+  "schema_version": "2026-07-23.lean_replay_seal.v1",
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "source_object": {
+    "packet": "permutation-polynomial-q5-finite-replay"
+  },
+  "commands": {
+    "lean": "cd lean && lake build"
+  },
+  "environment": {
+    "lean_toolchain": "leanprover/lean4:v4.28.0"
+  },
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "files": {
+    "result.json": "d12f8c1c6a41104d233c806b2c603a258c6e8de87e644fcd8c731b800ba78354",
+    "README.md": "e60f8b791bf37503c2afe652bde9b890aa935b85e48a6e8367fb70c1d8e2ae43",
+    "lean/MathlibProof.lean": "a5be0770440c3283a36c4dc4a25cffb3f0c6b2d204e99e9f9be36b277b3725cb",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "39caafd89d9d7f9477fc8d2de73ce66a0bde3e7d2dafc4d2e19c0836fdc43639",
+    "lean/lakefile.toml": "02fe3106a42923e1c37246005e4ce9eaaa296ba13ce76b06561ec07ff676ae39",
+    "checkers/verify.rb": "1f0160043b99d61935196898b2a7cae01c1e4a7d3cb74ae647af5f9aacff9e44",
+    "checkers/verify.py": "fba83fb67cd7b58da4879ac5860720b85eb9f76a9b47065080ddccc45e6d6913",
+    "source/source_exact_statement.txt": "73b3157e7e86d621cca1c96be815ab6648a3661d18b960897d805f8e786da1fa",
+    "data/lean_build_replay.log": "11954a31cca169d007f225aef8e5b773e1e6cece1b1589e7dbca03fbd413bf7f",
+    "data/replay_receipt.json": "e126937547db50d7238182b1d7c45320dee57b9fff6710cfb6460fb31e435596"
+  }
+}

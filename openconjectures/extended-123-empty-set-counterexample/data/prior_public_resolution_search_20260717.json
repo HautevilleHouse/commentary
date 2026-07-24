@@ -1,0 +1,64 @@
+{
+  "checked_at_utc": "2026-07-17T22:48:48Z",
+  "conclusion": "The bounded searches returned the current source record, source-metadata mirrors, and earlier formulations with the nonempty condition, but no separate public resolution of the displayed quantifier.",
+  "limits": [
+    "Unpublished work lies outside the search scope.",
+    "Public work absent from the queried indexes or using unrelated terminology lies outside the search scope.",
+    "An unavailable index endpoint is recorded as unavailable, not as evidence of absence.",
+    "This dated record is a public-source search receipt only."
+  ],
+  "search_date": "2026-07-17",
+  "searches": [
+    {
+      "queries": [
+        "2607.00934 counterexample empty set",
+        "On the Extended 1-2-3 Conjecture of Pilz proof counterexample",
+        "Extended 1-2-3 Conjecture empty set"
+      ],
+      "result": "Results contained the source paper and earlier intended formulations requiring a nonempty set; a separate resolution of the displayed quantifier was absent.",
+      "surface": "indexed web"
+    },
+    {
+      "query": "2607.00934",
+      "result": "0 code results.",
+      "surface": "GitHub code search"
+    },
+    {
+      "query": "Extended 1-2-3 Conjecture empty set",
+      "result": "0 code results.",
+      "surface": "GitHub code search"
+    },
+    {
+      "query": "A Delta (2A) ... (nA)",
+      "result": "2 code results, both arXiv RSS metadata mirrors of the source paper; no resolution.",
+      "surface": "GitHub code search"
+    },
+    {
+      "query": "recursive tree path match for 2607.00934, Extended 1-2-3, Pilz, or 4736",
+      "repository": "https://github.com/davisrbr/conjectures-arxiv",
+      "result": "0 matching paths in a non-truncated 269-path tree.",
+      "surface": "GitHub repository tree"
+    },
+    {
+      "record": "https://arxiv.org/abs/2607.00934v1",
+      "result": "The official arXiv API returned one record, still version v1.",
+      "surface": "official arXiv API"
+    },
+    {
+      "record": "https://www.semanticscholar.org/paper/beb25833b051e98fa5d1694019710efc04e79e7d",
+      "result": "citationCount = 0",
+      "surface": "Semantic Scholar"
+    },
+    {
+      "record": "https://api.openalex.org/works/https://arxiv.org/abs/2607.00934",
+      "result": "The endpoint returned 404; this surface was unavailable and was not treated as evidence of absence.",
+      "surface": "OpenAlex"
+    }
+  ],
+  "source_object": {
+    "arxiv_id": "2607.00934v1",
+    "openconjecture_id": 4736,
+    "source_file": "final_version.tex",
+    "source_lines": "333-336"
+  }
+}

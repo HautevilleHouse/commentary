@@ -1,0 +1,46 @@
+{
+  "schema": "public-proof-packet-replay.v1",
+  "status": "passed",
+  "observed_utc": "2026-07-19T08:41:00Z",
+  "commands": [
+    "curl -L https://arxiv.org/e-print/2606.14877 -o /tmp/2606.14877-eprint; verify SHA-256 e4ef98b2c7d45d8878782ffd3ed9728d01557f2e196c878b3e19dbc8319f468e; tar -xf /tmp/2606.14877-eprint; python3 -c 'import sys; sys.path.insert(0,\"anc/verification\"); import area2; print(area2.run(6,5))'",
+    "clang++ -std=c++17 -O2 -Wall -Wextra -pedantic openconjectures/valley-delta-area2-n6m5/verify_area2_n6m5.cpp -o /tmp/valley_delta_area2_n6m5 && /tmp/valley_delta_area2_n6m5"
+  ],
+  "routes": [
+    "Pinned arXiv ancillary Python enumeration",
+    "Separate C++ direct enumeration and polynomial symmetry comparison",
+    "Fresh clean-clone C++ replay from the public endpoint"
+  ],
+  "result": "143649 diagonal-blind classes and 149388 per-diagonal classes; zero asymmetric classes in both refinements.",
+  "files": {
+    "replay.sh": "0bab6a0e04967614d29ef654b95fb1804063f9d600153308c9fda06580c002f3",
+    "RESULT.json": "fe757427d385c87516dee6745424717657f275e32b55a2df4c3958181a1c6c81",
+    "verify_area2_n6m5.cpp": "a60c093b1932115661282ec2f7e2c7325bb43c3d67e06ed7fd891a94f9b6ec32",
+    "README.md": "44ddacb5deea30d2d0a3ba0979f738e16170ba8df603b948b7f1580a7a587669",
+    "lean/MathlibProof.lean": "7d1139abfd22366dd0b10bfe7c92b61e7b5d0b0b80c3ae978cb79d5677b95df6",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "e858debcd22903fe97fae661f6603d14d9d8a478272c5827bca4409d3462d546",
+    "lean/lakefile.toml": "5b1c139e58802fc110a708e3cbd147e003e6f4f00ceb7970e36f03133c54558d",
+    "checkers/area2.py": "459ed0fdeebe2add2283d3e079ee53d002e5b4cd77d67b7cb7d298c6f0e006cb",
+    "checkers/valley_delta_area2_n6m5_verify.cpp": "7602c28f72b74c09803531a484b441a53eece2c4c55ae4a0eb9afa3368bbd672",
+    "source/source_exact_statement.txt": "dbe25aaac379853a16713bd8859f8f56ff4960a32586e54f64f38e43e640f686",
+    "data/source_identity.json": "c343dd5efbbd32177ba79e5b4842992ffc5aa5b52de139b9e3aa005deec327e5",
+    "data/verification_result_20260719.json": "8fe8716e5d7ad80a757ca5ce2ff5dfd112097cd45b22cf01218d38a16651b32b",
+    "data/lean_build_replay.log": "cd92e903d3bfb1c0a9692a168fed848661e11bb6f355e85c09398323b29c93f2",
+    "data/prior_public_resolution_search_20260719.json": "1f959b6d971dd73b0585d88423e9feae0a35b5974aef0887003cdf59e91340aa",
+    "data/replay_receipt.json": "c845410bdb29fc2b61ea4f6ae3e1125483044e7c14752e1843b6bf48f4e8a437"
+  },
+  "claim_boundary": "Only the exact finite (n,M)=(6,5) target is settled; the all-parameter Conjecture 8.2 remains unresolved.",
+  "external_review": "not_reviewed",
+  "communicated_to_authors": false,
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "checked_at_utc": "2026-07-24T01:58:47Z"
+}

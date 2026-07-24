@@ -1,0 +1,127 @@
+{
+  "bounded_stack_sort_check": {
+    "checked_n_range": [
+      1,
+      8
+    ],
+    "failed_rows": [],
+    "rows": [
+      {
+        "computed_W2_prime_count": 1,
+        "matches_motzkin": true,
+        "matches_source_table": true,
+        "motzkin_number": 1,
+        "n": 1,
+        "source_table_count": 1
+      },
+      {
+        "computed_W2_prime_count": 2,
+        "matches_motzkin": true,
+        "matches_source_table": true,
+        "motzkin_number": 2,
+        "n": 2,
+        "source_table_count": 2
+      },
+      {
+        "computed_W2_prime_count": 4,
+        "matches_motzkin": true,
+        "matches_source_table": true,
+        "motzkin_number": 4,
+        "n": 3,
+        "source_table_count": 4
+      },
+      {
+        "computed_W2_prime_count": 9,
+        "matches_motzkin": true,
+        "matches_source_table": true,
+        "motzkin_number": 9,
+        "n": 4,
+        "source_table_count": 9
+      },
+      {
+        "computed_W2_prime_count": 21,
+        "matches_motzkin": true,
+        "matches_source_table": true,
+        "motzkin_number": 21,
+        "n": 5,
+        "source_table_count": 21
+      },
+      {
+        "computed_W2_prime_count": 51,
+        "matches_motzkin": true,
+        "matches_source_table": true,
+        "motzkin_number": 51,
+        "n": 6,
+        "source_table_count": 51
+      },
+      {
+        "computed_W2_prime_count": 127,
+        "matches_motzkin": true,
+        "matches_source_table": true,
+        "motzkin_number": 127,
+        "n": 7,
+        "source_table_count": 127
+      },
+      {
+        "computed_W2_prime_count": 323,
+        "matches_motzkin": true,
+        "matches_source_table": true,
+        "motzkin_number": 323,
+        "n": 8,
+        "source_table_count": 323
+      }
+    ]
+  },
+  "checks": {
+    "bijection_maps_are_inverse_by_cell_type": true,
+    "bounded_rows_match_motzkin_numbers": true,
+    "bounded_rows_match_source_table": true,
+    "prefix_condition_matches_B_after_A_constraint": true
+  },
+  "environment": {
+    "python": "3.14.5",
+    "script_sha256": "8c9096c8af2e2ac92418f7a629622c49b468ce75cb558ba5f684fa24f4fa00cf"
+  },
+  "payload_sha256_without_self": "1daa54bec54da33fb164639029d8be6fe90d8753bc8886bc32329eaeaa4cd719",
+  "proof_model": {
+    "all_n_claim": "|W'_2(n)| = M_n for every n >= 0",
+    "carried_boundary": [
+      "relies on the cited source theorem package",
+      "Lean formalization is separate from this packet"
+    ],
+    "cell_names": {
+      "A_j": "(1,j), the first cell in row j",
+      "B_j": "(2,j), the second cell in row j when alpha_j = 2"
+    },
+    "inverse_map": [
+      "horizontal step creates a length-1 row",
+      "up step creates a length-2 row",
+      "down step closes the next open length-2 row"
+    ],
+    "linear_extension_constraints": [
+      "A cells form one chain",
+      "B cells form one chain",
+      "each B_j occurs after its matching A_j"
+    ],
+    "motzkin_map": {
+      "B_cell": "down",
+      "length_1_A_cell": "horizontal",
+      "length_2_A_cell": "up"
+    },
+    "source_reduction": "Theorem PT reduces |W'_2(n)| to linear extensions of composition diagrams with row lengths in {1,2}; all hook factors are 1."
+  },
+  "source": {
+    "arxiv_id": "2604.10779v2",
+    "openconjecture_id": 1878,
+    "source_claim": "|W'_2(n)| is the nth Motzkin number.",
+    "source_file": "stacksortingdiagrams.tex",
+    "source_lines": [
+      "127-130",
+      "516-528",
+      "742-763",
+      "817-821",
+      "870-873"
+    ],
+    "tex_sha256": "f6b8bcb26f9eea984863f6c4c3992519707da16192ef53cbac117c6b8019fdab"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "packet": "almost-golomb-prefix-conjecture",
+  "recorded_utc": "2026-07-19T01:24:00Z",
+  "commit_under_test": "5dc6c6f8bbadb7ab5f28cac9f0e50a8df80bb807",
+  "claim": "For every integer r>=3, a_r(r)=G(r-1).",
+  "universal_basis": "PROOF.md",
+  "artifacts": {
+    "PROOF.md": "f43575d45d362f955d1c5fe7602292b78553aaa4907d85c930ac30a4543d25d6",
+    "checkers/verify.py": "ea2ab2241b926ce739687bdd437cf6c74f957d5030398011afbcb27a2d70ca34",
+    "checkers/crosscheck.py": "ff7d0932351196d408b9baf7c4d4bf08e9887d305651581a19f16c9502a937ec",
+    "lean/AlmostGolombPrefix.lean": "c034e6f4c0e58b7cad66524c818a49e73ab7c0776dbe183381bf051a64346b20",
+    "data/source_identity.json": "d2f4bdac7ea24a38a320e1d23b6fec0693bcd7e3af45df7c35d8aba50621d6a9",
+    "data/verification_result_20260719.json": "15cb4076bdf8ca5d9e28da68fc750fed84266611dad9b20597f9594974f36d25",
+    "data/crosscheck_result_20260719.json": "23e3baa197797add2e8ecde79d717eec7f6982a08dc03c78326c070e8332b857"
+  },
+  "clean_ci": [
+    {
+      "event": "push",
+      "url": "https://github.com/HautevilleHouse/commentary/actions/runs/29668407271",
+      "conclusion": "success",
+      "exact_replay": "pass",
+      "independent_crosscheck": "pass",
+      "lean_typecheck": "pass"
+    },
+    {
+      "event": "pull_request",
+      "url": "https://github.com/HautevilleHouse/commentary/actions/runs/29668408354",
+      "conclusion": "success",
+      "exact_replay": "pass",
+      "independent_crosscheck": "pass",
+      "lean_typecheck": "pass"
+    }
+  ],
+  "scope_boundary": {
+    "proved": "the Prefix Conjecture constituent of OpenConjecture 1688",
+    "lean_certificate": "the closed-interval shift step used by the written induction",
+    "remaining_open": [
+      "the source's Domination Lemma",
+      "the full threshold law indexed as OpenConjecture 1688"
+    ],
+    "external_review": false
+  },
+  "status": "PASS"
+}

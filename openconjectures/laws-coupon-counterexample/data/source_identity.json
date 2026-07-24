@@ -1,0 +1,15 @@
+{
+  "arxiv_abs_url": "http://arxiv.org/abs/2605.04069v1",
+  "arxiv_id": "2605.04069v1",
+  "arxiv_pdf_url": "https://arxiv.org/pdf/2605.04069v1",
+  "arxiv_source_url": "https://arxiv.org/e-print/2605.04069v1",
+  "arxiv_source_tex_sha256": "9e0189a0b277c68b9ab630b22f8a85a4244b103f863f9ff3ad70c4153e26e945",
+  "license_family": "cc_by",
+  "local_row_sha256": "a04c2a99d05f7b7f7eb4754e6b3ca8cacdb50fa9202ed0ca4e1ed9e4335f2afe",
+  "openconjecture_id": 2421,
+  "source_claim_body_sha256": "91ba1d1187dacb7d43cd52431971bb699d685da36c42b50eb1566fab6d6600bc",
+  "source_file": "LAWS.tex",
+  "source_lines": "1812-1832",
+  "source_object": "Conjecture lower_rate / LAWS Convergence Rate Lower Bound",
+  "title": "LAWS: Learning from Actual Workloads Symbolically -- A Self-Certifying Parametrized Cache Architecture for Neural Inference, Robotics, and Edge Deployment"
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "2026-07-18.source_identity.v1",
+  "source_id": "arXiv:2605.05198v1",
+  "title": "S-LCG: Structured Linear Congruential Generator-Based Deterministic Algorithm for Search and Optimization",
+  "authors": [
+    "Ahmed Qasim Mohammed",
+    "Haider Banka",
+    "Anamika Singh"
+  ],
+  "target": "Maximum Generator conjecture, source label conj:alphamax; OpenConjecture problem 2378",
+  "source_urls": [
+    "https://openconjecture.org/problems/2378",
+    "https://arxiv.org/abs/2605.05198v1",
+    "https://arxiv.org/src/2605.05198v1"
+  ],
+  "source_archive_sha256": "37dc45722f578ffb766ce0f0697f3105eea2a23749c3b1ecd0d1fe591304b05d",
+  "source_tex_path": "main.tex",
+  "source_tex_sha256": "612ca22a557e382ae3f4c9f21ac251e60af9d4bf8a99b4d392a4a86bb7e277fb",
+  "source_line_anchors": {
+    "n7_generator_42_row": "main.tex:404-422",
+    "maximum_generator_conjecture": "main.tex:453-469",
+    "reported_n7_value_20": "main.tex:490-510"
+  },
+  "version_check": {
+    "observed_utc": "2026-07-18T16:05:13Z",
+    "arxiv_api_total_results": 1,
+    "latest_public_version": "v1",
+    "latest_public_updated_utc": "2026-05-06T17:57:41Z"
+  }
+}

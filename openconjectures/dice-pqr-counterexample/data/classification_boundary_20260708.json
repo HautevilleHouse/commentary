@@ -1,0 +1,67 @@
+{
+  "receipt_id": "dice_pqr_classification_boundary_20260708",
+  "created_utc": "2026-07-08T20:48:00Z",
+  "openconjecture_id": 3558,
+  "arxiv_id": "2606.20311v1",
+  "latest_arxiv_version_checked": "v1",
+  "source_title": "Dice Relabeling Using Square-Sided Dice",
+  "source_object": "Conjecture con:pqr in the pqr square-sided dice section",
+  "admitted_public_object": "source-bound counterexample packet",
+  "mathematician_facing_expectation": {
+    "for_counterexample_packet": "one exact source-worded counterexample with reproducible arithmetic",
+    "for_complete_classification_claim": "full symbolic pqr case classification",
+    "for_repaired_theorem_claim": "corrected table statement plus proof or a carried gap for every repaired case"
+  },
+  "decision": "keep the public packet scoped to counterexample closure and carry complete classification as a separate closure package",
+  "source_table_state": {
+    "printed_rows": 12,
+    "unique_rows": 11,
+    "duplicate_rows": {
+      "2112": 2
+    },
+    "source_claimed_remaining_pairs": 33,
+    "remaining_pairs_from_unique_printed_rows": 34
+  },
+  "bounded_classification": {
+    "prime_bound": 17,
+    "ordered_prime_triples_tested": 210,
+    "case_count": 81,
+    "source_class_counts": {
+      "source_corollary_negative": 36,
+      "source_remaining_conjecture_case": 34,
+      "source_table_conditional": 1,
+      "source_table_nonconditional": 10
+    },
+    "empirical_status_counts": {
+      "negative_witness_for_every_tested_ordered_triple": 68,
+      "mixed_across_tested_ordered_triples": 3,
+      "nonnegative_for_every_tested_ordered_triple": 10
+    },
+    "counterexample_instances_within_bound": 20,
+    "public_csv": "openconjectures/dice-pqr-counterexample/data/dice_pqr_case_classification.csv",
+    "public_csv_sha256": "18e9bc4203378127549e62b06083f4c1eee9d7021349c175390f6429237d7092"
+  },
+  "checked_counterexample": {
+    "case": "1111",
+    "p": 3,
+    "q": 5,
+    "r": 11,
+    "inside_source_conjecture_instance": true,
+    "outside_source_table_condition": true,
+    "product_equals_target": true,
+    "A_min_coefficient": 0,
+    "B_pair_min_coefficient": 0
+  },
+  "separate_closure_packages": [
+    "complete symbolic pqr classification",
+    "repaired source theorem",
+    "source-author or corrected-table reconciliation"
+  ],
+  "evidence_tier": "COUNTEREXAMPLE_CLOSURE_WITH_BOUNDED_CLASSIFICATION_CONTEXT",
+  "endpoint_checks": {
+    "arxiv_current_version_checked": true,
+    "case_classification_csv_public_safe_scan": true,
+    "counterexample_python_replay": true,
+    "dice_lean_build": true
+  }
+}

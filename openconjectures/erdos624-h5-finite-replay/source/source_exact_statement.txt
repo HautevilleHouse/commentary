@@ -1,0 +1,10 @@
+Source-exact public bounded task, from Erdős Problem 624 as formalized in
+FormalConjectures/ErdosProblems/624.lean at commit
+c252a41054125b5fd9c8356e2137cd9b55337657.
+
+For X={0,1,2,3,4}, determine H(5), the least m for which there is a function
+f:P(X)->X such that every Y subseteq X with |Y|>=m satisfies
+{f(A): A subseteq Y}=X. Return an explicit 32-entry truth table for f and a
+complete finite lower-bound certificate for m-1. Preserve the exact quantifier
+over all Y and the powerset domain; do not substitute a reciprocal-sum or
+geometric statement.

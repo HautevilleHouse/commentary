@@ -1,0 +1,70 @@
+{
+  "schema_version": "2026-07-18.slcg_maximum_generator_counterexample_receipt.v1",
+  "checked_at_utc": "2026-07-24T04:14:00Z",
+  "source_object": {
+    "openconjecture_id": 2378,
+    "arxiv_id": "2605.05198v1",
+    "target": "Maximum Generator conjecture, source label conj:alphamax"
+  },
+  "closed_claims": [
+    "For n=7, the source map has the two-cycle 42 -> 85 -> 42, whose source-defined generator is 42.",
+    "The source's printed closed form and recurrence give 20 at n=7, so the universal Maximum Generator conjecture is false.",
+    "For every odd n>=3, the displayed a_n and b_n form a two-cycle whose minimum exceeds the conjectured value."
+  ],
+  "commands": {
+    "python": "PYTHONDONTWRITEBYTECODE=1 python3 checkers/verify.py",
+    "lean": "cd lean && lake build"
+  },
+  "environment": {
+    "python": "Python 3.14.6",
+    "lean": "Lean 4.28.0, arm64-apple-darwin24.6.0, commit 7e01a1bf5c70fc6167d49c345d3bf80596e9a79b",
+    "lake": "Lake 5.0.0-src+7e01a1b"
+  },
+  "files": {
+    "PROOF.md": "27fc4c090cbab84c23e59d96fe71f26748a9dc487ce1d2439dbdf69ac6532a2c",
+    "README.md": "e2693780cb3d36d82616ad56d8b7e268d8d37c5dc2cbd134d3030c79a04ef55b",
+    "lean/MathlibProof.lean": "ed3ff58e97609fb9eb655f0fe5a8a3f9967b9421972d3aed76fb34a044f234b9",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/SLCGMaximumGeneratorCounterexample.lean": "caca812fa9bd4e69879beb2963964da1b0b1bc58e36d271f7eaabf42aa46351a",
+    "lean/lake-manifest.json": "5caec3e7d9be34cfa5763f10c66d937028994562ea4e7fe3548203247470c941",
+    "lean/lakefile.toml": "12d14f06abcd6ac9acec76e519d854c47d3d06a8f5ff3312b6944fdb4726e5e0",
+    "checkers/verify.py": "ce20fe9ad409babdf3dfa418983e9209e238a16440abb4bb122ec95914a07704",
+    "formal/mathlib/SLCGMaximumGeneratorCounterexampleMathlib.lean": "ed3ff58e97609fb9eb655f0fe5a8a3f9967b9421972d3aed76fb34a044f234b9",
+    "formal/mathlib/README.md": "39af17ba1f993558fcd02c1b85d8fc1491db31d928a600e4c8c9e1b5e3ccbdc3",
+    "data/lean_build_20260718.log": "14bc0132b1893543491f2b42644d2d82834ded88c499dd2f2e6a38dc640f8757",
+    "data/source_identity.json": "333693bc24186be94ef0016ba16998448a5af9b4a2a51d16788ec63473606f73",
+    "data/verification_result_20260718.json": "91604c4818c97782bad0fa6759781552190522b71fd93b135cd546faa97b08cb",
+    "data/lean_build_clean_verify.log": "f4cee872f352139b41fa26094a874d0130695b80f693b345abad67d74df94c54",
+    "data/prior_public_resolution_search_20260718.json": "3a6c6042e5821d11e23ef69b19edde3618d47042333bbe22c07cc5d3a563760d",
+    "data/replay_receipt.json": "8a36ad3bb343699c927080d1a708e6dd93f27fed7ce4dd5567085f9123f8aacc"
+  },
+  "python_replay": {
+    "all_pass": true,
+    "deterministic_replays": 2,
+    "stdout_sha256": "f73d91a34798fb67fe318207aadb773f404e9d0a46aa822288408d00916db5e6",
+    "odd_family_instances_checked": 49,
+    "exhaustive_cycle_partitions_checked": 9
+  },
+  "lean_replay": {
+    "all_pass": true,
+    "status": "pass",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake exe cache get && lake build",
+    "olean_count": 1,
+    "checked_at_utc": "2026-07-24T04:14:00Z",
+    "clean_verify": {
+      "method": "lake_clean",
+      "lake_clean_clone": true,
+      "note": "Clean lake exe cache get && lake build succeeded from empty .lake."
+    }
+  },
+  "source_identity": {
+    "archive_sha256": "37dc45722f578ffb766ce0f0697f3105eea2a23749c3b1ecd0d1fe591304b05d",
+    "main_tex_sha256": "612ca22a557e382ae3f4c9f21ac251e60af9d4bf8a99b4d392a4a86bb7e277fb"
+  },
+  "carried_boundary": [
+    "The packet does not assess the source optimizer or benchmark results.",
+    "A repaired generator-space definition that excludes short cycles is outside the closed claim.",
+    "The prior-public-resolution search is a dated public-source receipt."
+  ]
+}

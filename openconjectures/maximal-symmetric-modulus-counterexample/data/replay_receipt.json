@@ -1,0 +1,45 @@
+{
+  "carried_boundary": [
+    "The optimal value of c_vee(d) remains outside this packet.",
+    "Dimension families beyond the displayed 2 x 2 counterexample remain outside this packet.",
+    "This public packet is a checker packet rather than a Lean formalization."
+  ],
+  "checker_sha256": "2fde6e3c0f85930dcd21837a0ff45f7f27f778d34d8b3d1910b36aabda99d0e7",
+  "closed_claim": "Source-worded counterexample to the c_vee(d)=1 conjecture for OpenConjecture 3706.",
+  "command": "python3 openconjectures/maximal-symmetric-modulus-counterexample/checkers/replay_trace_counterexample.py",
+  "endpoint_result": "local replay completed and wrote data/trace_counterexample_check_20260709.json",
+  "output_sha256": "1a9e4dc5177ddd95d5e6b41073afd00e4974af27f8d7f7a34799ce1893046c0d",
+  "python_version": "Python 3.14.5",
+  "readme_sha256": "a2f2a3fb274d9d285ae37d180c0d877e2eca2d75e4dcdad04b70983bdfe869b9",
+  "requirements_sha256": "d195d93d1dbb2461b703d41642ba0796d275e4cd0438897c2f11f824f578a3e9",
+  "source_identity_sha256": "b69bfd5618f946875d11d5997dff0de009bb29c77861a28717901ae02d2aed27",
+  "source_object": {
+    "arxiv_id": "2606.15624v2",
+    "openconjecture_id": 3706,
+    "source_file": "Averages-3.tex",
+    "source_lines": "675-693"
+  },
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "files": {
+    "README.md": "a2f2a3fb274d9d285ae37d180c0d877e2eca2d75e4dcdad04b70983bdfe869b9",
+    "lean/MathlibProof.lean": "9767b9281da5a1cdade88395080aaf3194d0d135384bceab7d644cf07c5d0e10",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "cf79b321e6e609c1ea6dfa2efb89bc7376ab6e435d2d57d4722de65891151a3c",
+    "lean/lakefile.toml": "5108bef38c3e55fce95bf0c16cea24424185b38dd1beb23e14aaee768a210b5c",
+    "checkers/requirements.txt": "d195d93d1dbb2461b703d41642ba0796d275e4cd0438897c2f11f824f578a3e9",
+    "checkers/replay_trace_counterexample.py": "2fde6e3c0f85930dcd21837a0ff45f7f27f778d34d8b3d1910b36aabda99d0e7",
+    "data/source_identity.json": "b69bfd5618f946875d11d5997dff0de009bb29c77861a28717901ae02d2aed27",
+    "data/lean_build_replay.log": "3f985f09f292fd5ab667580b541099a02205c2d1b7bbd27f89e08cff084a2cf2",
+    "data/trace_counterexample_check_20260709.json": "1a9e4dc5177ddd95d5e6b41073afd00e4974af27f8d7f7a34799ce1893046c0d",
+    "data/replay_receipt.json": "76da72297e27bf20ebfa70898fe42655664418b7f7d2eb4f8183b53ac480fe4c"
+  }
+}

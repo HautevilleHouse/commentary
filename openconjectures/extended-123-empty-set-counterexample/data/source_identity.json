@@ -1,0 +1,29 @@
+{
+  "arxiv_abs_url": "https://arxiv.org/abs/2607.00934v1",
+  "arxiv_id": "2607.00934v1",
+  "arxiv_pdf_url": "https://arxiv.org/pdf/2607.00934v1",
+  "arxiv_source_archive_sha256": "1fc990cbcf72b82ed265c8533ef9e84be656f803383813a2b50c586cff37692b",
+  "arxiv_source_tex_sha256": "f0ceb72e19a11e3fe5112408b97a3d8e934eb6ab831d594c8281f516e9a29698",
+  "arxiv_source_url": "https://arxiv.org/e-print/2607.00934v1",
+  "authors": [
+    "Philippa Holdridge",
+    "Péter Pál Pach"
+  ],
+  "license_family": "cc_by_nc_nd_4_0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "openconjecture_content_hash": "92a4c9ac3858d8dacdc2181c0ed062db05f8ccb9b2615dca9b511d5b5ef6b458",
+  "openconjecture_id": 4736,
+  "openconjecture_row_sha256": "0cde8975208c1e362e6d6900751fb9bb5133768991d5c6bd9b5bb5dc97c4c07c",
+  "published_at": "2026-07-01T13:36:27Z",
+  "source_claim_lines_sha256": "390a9a7dd3bfe06c8b3b1222ae3eaa43efc678b2ea9b5df313c135bb5cecaf75",
+  "source_file": "final_version.tex",
+  "source_lines": "333-336",
+  "source_object": "Displayed Extended 1-2-3 Conjecture",
+  "surrounding_nonempty_anchors": [
+    "line 332",
+    "line 340",
+    "line 364",
+    "line 368"
+  ],
+  "title": "On the Extended 1-2-3 Conjecture of Pilz"
+}

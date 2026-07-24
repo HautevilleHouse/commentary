@@ -1,0 +1,12 @@
+name = "RingelN9StarK19"
+version = "0.1.0"
+defaultTargets = ["RingelN9Star", "MathlibProof"]
+
+[leanOptions]
+relaxedAutoImplicit = false
+
+[[lean_lib]]
+name = "RingelN9Star"
+
+[[lean_lib]]
+name = "MathlibProof"

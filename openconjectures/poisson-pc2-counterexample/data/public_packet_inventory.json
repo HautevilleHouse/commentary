@@ -1,0 +1,23 @@
+{
+  "packet": "poisson-pc2-counterexample",
+  "required_public_packet_items": {
+    "source_identity": "data/source_identity.json",
+    "public_claim_boundary": "README.md",
+    "replay_script": "checkers/verify_poisson_pc2.py",
+    "dependency_marker": "checkers/requirements.txt",
+    "replay_output": "data/replay_output_20260723.json",
+    "replay_receipt": "data/replay_receipt.json"
+  },
+  "lean_independent_replay": false,
+  "lean_note": "No Lean formalization of this witness is included; this is a SymPy checker packet.",
+  "present": {
+    "source_identity": true,
+    "public_claim_boundary": true,
+    "replay_script": true,
+    "dependency_marker": true,
+    "replay_output": true,
+    "replay_receipt": true
+  },
+  "missing": [],
+  "complete": true
+}

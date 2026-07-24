@@ -1,0 +1,24 @@
+{
+  "all_pass": true,
+  "bounded_scope": {
+    "closed_form_q": "every odd integer 3 through 1001",
+    "independent_cyclotomic_grid": "all ordered distinct prime pairs p,q <= 19",
+    "odd_witness_grid": "odd primes p <= 97 and primes q <= 499"
+  },
+  "checks": {
+    "direct_cyclotomic_coefficients_checked": 52746,
+    "direct_cyclotomic_prime_pairs_checked": 56,
+    "direct_low_degree_coefficients_cross_checked": 4902,
+    "minimum_constructed_witness_coefficient": -16,
+    "odd_case_counts": {
+      "low_support": 188,
+      "midpoint_crossing": 1625,
+      "periodic_descent": 443
+    },
+    "odd_prime_pairs_checked": 2256,
+    "p_equals_two_first_half_coefficients_checked": 501500,
+    "p_equals_two_odd_q_values_checked": 500
+  },
+  "schema_version": "2026-07-18.dice_q01_nonnegativity_replay.v1",
+  "theorem": "For distinct primes p and q, x*Phi_q(x)^2*Phi_{p^2*q}(x) has nonnegative coefficients exactly when p=2 and q=1 mod 4."
+}

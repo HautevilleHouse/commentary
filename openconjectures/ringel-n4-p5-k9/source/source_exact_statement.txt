@@ -1,0 +1,3 @@
+Source: [Formal Conjectures `RingelConjecture.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6f57f58effb32da91a5761c1a5491904a85921ab/FormalConjectures/Paper/RingelConjecture.lean), commit `6f57f58effb32da91a5761c1a5491904a85921ab`, observed 2026-07-20.
+
+This packet settles only `n=4` for the 4-edge path `P5` in `K9`. The nine path embeddings are:

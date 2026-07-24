@@ -1,0 +1,45 @@
+{
+  "carried_boundary": [
+    "The corrected query-time coupon-collector theorem is separate from this counterexample packet.",
+    "Other LAWS conjectures remain outside this packet.",
+    "This public packet is a checker packet rather than a Lean formalization."
+  ],
+  "checker_sha256": "ad9b53e5aad6cf6d7ceca66360bda74ae44cb579e60f44924ef766f02a2c7160",
+  "closed_claim": "Source-worded counterexample to the printed expert-creation lower-bound wording for OpenConjecture 2421.",
+  "command": "python3 openconjectures/laws-coupon-counterexample/checkers/replay_coupon_counterexample.py",
+  "endpoint_result": "local replay completed and wrote data/coupon_counterexample_check_20260709.json",
+  "output_sha256": "21bad11fb38a62bd471a36d4452a92105f9c11313d096769415ce643c681c87d",
+  "python_version": "Python 3.14.5",
+  "readme_sha256": "046cccb87e80cb2c51e8008642e4cf6c605ed0bfe550298ed30f191d0fa57851",
+  "requirements_sha256": "d195d93d1dbb2461b703d41642ba0796d275e4cd0438897c2f11f824f578a3e9",
+  "source_identity_sha256": "263368ccecd03b15d74405b2afab73d8e83d4abdd24f7c62c48c6c982de780af",
+  "source_object": {
+    "arxiv_id": "2605.04069v1",
+    "openconjecture_id": 2421,
+    "source_file": "LAWS.tex",
+    "source_lines": "1812-1832"
+  },
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "files": {
+    "README.md": "046cccb87e80cb2c51e8008642e4cf6c605ed0bfe550298ed30f191d0fa57851",
+    "lean/MathlibProof.lean": "44463000af11a780b33f4c6ce9fb65049b6b2862439cb5801a30d4bd02170388",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "e1be25c8c83a7a1ebefc01976d8fc906ac7f4ffaa0dd870b71e6378d82ac16a2",
+    "lean/lakefile.toml": "002a304a3c415d372dc8e89cc0338c832987ed58b5850376b9070751f6e19554",
+    "checkers/requirements.txt": "d195d93d1dbb2461b703d41642ba0796d275e4cd0438897c2f11f824f578a3e9",
+    "checkers/replay_coupon_counterexample.py": "ad9b53e5aad6cf6d7ceca66360bda74ae44cb579e60f44924ef766f02a2c7160",
+    "data/source_identity.json": "263368ccecd03b15d74405b2afab73d8e83d4abdd24f7c62c48c6c982de780af",
+    "data/lean_build_replay.log": "38f6520f13c69d40a2c29a906eed507b06894915f3ef24bb3d09fd0a25ff086c",
+    "data/coupon_counterexample_check_20260709.json": "21bad11fb38a62bd471a36d4452a92105f9c11313d096769415ce643c681c87d",
+    "data/replay_receipt.json": "8297485c4421e3f92cd1e8ccf5db7a988de0bf978f44c59c4bb442ad372f216b"
+  }
+}

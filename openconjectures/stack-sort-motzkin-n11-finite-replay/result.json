@@ -1,0 +1,13 @@
+{
+  "status": "FINITE_VERIFIED",
+  "source": "arXiv:2604.10779v2",
+  "n": 11,
+  "permutations": 39916800,
+  "count": 5798,
+  "motzkin_number": 5798,
+  "replays": {
+    "cpp": "5798",
+    "swift": "5798"
+  },
+  "claim_boundary": "finite n=11 instance only; the all-n conjecture remains open"
+}

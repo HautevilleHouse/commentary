@@ -1,0 +1,21 @@
+# Ringel finite slice: (P_5) in (K_9)
+
+This packet settles only the (n=4) path slice. It makes no claim about
+other trees or general (n).
+
+Source material: `synthetic://ringel-n4-k9-p5-exact-20260720`, observed
+2026-07-20, SHA-256
+`262d2b7784b5c31a1fa640ceec12221d7dc79b635eb22b1795e257ea480e0fd3`.
+
+Witness: take the nine cyclic shifts modulo 9 of the path
+`[0,2,3,6,1]`. Their 36 path edges are pairwise distinct and cover all
+edges of `K9`.
+
+Replay:
+
+```sh
+python3 math_research/checkers/ringel_n4_k9_p5_checker.py
+ruby math_research/checkers/ringel_n4_k9_p5_checker.rb
+```
+
+Delegation receipt: `results/ringel_n4_k9_p5_delegated_replay_20260722.json`

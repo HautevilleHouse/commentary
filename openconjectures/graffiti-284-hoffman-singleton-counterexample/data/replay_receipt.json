@@ -1,0 +1,60 @@
+{
+  "checked_at_utc": "2026-07-24T01:34:16Z",
+  "closed_claims": [
+    "Under the diameter-2 identity D=2(J-I)-A and the classical Hoffman-Singleton adjacency spectrum, Spec(D) has least eigenvalue -4.",
+    "For the 7-regular Hoffman-Singleton graph, min_dual=7, so the usual Graffiti 284 reading requires 7<=4, which is false with margin 3.",
+    "Petersen is a tight non-counterexample control with margin 0.",
+    "Public statement proxies are sealed under data/source_seals/manifest.json."
+  ],
+  "commands": {
+    "lean": "cd lean && lake build",
+    "python": "PYTHONDONTWRITEBYTECODE=1 python3 checkers/verify.py"
+  },
+  "environment": {
+    "lean_toolchain": "leanprover/lean4:v4.28.0",
+    "python": "Python 3.14.6"
+  },
+  "external_remainder": [
+    "Lean does not construct Hoffman-Singleton; classical adjacency spectrum and existence are imported facts.",
+    "Fajtlowicz Written-on-the-Wall master list remains an external request-only gate; no public primary page for numeral 284.",
+    "Informal public announcements are attribution context only, not peer-reviewed settlement."
+  ],
+  "files": {
+    "PROOF.md": "ebc65c676973b72b7275ef8431cd29dc828b32075795089958428b13f57f5780",
+    "README.md": "0564c1ee018bfd71b84ff3117d1044684f57c84f42513be983d263542d600ed6",
+    "checkers/verify.py": "a5824a42ca50b163f937b380bccb5f6a589083476091210efe4be4d7192246f4",
+    "data/lean_build_20260723.log": "87b82771ddc661351857c11d2779c4b1c6f06c98e70b51de4f030d8d0d5a2a7e",
+    "data/prior_public_resolution_search_20260723.json": "6638b7e6a5766a9d5a5b65a392a991c0fa3acb22b04fc9cfa1252b5f2dc150e2",
+    "data/replay_receipt.json": "6788e1ce0cd7fdf5ed863728b6cbbc5e0dd9e59a48d54e97a5cd7277b21d449b",
+    "data/source_identity.json": "82f9ad83be9cd5ed061dc075ace4a82ddb28feb45724331db79c247a9f38ffe7",
+    "data/source_seals/ConjectureRefutationECAI2025.pdf.sha256.txt": "83f502c9809115b5cef4c19b37a9cf26b89878fd615089113285fa3471129fb2",
+    "data/source_seals/GenerateGraph.rs.sha256.txt": "420e018641e618dccdb5b2c614ed22a2311926cc3c55eaa4be60e1b625bf05bc",
+    "data/source_seals/graffiti-284.md.sha256.txt": "1c5a2b84175ffc9f7ebc362b2025ede1e7afd8ca981bef6fbaf06571f4e622c7",
+    "data/source_seals/manifest.json": "c12c95e868fdfc5f600899d09bf9fec379070cd90c067ed51cd7cb7f4a9a8980",
+    "data/verification_result_20260723.json": "5ac49c3ba0bd2af7599d5674801ae96e117ed0d3d52117b6382e3f42a0762eba",
+    "formal/mathlib/Graffiti284HoffmanSingletonCounterexampleMathlib.lean": "6426a3e32d6dce07b9c2120d788dc240d50649a7b1c6fd4fdbdaebe402db8226",
+    "formal/mathlib/README.md": "418011d56943d5867a93c3e5709c87dcd19f988ff8c0278a61fab69ab74c6a6f",
+    "lean/Graffiti284HoffmanSingletonCounterexample.lean": "d3f9295ea79efdd0728b0ce12cfa1d7adf26a2e9bb8841574e5f1b1a5b448501",
+    "lean/MathlibProof.lean": "494731711d0b27f18d50c567ec6fb1d1788ffa166d34fdb0887c75d634dfd8a5",
+    "lean/lake-manifest.json": "22a4eafe9f33e5f0dad8d63429f77cbe431e700bb33062a11dc19e92ed7a86b4",
+    "lean/lakefile.toml": "181850eecd807191c6ab1a94839eb46c54849f2539386ed745e653ab71011879",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028"
+  },
+  "lean_replay": {
+    "all_pass": true,
+    "checked_at_utc": "2026-07-24T01:34:16Z",
+    "command": "cd lean && lake build",
+    "olean_count": 2,
+    "status": "pass",
+    "toolchain": "leanprover/lean4:v4.28.0"
+  },
+  "python_replay": {
+    "all_pass": true,
+    "stdout_sha256": "5ac49c3ba0bd2af7599d5674801ae96e117ed0d3d52117b6382e3f42a0762eba"
+  },
+  "schema_version": "2026-07-23.graffiti284_hoffman_singleton_receipt.v1",
+  "source_object": {
+    "source_id": "graffiti-wow-284",
+    "target": "min_dual <= -lambda_min(D) for connected girth >= 5"
+  }
+}

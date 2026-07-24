@@ -1,0 +1,112 @@
+{
+  "all_pass": true,
+  "claim_boundary": "The printed universal maximum-generator formula is false under the source cycle-minimum definition. No claim is made about a repaired definition that excludes short cycles.",
+  "counterexample": {
+    "cycle_maximum": 85,
+    "cycle_minimum": 42,
+    "gap": 22,
+    "modulus": 129,
+    "n": 7,
+    "predicted_maximum": 20
+  },
+  "exhaustive_cycle_partitions": [
+    {
+      "actual_maximum_generator": 2,
+      "cycle_count": 2,
+      "maximal_generator_cycle": [
+        2,
+        5
+      ],
+      "n": 3,
+      "predicted_maximum": 0
+    },
+    {
+      "actual_maximum_generator": 10,
+      "cycle_count": 4,
+      "maximal_generator_cycle": [
+        10,
+        21
+      ],
+      "n": 5,
+      "predicted_maximum": 4
+    },
+    {
+      "actual_maximum_generator": 42,
+      "cycle_count": 10,
+      "maximal_generator_cycle": [
+        42,
+        85
+      ],
+      "n": 7,
+      "predicted_maximum": 20
+    },
+    {
+      "actual_maximum_generator": 170,
+      "cycle_count": 30,
+      "maximal_generator_cycle": [
+        170,
+        341
+      ],
+      "n": 9,
+      "predicted_maximum": 84
+    },
+    {
+      "actual_maximum_generator": 682,
+      "cycle_count": 94,
+      "maximal_generator_cycle": [
+        682,
+        1365
+      ],
+      "n": 11,
+      "predicted_maximum": 340
+    },
+    {
+      "actual_maximum_generator": 2730,
+      "cycle_count": 316,
+      "maximal_generator_cycle": [
+        2730,
+        5461
+      ],
+      "n": 13,
+      "predicted_maximum": 1364
+    },
+    {
+      "actual_maximum_generator": 10922,
+      "cycle_count": 1096,
+      "maximal_generator_cycle": [
+        10922,
+        21845
+      ],
+      "n": 15,
+      "predicted_maximum": 5460
+    },
+    {
+      "actual_maximum_generator": 43690,
+      "cycle_count": 3856,
+      "maximal_generator_cycle": [
+        43690,
+        87381
+      ],
+      "n": 17,
+      "predicted_maximum": 21844
+    },
+    {
+      "actual_maximum_generator": 174762,
+      "cycle_count": 13798,
+      "maximal_generator_cycle": [
+        174762,
+        349525
+      ],
+      "n": 19,
+      "predicted_maximum": 87380
+    }
+  ],
+  "general_two_cycle_family": {
+    "all_exceed_the_conjectured_value": true,
+    "instances_checked": 49,
+    "odd_n_max_checked": 99,
+    "odd_n_min": 3
+  },
+  "schema_version": "2026-07-18.slcg_maximum_generator_counterexample.v1",
+  "source": "arXiv:2605.05198v1, Maximum Generator conjecture"
+}

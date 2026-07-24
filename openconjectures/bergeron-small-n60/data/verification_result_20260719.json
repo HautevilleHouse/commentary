@@ -1,0 +1,10 @@
+{
+  "status": "BOUNDED_VERIFIED",
+  "quadruples": 1173,
+  "coefficients_checked": 613167,
+  "negative_coefficients": 0,
+  "python_checker_sha256": "81f7805f42aae5990d712285b0ddd34cbfc84fe2f987b39628e2b6f7cec9f62b",
+  "cpp_checker_sha256": "3ea83e18e67b1fbe84b977f95953fb6440e1d3cf8b995ca499374018430e0a1d",
+  "independent_routes": 2,
+  "claim_boundary": "Only d<=60 is settled; the unrestricted conjecture remains open."
+}

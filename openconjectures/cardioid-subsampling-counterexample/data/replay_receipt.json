@@ -1,0 +1,51 @@
+{
+  "carried_boundary": [
+    "The packet applies the source Theorem 1 transform for fixed equal positive step lengths and sampling rate r=2.",
+    "The centered cardioid family maps exactly to itself with rho_hat=4*rho*(2*rho+3)^2/(9*pi^2).",
+    "Variable step-length distributions, sampling rates above two, and the stronger uniform-in-step-length-distribution reading remain outside the packet."
+  ],
+  "checker_sha256": "4046b9acdb703cebbed0022b5d5fe9162d88eefd85df65b46d59573c297e63a2",
+  "closed_claims": [
+    "Counterexample to the fixed-step r=2 reading of OpenConjecture 4648.",
+    "Exact Fourier-mode proof that every centered cardioid parameter 0<rho<=1/2 maps to a valid nonuniform cardioid parameter.",
+    "Separate midpoint-quadrature checks at rho=1/10, rho=1/4, and rho=1/2."
+  ],
+  "command": "python3 openconjectures/cardioid-subsampling-counterexample/checkers/replay_counterexample.py",
+  "endpoint_result": "Local replay completed and wrote data/counterexample_check_20260717.json.",
+  "output_sha256": "74e51a059c8f7dc2d37a40f23ad810f95cbc19bed4232fb71155aa34caa2656b",
+  "prior_public_resolution_search_sha256": "34de33ed792372180659aa46d4b0c8fef98dd213a7994a9768b49cf56f47684c",
+  "python_version": "Python 3.14.6",
+  "readme_sha256": "42acf3b94eb92436727b20df9e775d8db2d4d543131701adefcb9ee167675d56",
+  "requirements_sha256": "d195d93d1dbb2461b703d41642ba0796d275e4cd0438897c2f11f824f578a3e9",
+  "source_identity_sha256": "cdc6a7eeb751f406a837f2faac4b36bab83776e71eed3510414f8af89eb0bc64",
+  "source_object": {
+    "arxiv_id": "2607.03186v1",
+    "openconjecture_id": 4648,
+    "source_file": "main.tex",
+    "source_lines": "613-619"
+  },
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "files": {
+    "README.md": "42acf3b94eb92436727b20df9e775d8db2d4d543131701adefcb9ee167675d56",
+    "lean/MathlibProof.lean": "aa1151bcb854aa3571b3b99c0e95778691827fb0b5d26957851640d5eb7f5cb2",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "ec334c1f17a38aa629d1d70914d4733323cbcf70b43b7a263819b8b6cce2bd44",
+    "lean/lakefile.toml": "38400e252bfa7f12eb16fde0200470eeec5f3fc1b5417d779f604276b64c2963",
+    "checkers/requirements.txt": "d195d93d1dbb2461b703d41642ba0796d275e4cd0438897c2f11f824f578a3e9",
+    "checkers/replay_counterexample.py": "4046b9acdb703cebbed0022b5d5fe9162d88eefd85df65b46d59573c297e63a2",
+    "data/prior_public_resolution_search_20260717.json": "34de33ed792372180659aa46d4b0c8fef98dd213a7994a9768b49cf56f47684c",
+    "data/source_identity.json": "cdc6a7eeb751f406a837f2faac4b36bab83776e71eed3510414f8af89eb0bc64",
+    "data/counterexample_check_20260717.json": "d0f65115c496fffa0f66431cd214ce6a4c36e1c9e8c0d1f88d2861b815dd4cf4",
+    "data/lean_build_replay.log": "a769743615fd09cc319ad643dcaed4f7d6142ccc4fa781171fdd53ba0ebb8ace",
+    "data/replay_receipt.json": "f784d1486391b108980143682be09c9d991514fb376d2368ea1b2fa93fc02ef2"
+  }
+}

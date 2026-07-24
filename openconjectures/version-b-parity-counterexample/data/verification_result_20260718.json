@@ -1,0 +1,55 @@
+{
+  "admitted": true,
+  "counterexample": {
+    "all_option": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "all_option_nimber": 0,
+    "odd_piles": 7,
+    "source_prediction": "P",
+    "target": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "target_nimber": 2
+  },
+  "cpp_bottom_up": {
+    "eligible_positions_tested": 26286,
+    "first_mismatch": "5:7,6:5",
+    "states": 646646
+  },
+  "lean_certificate": {
+    "admitted": true,
+    "formalizes_full_sprague_grundy_replay": false,
+    "mathlib_resolved_commit": "8f9d9cff6bd728b17a24e163c9402775d9e6a365",
+    "scope": "source hypotheses, printed parity clause, exact all-piles move, and move-to-P logical bridge",
+    "toolchain": "leanprover/lean4:v4.28.0"
+  },
+  "python_recursive": {
+    "first_mismatch_index_for_k12": 127,
+    "memoized_positions": 225891
+  },
+  "source_range_replay": "No mismatch for 3 through 11 piles with pile sizes at most 10; first mismatch occurs at 12 piles.",
+  "status": "source-exact counterexample verified by two separate exact implementations with a separately scoped Lean certificate"
+}

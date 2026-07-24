@@ -1,0 +1,42 @@
+{
+  "schema": "public-proof-packet-replay.v1",
+  "status": "passed",
+  "observed_utc": "2026-07-19T07:54:20Z",
+  "commands": [
+    "python3 openconjectures/mesh-class69-involution-counterexample/checkers/verify.py",
+    "clang++ -std=c++20 -Wall -Wextra -pedantic -O2 openconjectures/mesh-class69-involution-counterexample/checkers/crosscheck.cpp -o /tmp/mesh_class69_counterexample && /tmp/mesh_class69_counterexample"
+  ],
+  "routes": [
+    "Python position-pair enumeration plus value-pair/inverse-position cross-check",
+    "Separate C++ direct permutation enumeration"
+  ],
+  "result": "P1 histogram {0:2,1:1,2:1}; P3 histogram {0:1,1:2,2:1}; counterexample verified.",
+  "files": {
+    "PROOF.md": "270d3162bd8b2a6fdd1223317bd35862a622cbfe9a33d86a9047f49a75f2e18c",
+    "README.md": "c61a211d6ddd813ac29886156e783c7b86add69ce8f65cc5b66b881df999f8a5",
+    "lean/MathlibProof.lean": "e95d523d05af2c0a7a603153d37651931c935daf28d04852de4c9eb1fb66127f",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "22404604fd32429e4884d304ec4f6d833b766ae8ab7b2f5e4b691600085404c6",
+    "lean/lakefile.toml": "f42cb1a81e9fe81851cd11752e93c9a015c1cd33af9144747e5dcb79bad70611",
+    "checkers/crosscheck.cpp": "dcae5936f3dd4cb47cfffa9dba214a615d6deed0dc42573d57f5dcee44a1311d",
+    "checkers/verify.py": "03888c013e1bb0bb42e8eb9153055a459864128567ab1fdbf595978e76a5d173",
+    "data/source_identity.json": "10ec6c4f29c3450d81cf1b7983c8df6918dc9b4ce07765a899a6324d4d28d84a",
+    "data/verification_result_20260719.json": "13983fd1c84094be09c20ccc6fd477dc40b57c25c07f7ff23e56d4aecf4ffdfd",
+    "data/lean_build_replay.log": "3a27fd4a323874c8226bbe46463c1f2c2a836ff6832fe048110cb46fdbd3909c",
+    "data/prior_public_resolution_search_20260719.json": "69ba6fc336a6ce3c42cee2036811979de25744f5c0240aa924891e0de408aa7b",
+    "data/replay_receipt.json": "c497e55625fb6984b4f3fa3315c18c6d2609fdc517d2e7d7a89879995c132f76"
+  },
+  "claim_boundary": "Only the source's added involution-restricted conjecture is refuted.",
+  "external_review": "not_reviewed",
+  "communicated_to_authors": false,
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "checked_at_utc": "2026-07-24T01:58:47Z"
+}

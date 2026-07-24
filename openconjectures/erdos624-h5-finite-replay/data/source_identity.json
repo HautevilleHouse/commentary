@@ -1,0 +1,14 @@
+{
+  "observed_date": "2026-07-21",
+  "scope": "H(5)=3 only; no asymptotic Erd\u0151s 624 claim",
+  "source": "https://github.com/google-deepmind/formal-conjectures/blob/c252a41054125b5fd9c8356e2137cd9b55337657/FormalConjectures/ErdosProblems/624.lean",
+  "source_commit": "c252a41054125b5fd9c8356e2137cd9b55337657",
+  "source_statement_sha256": "a7f757d5d9217ee1a6630420e842e1d12160bed120b010280ce84f3129a7ee9c",
+  "target": "finite H(5) slice on X={0,1,2,3,4}",
+  "title": "Erd\u0151s 624: finite H(5)=3 replay",
+  "versioned_source": {
+    "identifier": "google-deepmind/formal-conjectures@c252a41054125b5fd9c8356e2137cd9b55337657#FormalConjectures/ErdosProblems/624.lean",
+    "kind": "public_repository",
+    "url": "https://github.com/google-deepmind/formal-conjectures/blob/c252a41054125b5fd9c8356e2137cd9b55337657/FormalConjectures/ErdosProblems/624.lean"
+  }
+}

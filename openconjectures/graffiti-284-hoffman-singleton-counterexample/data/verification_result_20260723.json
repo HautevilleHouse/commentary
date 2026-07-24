@@ -1,0 +1,37 @@
+{
+  "all_pass": true,
+  "claim_boundary": "Algebraic diameter-2 bridge plus classical Hoffman-Singleton adjacency spectrum refute the usual numerical reading of Graffiti 284. Lean does not construct the graph; public statement proxies are sealed under data/source_seals/; the Fajtlowicz WoW master list remains an external request-only remainder.",
+  "hoffman_singleton": {
+    "adjacency_spectrum": {
+      "-3": 21,
+      "2": 28,
+      "7": 1
+    },
+    "degree": 7,
+    "diameter": 2,
+    "distance_spectrum": {
+      "-4": 28,
+      "1": 21,
+      "91": 1
+    },
+    "girth": 5,
+    "graffiti284_holds": false,
+    "graph": "Hoffman-Singleton",
+    "lambda_min_D": -4,
+    "margin_min_dual_plus_lambda_min": 3,
+    "min_dual": 7,
+    "order": 50
+  },
+  "petersen_control": {
+    "degree": 3,
+    "graffiti284_holds": true,
+    "graph": "Petersen",
+    "lambda_min_D": -3,
+    "margin_min_dual_plus_lambda_min": 0,
+    "min_dual": 3,
+    "order": 10,
+    "role": "tight non-counterexample control"
+  },
+  "schema_version": "2026-07-23.graffiti284_hoffman_singleton.v1",
+  "source": "Graffiti / Written on the Wall conjecture 284 (min_dual <= -lambda_min(D), connected girth >= 5)"
+}

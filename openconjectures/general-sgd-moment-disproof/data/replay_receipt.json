@@ -1,0 +1,43 @@
+{
+  "schema_version": "2026-07-23.lean_replay_seal.v1",
+  "checked_at_utc": "2026-07-24T05:27:50Z",
+  "source_object": {
+    "packet": "general-sgd-moment-disproof"
+  },
+  "commands": {
+    "lean": "cd lean && lake exe cache get && lake build"
+  },
+  "environment": {
+    "lean_toolchain": "leanprover/lean4:v4.28.0"
+  },
+  "lean_replay": {
+    "all_pass": true,
+    "status": "pass",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake exe cache get && lake build",
+    "olean_count": 1,
+    "checked_at_utc": "2026-07-24T05:27:50Z",
+    "clean_verify": {
+      "method": "lake_clean",
+      "lake_clean_clone": true,
+      "note": "Clean lake exe cache get && lake build succeeded from empty .lake."
+    }
+  },
+  "files": {
+    "README.md": "1ee9ec42f99bf77d1e786acfc1f2f13e1334bd13fee7ef3674719a9bd5256027",
+    "lean/GeneralSGDMomentDisproofFull.lean": "e5a0419ec695d182d907609cd6e1e2a1160b7cfb9039a3fa3bebe78f4dd8f6a8",
+    "lean/MathlibProof.lean": "3405bc777c067432feb6385b647cda31b5f0e49e1b035a368ce4371243e03e02",
+    "lean/GeneralSGDMomentDisproof.lean": "00272b2c62585df7a4d0f2fccef1d3beded920e90efbe82c025d5f1d44d5e0a5",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "a4f31a5ef97220291573b234a280ea14287f8c4419b104201c87533662ff0160",
+    "lean/lakefile.toml": "a01f900111027ae75799fced495f4d12fafe1b3542f2f7c4e6a0298058b5015e",
+    "formal/mathlib/README.md": "fa288a6bc7d100fae05687ca41d721483b758074e04cd1389d3b099255960920",
+    "formal/mathlib/GeneralSGDMomentDisproofMathlib.lean": "48fb9b18beb69963e612a5dfdcbc4dfa01963bb2117c89a5c8026f404e3d6b7c",
+    "data/source_identity.json": "98904a12bdc50cb39181e58f2ee1d1eec25d6bb8ef5fbdbfae4626333e02c232",
+    "data/lean_build_20260709.log": "24b1fcf5bc2850c97c0e3ff5ddbc3b76b643979f20b32fcfa325426bb9051225",
+    "data/lean_build_clean_verify.log": "8d3a25e03764e5af825264de22fec27f96d09aaf8f584493af0779b739054096",
+    "data/lean_build_replay.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "data/build_receipt.json": "72d36bc24ff45211fb43e23d5dff44a9520d7150463db6c0cb634d7b5b24ac7c",
+    "data/replay_receipt.json": "68130649f0ad56afb11f69cfb5d69aef6dc630b795b93629c372299810cf8309"
+  }
+}

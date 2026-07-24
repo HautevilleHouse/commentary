@@ -1,0 +1,67 @@
+⚠ [498/499] Built StackSortMotzkinBijection (9.4s)
+warning: StackSortMotzkinBijection.lean:773:20: This simp argument is unused:
+  hlen
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵h̵l̵e̵n̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: StackSortMotzkinBijection.lean:778:24: This simp argument is unused:
+  hlen
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵h̵l̵e̵n̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: StackSortMotzkinBijection.lean:799:24: This simp argument is unused:
+  hlen
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵h̵l̵e̵n̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: StackSortMotzkinBijection.lean:961:41: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: StackSortMotzkinBijection.lean:877:49: This simp argument is unused:
+  List.append_assoc
+
+Hint: Omit it from the simp argument list.
+  simp [stUp, List.reverse_cons,̵ ̵L̵i̵s̵t̵.̵a̵p̵p̵e̵n̵d̵_̵a̵s̵s̵o̵c̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: StackSortMotzkinBijection.lean:879:49: This simp argument is unused:
+  List.append_assoc
+
+Hint: Omit it from the simp argument list.
+  simp [stUp, List.reverse_cons,̵ ̵L̵i̵s̵t̵.̵a̵p̵p̵e̵n̵d̵_̵a̵s̵s̵o̵c̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: StackSortMotzkinBijection.lean:915:52: This simp argument is unused:
+  List.append_assoc
+
+Hint: Omit it from the simp argument list.
+  simp [stHoriz, List.reverse_cons,̵ ̵L̵i̵s̵t̵.̵a̵p̵p̵e̵n̵d̵_̵a̵s̵s̵o̵c̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: StackSortMotzkinBijection.lean:917:52: This simp argument is unused:
+  List.append_assoc
+
+Hint: Omit it from the simp argument list.
+  simp [stHoriz, List.reverse_cons,̵ ̵L̵i̵s̵t̵.̵a̵p̵p̵e̵n̵d̵_̵a̵s̵s̵o̵c̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: StackSortMotzkinBijection.lean:952:55: This simp argument is unused:
+  List.append_assoc
+
+Hint: Omit it from the simp argument list.
+  simp [stDown, List.reverse_cons,̵ ̵L̵i̵s̵t̵.̵a̵p̵p̵e̵n̵d̵_̵a̵s̵s̵o̵c̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: StackSortMotzkinBijection.lean:1156:39: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: StackSortMotzkinBijection.lean:1168:39: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Build completed successfully (499 jobs).

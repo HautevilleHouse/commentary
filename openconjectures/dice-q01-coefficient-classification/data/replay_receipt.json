@@ -1,0 +1,40 @@
+{
+  "all_pass": true,
+  "checked_utc": "2026-07-18T12:05:30Z",
+  "command": "PYTHONDONTWRITEBYTECODE=1 python3 checkers/verify.py",
+  "expected_stdout_sha256": "31b27aea4fad1b4d7c892a019ed982ab1187a80d7d66e6b9026e87566fb28a0e",
+  "files": {
+    "PROOF.md": "e7841b492d75217e5701b470e2e74820308a0695ff3e49f615c3ec4200f2e5b9",
+    "README.md": "679cb3274e5129d2df08f184530c5f1c677cf010e3d807aea9bf6e75907d43bb",
+    "lean/MathlibProof.lean": "713f2f700ab36111c65b294aace3cc601b631dc6cbad0662264ec5ea40d8adfb",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "f3580e5b9fea8fc0e45bb743d1f97a9675aa5f4a1a27aa02dbd269db4d288a6b",
+    "lean/lakefile.toml": "e98ed05347fe4a2c6a095e0152a2692bb12842bb617670f955add42c176cd97d",
+    "checkers/verify.py": "12ffec8f405487184173d9b2f7d9af1bc7fc7264c59d19999d7364bbcc0dadd8",
+    "data/source_identity.json": "732adcf4ea9c805b7c6fbb836bd7c58f52c21edbd4362fae04507660836a9161",
+    "data/verification_result_20260718.json": "31b27aea4fad1b4d7c892a019ed982ab1187a80d7d66e6b9026e87566fb28a0e",
+    "data/lean_build_replay.log": "adfddef694bc42dda68ce85a12f18fd92412417de1686b5041a0c3f01d075133",
+    "data/prior_public_resolution_search_20260718.json": "7d8bd9a40106361c91ee8e6344bdf0ebd67778978f00330a6649f60cad00003c",
+    "data/replay_receipt.json": "e03786dffa392abee2c8265bddb698cfe2fe620a527dcd803e057d2ba10b83da"
+  },
+  "python_version": "3.14.6",
+  "replay_scope": [
+    "500 odd q values in the p=2 closed-form recurrence",
+    "501500 p=2 coefficients through each reciprocal midpoint",
+    "2256 ordered odd-prime witness pairs across all three proof branches",
+    "56 separate exact cyclotomic prime pairs and 52746 coefficients",
+    "4902 separate low-degree coefficient cross-checks"
+  ],
+  "schema_version": "2026-07-18.commentary_replay_receipt.v1",
+  "source": "arXiv:2606.20311v1",
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "checked_at_utc": "2026-07-24T01:58:47Z"
+}

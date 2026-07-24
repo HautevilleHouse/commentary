@@ -1,0 +1,18 @@
+{
+  "endpoint_check": true,
+  "hash_check": {
+    "A_coefficients_sha256": true,
+    "B_pair_coefficients_sha256": true,
+    "target_coefficients_sha256": true
+  },
+  "result": {
+    "A_coefficients_sha256": "16f7f2b5ac0bc3e3b8f2511b3cbe50efc54bd80ca501dd4b9eaf33aba5a3d78e",
+    "A_min_coefficient": 0,
+    "A_side_count_A_at_1": 225,
+    "B_pair_coefficients_sha256": "0ef60c05eb411adee6f41c86daf969b4aaa74a4b41f9670bb7ba4d286e9dfe20",
+    "B_pair_min_coefficient": 0,
+    "B_side_count_B_at_1": 121,
+    "product_equals_target": true,
+    "target_coefficients_sha256": "12389140b86922089bec548c8c2e4ccc4505bc73731bdef3f28ac7fa436bc69e"
+  }
+}

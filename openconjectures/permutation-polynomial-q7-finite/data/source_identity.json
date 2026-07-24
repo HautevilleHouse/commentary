@@ -1,0 +1,9 @@
+{
+  "arxiv_eprint_sha256": "5c791a688ad0ec783be3e6ca868ffe9ff35c807a49d9065e27df1db3f243e0bb",
+  "arxiv_id": "2606.14529v1",
+  "observed_date": "2026-07-20",
+  "scope": "q=7 exhaustive slice only; odd-q statement remains open",
+  "source": "https://arxiv.org/abs/2606.14529v1",
+  "source_statement_sha256": "7d23d1f8792b3d6bb968703a5a553fc7f1f7e8d870f16fdd4aee1274621041bd",
+  "target": "Odd-q permutation-polynomial conjecture, q=7 finite slice"
+}

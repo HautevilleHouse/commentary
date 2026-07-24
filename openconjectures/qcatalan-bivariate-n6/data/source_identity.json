@@ -1,0 +1,16 @@
+{
+  "abs_url": "https://arxiv.org/abs/2605.14682v1",
+  "arxiv_id": "2605.14682v1",
+  "eprint_url": "https://arxiv.org/e-print/2605.14682v1",
+  "license_family": "arxiv_nonexclusive",
+  "openconjecture_id": [],
+  "pdf_url": "https://arxiv.org/pdf/2605.14682",
+  "source_lines_used": [
+    "q-Catalan bivariate interpretation and n=6 table"
+  ],
+  "source_payload_sha256": "d597702ca95fa856c71b72f3c0ec96c2c3bd0cd163e6f15a35c15f23003ad28d",
+  "source_statement": "The source bivariate interpretation is checked for n=6 and k=0,...,6.",
+  "source_tex_sha256": "d597702ca95fa856c71b72f3c0ec96c2c3bd0cd163e6f15a35c15f23003ad28d",
+  "steward": "arXiv",
+  "title": "Combinatorial study of the q-Catalan triangle and its generalizations"
+}

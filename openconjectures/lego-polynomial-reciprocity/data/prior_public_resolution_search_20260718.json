@@ -1,0 +1,12 @@
+{
+  "limitations": "This is a bounded, dated search of indexed public material. It is not a claim about unpublished, unindexed, or differently worded work.",
+  "observed_date_utc": "2026-07-18",
+  "outcome": "The searches located the source paper and no later indexed public proof of Conjecture 1.",
+  "queries": [
+    "site:arxiv.org \"p_n(1-w)\" LEGO",
+    "site:arxiv.org \"Counting LEGO configurations\" reciprocity proof",
+    "site:arxiv.org 2605.07380 Conjecture 1 proof",
+    "site:github.com \"p_n(1-w)\" LEGO"
+  ],
+  "source_found": "https://arxiv.org/abs/2605.07380v1"
+}

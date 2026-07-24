@@ -1,0 +1,59 @@
+{
+  "checked_at_utc": "2026-07-17T22:33:47Z",
+  "conclusion": "The bounded searches returned the current source record and no separate public resolution.",
+  "limits": [
+    "Unpublished work lies outside the search scope.",
+    "Public work absent from the queried indexes or using unrelated terminology lies outside the search scope.",
+    "This dated record is a public-source search receipt only."
+  ],
+  "search_date": "2026-07-17",
+  "searches": [
+    {
+      "query": "CRIM: A Natural Game on Integer Partitions R_(r,r)^k proof",
+      "result": "The results contained the source paper and secondary summaries; a separate resolution was absent.",
+      "surface": "indexed web"
+    },
+    {
+      "query": "2606.16828 conjecture proof counterexample",
+      "result": "The results contained the source paper; a separate resolution was absent.",
+      "surface": "indexed web"
+    },
+    {
+      "query": "2606.16828",
+      "result": "0 code results.",
+      "surface": "GitHub code search"
+    },
+    {
+      "query": "R_{r, r}^k Sprague-Grundy",
+      "result": "0 code results.",
+      "surface": "GitHub code search"
+    },
+    {
+      "query": "recursive tree path match for 2606.16828, CRIM, or 3659",
+      "repository": "https://github.com/davisrbr/conjectures-arxiv",
+      "result": "0 matching paths.",
+      "surface": "GitHub repository tree"
+    },
+    {
+      "record": "https://arxiv.org/abs/2606.16828v1",
+      "result": "Current source record remains version v1.",
+      "surface": "arXiv"
+    },
+    {
+      "query": "ti:\"CRIM: A Natural Game on Integer Partitions\"",
+      "result": "1 result: the original arXiv:2606.16828v1 source record.",
+      "surface": "official arXiv API"
+    },
+    {
+      "record": "https://openalex.org/W7164942864",
+      "result": "cited_by_count = 0",
+      "surface": "OpenAlex"
+    }
+  ],
+  "source_object": {
+    "arxiv_id": "2606.16828v1",
+    "openconjecture_id": 3659,
+    "source_file": "arXiv.tex",
+    "source_lines": "1021-1030"
+  }
+}

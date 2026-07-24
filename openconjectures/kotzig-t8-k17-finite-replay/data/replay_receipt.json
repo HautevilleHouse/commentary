@@ -1,0 +1,39 @@
+{
+  "source": {
+    "locator": "synthetic://kotzig-t8-cyclic-exact-20260720",
+    "observed_date": "2026-07-20",
+    "sha256": "67f4cf718279774d48da01ff102d1fd78db72ee3c66f1fae8bf4fea969d3df7f"
+  },
+  "target": "Kotzig finite 8-edge tree slice in K17",
+  "status": "INTERNALLY_VERIFIED_FINITE_RESULT",
+  "delegation_receipt": "/Users/hautevillehouse/Library/Application Support/CanonicalLaneRuntime/deepseek-public-delegate/reports/universal_delegate/dispatch/3c0fa6fa95d2ff70ab356b1c19116d0b98df258b03413330fb8cb876134ad0f6.json",
+  "construction": "Base labels [0,8,7,6,1,5,2,4,3]; shift modulo 17.",
+  "replays": [
+    "python3 math_research/checkers/kotzig_t8_k17_checker.py",
+    "ruby math_research/checkers/kotzig_t8_k17_checker.rb"
+  ],
+  "scope_boundary": "Finite 8-edge tree instance only; Kotzig's general conjecture remains open.",
+  "publication": "not_yet_published",
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "files": {
+    "README.md": "f13163d6abf0b1ff1efec0ffef5676936a3d77080be17c3a3bd734f1a2caa1bb",
+    "lean/MathlibProof.lean": "b2fbe2937eba57b32a21c80888635f33b4908c1afb0a5fb80b87fb59af19d7da",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "1d68b4209ad78c2000c5aaac3d387385f3baad6cfc94b7810db9c717b9ab3c7f",
+    "lean/lakefile.toml": "18189ddc4869fc242bdf51a6866826fb24ddb5f893f24f076290b114bda21067",
+    "checkers/verify_python.py": "8fd4dbf856ec12ef59a4e6ebfe9be5d20f8f4d590c41fd87f5da2c846bad627e",
+    "checkers/verify_ruby.rb": "7113b6a118c532324cd1efe38ec4d65684c8f75235d45077fc6e4ad355388ddb",
+    "data/source_identity.json": "19c829b8f451373be6f47a2a7866a58e6cf97c9cc737a73952a932b39f7cf4d7",
+    "data/lean_build_replay.log": "895dfc66aab1f8e605645582b286d52fad63dfd98e7171b9cbb6400aadf85314",
+    "data/replay_receipt.json": "a704ed46b642b720d94732a1496beeb043063658ee1d6e3c8cc3ed2035b714a5"
+  }
+}

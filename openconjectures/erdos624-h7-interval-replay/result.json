@@ -1,0 +1,24 @@
+{
+  "problem": "Erdos Problem 624 bounded H(7)",
+  "status": "PARTIAL_VERIFIED",
+  "candidate_origin": "local exact SAT construction for m=4 after source-exact delegate failures; not a DeepSeek handoff",
+  "source": {
+    "formal_commit": "c252a41054125b5fd9c8356e2137cd9b55337657",
+    "formal_source_url": "https://raw.githubusercontent.com/google-deepmind/formal-conjectures/c252a41054125b5fd9c8356e2137cd9b55337657/FormalConjectures/ErdosProblems/624.lean",
+    "bounded_statement_file": "math_research/sources/synthetic/erdos624_H7_m4_exact_statement_20260719.txt",
+    "bounded_statement_sha256": "7d826b7caea0ce0aa8cbad36f02e2b04d28d77f81e2142b43658313089b1fae7"
+  },
+  "interval": {
+    "lower_bound": "H(7) >= 3",
+    "upper_bound": "H(7) <= 4",
+    "m4_target_count": 99,
+    "m4_success_count": 99
+  },
+  "checker": {
+    "path": "math_research/verify_erdos624_h7_m4.py",
+    "sha256": "3454a1ae57b7d820520b7d546a7f13732b46e56298c71b47db161fada99d711e"
+  },
+  "remainder": "The m=3 decision remains UNKNOWN; no exact H(7) value is claimed.",
+  "user_review": "UNREVIEWED",
+  "publication": "NOT_PUBLISHED"
+}

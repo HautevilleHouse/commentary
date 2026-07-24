@@ -1,0 +1,51 @@
+{
+  "carried_boundary": [
+    "The packet proves Conjecture 4.2 using the cited source's Remark 4.1 and Theorem 3.5 together with the displayed k=6 argument.",
+    "The bounded computation supplies supporting evidence; the symbolic proof supplies the all-positive-integer result.",
+    "General r, the three-variable equation, and other source-paper problems remain outside this packet."
+  ],
+  "checker_sha256": "8d77a04df6fec4f70e1fbdc456d0c7d7e4ef0dee878e24357abebf5d1b59297d",
+  "closed_claims": [
+    "Proof of OpenConjecture 2765 and Conjecture 4.2 in arXiv:2605.19083v2.",
+    "Exact value split {1,5} for k=3, {2,3} for k=4, and {4,8} for k=6.",
+    "Explicit attainment witnesses for all six values."
+  ],
+  "command": "python3 openconjectures/vieta-r2-normalized-values/checkers/replay_resolution.py",
+  "endpoint_result": "Local replay completed and wrote data/resolution_check_20260717.json.",
+  "output_sha256": "4923119e16343c894816133bd6bac9502e263f02441ebc1e24644e27cd5c4054",
+  "prior_public_resolution_search_sha256": "2578b754ae1803f912dcfe88815f76deed55843bfc4ea07f2b943e8a71459653",
+  "python_version": "Python 3.14.6",
+  "readme_sha256": "40b736949d3462a5a75f2787cd0462ec4ae8341874fef6bd3f9bdf6540f78c57",
+  "requirements_sha256": "d195d93d1dbb2461b703d41642ba0796d275e4cd0438897c2f11f824f578a3e9",
+  "source_identity_sha256": "912c39ccd3b96c663dc72b2f8adaac243638fcc03e8628de8ce081ff30cb4d86",
+  "source_object": {
+    "arxiv_id": "2605.19083v2",
+    "openconjecture_id": 2765,
+    "source_file": "FibNumbVietaJumpRatDiophEq_MNS_v10.tex",
+    "source_lines": "942-958"
+  },
+  "lean_replay": {
+    "status": "shelf_only",
+    "all_pass": false,
+    "claim_scope": "toolchain_shelf_not_source_claim",
+    "toolchain": "leanprover/lean4:v4.28.0",
+    "command": "cd lean && lake build",
+    "checked_at_utc": "2026-07-24T01:58:47Z",
+    "note": "Lean package builds a shelf marker only; mathematical claim is checked by the packet checker/certificate replay."
+  },
+  "checked_at_utc": "2026-07-24T01:58:47Z",
+  "files": {
+    "README.md": "40b736949d3462a5a75f2787cd0462ec4ae8341874fef6bd3f9bdf6540f78c57",
+    "lean/MathlibProof.lean": "752329df78c29e9f5489cadf8e30cdc9ac37d1df520c7ff8dae6dc75c651bd6d",
+    "lean/lean-toolchain": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028",
+    "lean/lake-manifest.json": "6ce04cd6a54c6877fdf1d8a653d4971557f2ecc9d4927a8288d60a1d5fe93a3a",
+    "lean/lakefile.toml": "cbb743422290b9308661c19e3bfe0391e7a75650d2a40356325af7c89b375c93",
+    "checkers/requirements.txt": "d195d93d1dbb2461b703d41642ba0796d275e4cd0438897c2f11f824f578a3e9",
+    "checkers/replay_resolution.py": "8d77a04df6fec4f70e1fbdc456d0c7d7e4ef0dee878e24357abebf5d1b59297d",
+    "data/prior_public_resolution_search_20260717.json": "2578b754ae1803f912dcfe88815f76deed55843bfc4ea07f2b943e8a71459653",
+    "data/source_identity.json": "912c39ccd3b96c663dc72b2f8adaac243638fcc03e8628de8ce081ff30cb4d86",
+    "data/resolution_check_20260717.json": "4923119e16343c894816133bd6bac9502e263f02441ebc1e24644e27cd5c4054",
+    "data/lean_build_replay.log": "d1fc88878827d0829d8b00e6070eca8e90cebe0c89b8bdddbf075236a05d4eb1",
+    "data/replay_receipt.json": "5099b7543f28b1b308e43c15cb9d16036834b5af419fbe382b2c6be488d56d51"
+  }
+}
